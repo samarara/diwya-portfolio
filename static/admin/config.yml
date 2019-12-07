@@ -26,7 +26,34 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-
+  - name: "photo"
+    label: "Photography"
+    folder: "src/pages/photography"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "photography"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: Add Image, name: images, widget: object, fields: [{label: Images, name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+  - name: "illustration"
+    label: "Illustration"
+    folder: "src/pages/illustration"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "illustration"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: Add Illustration, name: illustration, widget: object, fields: [{label: Illustrations, name: illustrations, widget: list, fields: [{label: Illustration, name: illustration, widget: image}, {label: Text, name: text, widget: text}]}]}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
   - name: "pages"
     label: "Pages"
     files:
