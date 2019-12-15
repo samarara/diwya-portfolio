@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../../components/Layout'
+import PhotographyRoll from '../../components/PhotographyRoll'
 
 const PhotographyIndexPage = () => (
   <Layout>
-    <div>hi</div>
+    <PhotographyRoll />
   </Layout>
 )
 
-export default PhotographyIndexPage;
+export default PhotographyIndexPage

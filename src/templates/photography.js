@@ -5,8 +5,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-
-const PhotographyTemplate = (props) => {
+const PhotographyTemplate = props => {
   const PostContent = contentComponent || Content
   const {
     content,
@@ -15,9 +14,9 @@ const PhotographyTemplate = (props) => {
     tags,
     title,
     helmet,
-    images
-  } = props;
-  console.log('photography template props', props);
+    images,
+  } = props
+  console.log('photography template props', props)
   return (
     <section className="section">
       {helmet || ''}
@@ -62,7 +61,7 @@ export { PhotographyTemplate }
 
 const Photography = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log('data', data);
+  console.log('data', data)
   return (
     <Layout>
       <PhotographyTemplate

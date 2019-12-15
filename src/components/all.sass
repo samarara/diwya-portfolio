@@ -1,14 +1,18 @@
 @import "~bulma/sass/utilities/initial-variables"
-
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap');
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$diwya-blue: #0185DE
+$diwya-blue-invert: #fff
+
+$primary: $diwya-blue
+$primary-invert: $diwya-blue-invert
 $body-color: #333
 $black: #2b2523
+$family-sans-serif: "Karla", sans-serif
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -111,7 +115,8 @@ $menu-label-color: $white-ter
     height: 1em
     vertical-align: middle
     display: inline
-
+.navbar-item
+  font-size: 1.2em
 // blog roll
 .blog-list-item.is-featured
   background-color: #d6400033;
