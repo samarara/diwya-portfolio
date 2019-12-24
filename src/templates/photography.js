@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 const PhotographyTemplate = props => {
-  const PostContent = contentComponent || Content
   const {
     content,
     contentComponent,
@@ -16,6 +15,7 @@ const PhotographyTemplate = props => {
     helmet,
     images,
   } = props
+  const PostContent = contentComponent || Content
   console.log('photography template props', props)
   return (
     <section className="section">
