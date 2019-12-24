@@ -14,7 +14,7 @@ const Posts = ({ posts }) =>
         date={post.frontmatter.date}
       />
       <PostBody
-        excerpt={post.excerpt}
+        excerpt={post.frontmatter.description}
         to={post.fields.slug}
         title={post.frontmatter.title}
       />
