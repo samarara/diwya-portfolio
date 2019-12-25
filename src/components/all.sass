@@ -1,5 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
-@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap')
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -8,14 +8,17 @@ $kaldi-red-invert: #fff
 $diwya-blue: #0185DE
 $diwya-blue-invert: #fff
 
-$primary: $diwya-blue
-$primary-invert: $diwya-blue-invert
+$diwya-black: #292929
+$diwya-black-invert: #f5f5f5
+
+$primary: $diwya-black
+$primary-invert: $diwya-black-invert
 $body-color: #333
 $black: #2b2523
 $family-sans-serif: "Karla", sans-serif
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -47,30 +50,30 @@ $family-sans-serif: "Karla", sans-serif
   align-items: center
 
 .full-width-image
-    width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
+  width: 100vw
+  height: 400px
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
 
 .btn
-    display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
-    text-decoration: none
-    font-weight: 700
-    color: #CC3700
-    text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+  display: inline-block
+  padding: 12px 16px 10px
+  font-size: 18px
+  font-size: 1rem
+  line-height: 1.25
+  background-color: #fff
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  color: #CC3700
+  text-align: center
+  -webkit-box-shadow: inset 0 0 0 2px #CC3700
+  box-shadow: inset 0 0 0 2px #f40
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
@@ -89,14 +92,13 @@ footer.footer
   background-color: transparent
 
 //Menu overrides
-$menu-item-color: $white-ter
+$menu-item-color: $diwya-black
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
 $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
-
 
 .menu-label
   font-size: 1em !important
@@ -107,43 +109,148 @@ $menu-label-color: $white-ter
 .social
   padding: 2em
 .social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: $white-ter
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline
 .navbar-item
   font-size: 1.2em
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
-
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
 @import "~bulma"
 
+.nav-item-override
+  color: $primary
+.nav-item-override:hover, .nav-item-override:focus, .nav-item-override:focus-within, .nav-item-override:is-active
+  color: $primary-invert
 
+.container-margin
+  margin: 0 2rem 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
 
 // overrides
-.hero.is-fullheight 
-  min-height: 75vh;
+.hero.is-fullheight
+  min-height: 75vh
+
+// index page slogan
+.diwya-slogan
+  position: absolute
+  left: 23rem
+  @media (max-width: 767px)
+    display: block
+    position: relative
+    left: 0rem
+    padding: 5rem
+
+// index page animation
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
++keyframes(bounceInDown)
+  from,
+  60%,
+  75%,
+  90%,
+  to
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(0, -3000px, 0)
+    transform: translate3d(0, -3000px, 0)
+
+  60%
+    opacity: 1
+    -webkit-transform: translate3d(0, 25px, 0)
+    transform: translate3d(0, 25px, 0)
+
+  75%
+    -webkit-transform: translate3d(0, -10px, 0)
+    transform: translate3d(0, -10px, 0)
+
+  90%
+    -webkit-transform: translate3d(0, 5px, 0)
+    transform: translate3d(0, 5px, 0)
+
+  to
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+
++keyframes(bounceInRight)
+  from,
+  60%,
+  75%,
+  90%,
+  to
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+  
+  from
+    opacity: 0
+    -webkit-transform: translate3d(3000px, 0, 0)
+    transform: translate3d(3000px, 0, 0)
+
+  60%
+    opacity: 1
+    -webkit-transform: translate3d(-25px, 0, 0)
+    transform: translate3d(-25px, 0, 0)
+
+  75%
+    -webkit-transform: translate3d(10px, 0, 0)
+    transform: translate3d(10px, 0, 0)
+
+  90%
+    -webkit-transform: translate3d(-5px, 0, 0)
+    transform: translate3d(-5px, 0, 0)
+
+  to
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+
+.bounceInDown
+  -webkit-animation-name: bounceInDown
+  animation-name: bounceInDown
+
+.bounceInRight
+  -webkit-animation-name: bounceInRight
+  animation-name: bounceInRight
+
+.animated 
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+  // -webkit-animation-delay: 1s
+  // animation-delay: 1s
+

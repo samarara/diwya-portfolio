@@ -38,7 +38,7 @@ const PostHeader = ({ featuredImage, featuredImageAlt, title, to, date }) => (
 
 const PostBody = ({ excerpt, to, title }) => (
   <div className="column">
-    <Link className="title has-text-primary is-size-1" to={to}>
+    <Link className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile" to={to}>
       {title}
     </Link>
     <p>
@@ -71,7 +71,7 @@ const Posts = ({ posts }) =>
         date={post.frontmatter.date}
       />
       <PostBody
-        excerpt={post.excerpt}
+        excerpt={post.frontmatter.description}
         to={post.fields.slug}
         title={post.frontmatter.title}
       />
@@ -81,7 +81,7 @@ const Posts = ({ posts }) =>
 const IndexRoll = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div className="container">
+    <div className="container container-margin">
       <Posts posts={posts} />
     </div>
   )
@@ -110,6 +110,7 @@ export default () => {
               templateKey
               date(formatString: "MMMM DD, YYYY")
               featuredpost
+              description
               featuredimage {
                 childImageSharp {
                   fluid(maxWidth: 720, quality: 100) {

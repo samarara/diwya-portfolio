@@ -7,7 +7,7 @@ import Posts from './Posts'
 const PhotographyRoll = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div className="container">
+    <div className="container container-margin">
       <Posts posts={posts} />
     </div>
   )
@@ -35,7 +35,7 @@ export default () => {
               description
               featuredimage {
                 childImageSharp {
-                  fluid(maxWidth: 120, quality: 100) {
+                  fluid(maxWidth: 720, quality: 100) {
                     ...GatsbyImageSharpFluid
                   }
                 }
