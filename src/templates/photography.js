@@ -40,12 +40,52 @@ const ImageGrid = ({ images }) => {
     ));
 };
 
+const PhotoStatement = ({ content }) => (
+  <div class="card">
+    <div class="card-content">
+      <p class="title">
+        <span style={{ display: 'inline' }}>"</span>
+        <p
+          dangerouslySetInnerHTML={{ __html: content }}
+          style={{ display: 'inline' }}
+        />
+        <span style={{ display: 'inline' }}>"</span>
+      </p>
+      {/* <p class="subtitle">Jeff Atwood</p> */}
+    </div>
+  </div>
+);
+
+const PhotoStatementBanner = ({ content }) => (
+  <section className="hero is-dark is-marginless is-fullheight">
+    <div className="hero-body">
+      <div className="container">
+        {/* <h1 className="title">{title}</h1> */}
+        {/* <h2 className="subtitle">{description}</h2> */}
+        <p className="title is-size-5" style={{ display: 'inline' }}>
+          {/* <span style={{display: "inline"}}>"</span> */}
+          <div
+            dangerouslySetInnerHTML={{ __html: content }}
+            style={{
+              display: 'inline',
+              fontWeight: '100',
+              lineHeight: '2rem',
+              fontFamily: "'Zilla Slab', serif"
+            }}
+          />
+          {/* <span style={{display: "inline"}}>"</span> */}
+        </p>
+      </div>
+    </div>
+  </section>
+);
+
 const CotentHeader = ({ title, description }) => (
   <section className="hero is-light is-fullheight">
     <div className="hero-body">
       <div className="container">
-        <h1 className="title">{title}</h1>
-        <h2 className="subtitle">{description}</h2>
+        <h1 className="title is-size-1">{title}</h1>
+        <h2 className="subtitle serif">{description}</h2>
       </div>
     </div>
   </section>
@@ -75,19 +115,39 @@ const ContentTags = ({ tags }) =>
 
 const ContentBody = ({ images, tags, content, helmet, contentComponent }) => {
   const PostContent = contentComponent || Content;
+  const imageGroupOne = images.slice(0, 2);
+  const imageGroupTwo = images.slice(2, images.length);
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <ContentImages images={images} />
-            <PostContent content={content} />
-            <ContentTags tags={tags} />
+    <>
+      <section className="section">
+        {helmet || ''}
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <ContentImages images={imageGroupOne} />
+              {/* <PhotoStatement content={content}/> */}
+              {/* <ContentImages images={imageGroupTwo} /> */}
+              {/* <PostContent content={content} className="blockquote" /> */}
+              {/* <ContentTags tags={tags} /> */}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <PhotoStatementBanner content={content} />
+      <section className="section">
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              {/* <ContentImages images={imageGroupOne} /> */}
+              {/* <PhotoStatement content={content}/> */}
+              <ContentImages images={imageGroupTwo} />
+              {/* <PostContent content={content} className="blockquote" /> */}
+              <ContentTags tags={tags} />
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 

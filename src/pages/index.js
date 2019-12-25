@@ -6,7 +6,7 @@ import IndexRoll from '../components/IndexRoll';
 const HouseOutline = () => (
   <div className="container">
     {/* <img src={houseOutline} style={{maxWidth: '500px'}}/> */}
-    <div className="columns is-vcentered">
+    <div className="columns is-vcentered is-gapless">
       <div className="column is-hidden-mobile">
         <svg
           width="593"
@@ -75,7 +75,7 @@ const HouseOutline = () => (
       </div>
       <div className="column diwya-slogan">
           <h1 className="title has-text-primary is-size-1 animated bounceInRight" style={{animationDelay: "0.4s"}}>Diwya's Portfolio</h1>
-          <h5 className="is-size-5 animated bounceInRight" style={{animationDelay: "0.45s"}}>A digital home to collect my experiences in design, illustration and photography.</h5>
+          <h5 className="subtitle is-size-5 animated serif bounceInRight" style={{animationDelay: "0.45s"}}>A digital home to collect my experiences in design, illustration and photography.</h5>
       </div>
     </div>
   </div>
