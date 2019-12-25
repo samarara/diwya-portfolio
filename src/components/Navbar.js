@@ -40,11 +40,11 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand is-size-2">
+          <div className="navbar-brand is-size-4">
             <Link to="/" className="navbar-item" title="Logo">
               {/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}
             <div>
-              DIWYADESILVA
+              Diwya De Silva
             </div>
             </Link>
             {/* Hamburger menu */}
