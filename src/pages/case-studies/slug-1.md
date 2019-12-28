@@ -2,10 +2,12 @@
 templateKey: case-studies
 title:
   client: my awesome client
+  header: Blah Blah
   role: my awesome role
   team: my awesome team
-  title: My Awesome title
 date: 2019-12-27T23:41:47.910Z
+tags:
+  - case-study
 ---
 # Background
 
