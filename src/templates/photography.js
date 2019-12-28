@@ -115,6 +115,9 @@ const ContentTags = ({ tags }) =>
 
 const ContentBody = ({ images, tags, content, helmet, contentComponent }) => {
   const PostContent = contentComponent || Content;
+  console.log(images);
+  // testing with immutable data first
+  // need to copy the arrays in to new data sets after
   const imageGroupOne = images.slice(0, 2);
   const imageGroupTwo = images.slice(2, images.length);
   return (

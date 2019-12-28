@@ -37,7 +37,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Images", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text, optional: true}]}
+      - {label: "Images", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text, required: false}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "illustrations"
@@ -51,8 +51,19 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Illustration", name: "featuredillustration", widget: image}
-      - {label: "Illustrations", name: images, widget: list, fields: [{label: Illustration, name: image, widget: image}, {label: Text, name: text, widget: text, optional: true}]}
+      - {label: "Illustrations", name: images, widget: list, fields: [{label: Illustration, name: image, widget: image}, {label: Text, name: text, widget: text, required: false}]}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+  - name: "case-studies"
+    label: "Case Studies"
+    folder: "src/pages/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "case-studies"}
+      - {label: "Title", name: "title", widget: object, fields: [{label: Header, name: header, widget: text, required: true}, {label: Role, name: role, widget: text, required: false}, {label: Team, name: team, widget: text, required: false}, {label: Client, name: client, widget: text, required: false}]}
+      - {label: Body, name: body, widget: markdown}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "pages"
     label: "Pages"
@@ -69,7 +80,7 @@ collections:
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: Description, name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string, required:}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
