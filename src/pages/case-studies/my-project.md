@@ -6,7 +6,7 @@ description: 'PlanGrid (Autodesk) Case Study '
 project-details:
   client: 'PlanGrid, an AutoDesk Company'
   role: Product Design Intern
-  team: 'Field Reports: 5 engineers, 1 QA, 1 PM  '
+  team: Field Reports
 featuredimage: /img/img_2637.jpg
 tags:
   - case-studies product-strategy user-interviews visual-design
@@ -41,7 +41,7 @@ Users asked for more detailed information on how Weather impacted a construction
 
 Collecting user comments and feedback allowed us to define a general problem statement: 
 
-_**How might we better show the impact of weather on a construction site on a daily basis?**_ 
+**How might we better show the impact of weather on a construction site on a daily basis?** 
 
 This question became the lens through which I looked at my designs, and expanded into other questions that began my user research. 
 
@@ -61,4 +61,4 @@ After gaining some background knowledge, I decided to interview Customer Advocat
 
 After gaining some background knowledge, I decided to interview Customer Advocates (CA’s). CA’s  are people employed by PlanGrid with a construction background that can provide more in- depth knowledge on what the practices and pain points a user may go through on the field.
 
-![](/img/screen-shot-2019-10-01-at-10.43.12-pm-1.png)
+![Screenshot ](/img/screen-shot-2019-10-01-at-10.43.12-pm-1.png)
