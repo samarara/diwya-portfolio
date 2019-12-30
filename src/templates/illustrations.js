@@ -59,10 +59,9 @@ import { PhotographyTemplate } from '../templates/photography'
 
 // export { IllustrationTemplate as PhotographyTemplate }
 
-
 const Illustration = ({ data }) => {
-  const { markdownRemark: post } = data;
-  console.log('data', data);
+  const { markdownRemark: post } = data
+  console.log('data', data)
   return (
     <Layout>
       <PhotographyTemplate
@@ -83,8 +82,8 @@ const Illustration = ({ data }) => {
         title={post.frontmatter.title}
       />
     </Layout>
-  );
-};
+  )
+}
 
 export default Illustration
 
@@ -121,4 +120,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

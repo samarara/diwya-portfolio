@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const BannerImage = ({ src, alt }) => (
   <section className="hero is-marginless is-fullheight">
@@ -8,6 +8,6 @@ const BannerImage = ({ src, alt }) => (
       </div>
     </div>
   </section>
-);
+)
 
-export default BannerImage;
+export default BannerImage

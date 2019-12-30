@@ -5,7 +5,9 @@ import { Link } from 'gatsby'
 const PostBody = ({ excerpt, to, title }) => (
   <div className="column">
     <h1 className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile">
-      <Link className="has-text-primary" to={to}>{title}</Link>
+      <Link className="has-text-primary" to={to}>
+        {title}
+      </Link>
     </h1>
 
     <div className="subtitle serif">
@@ -25,6 +27,6 @@ const PostBody = ({ excerpt, to, title }) => (
       <span> &bull; </span>
     </p> */}
   </div>
-);
+)
 
 export default PostBody

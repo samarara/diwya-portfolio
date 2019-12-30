@@ -50,5 +50,3 @@ CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('photo', PhotographyPreview)
 CMS.registerPreviewTemplate('illustrations', PhotographyPreview)
-
-

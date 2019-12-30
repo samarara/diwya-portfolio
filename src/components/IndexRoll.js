@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, graphql, StaticQuery, useStaticQuery } from 'gatsby';
-import PreviewCompatibleImage from './PreviewCompatibleImage';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link, graphql, StaticQuery, useStaticQuery } from 'gatsby'
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const FeaturedImage = ({ image, alt }) => {
   return image ? (
@@ -9,14 +9,14 @@ const FeaturedImage = ({ image, alt }) => {
       <PreviewCompatibleImage
         imageInfo={{
           image: image,
-          alt: alt
+          alt: alt,
         }}
       />
     </div>
   ) : (
     <></>
-  );
-};
+  )
+}
 
 const PostHeader = ({ featuredImage, featuredImageAlt, title, to, date }) => (
   <div className="column is-7">
@@ -34,12 +34,14 @@ const PostHeader = ({ featuredImage, featuredImageAlt, title, to, date }) => (
       </span>
     </p> */}
   </div>
-);
+)
 
 const PostBody = ({ excerpt, to, title }) => (
   <div className="column">
     <h1 className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile">
-      <Link className="has-text-primary" to={to}>{title}</Link>
+      <Link className="has-text-primary" to={to}>
+        {title}
+      </Link>
     </h1>
 
     <div className="subtitle serif">
@@ -59,7 +61,7 @@ const PostBody = ({ excerpt, to, title }) => (
       <span> &bull; </span>
     </p> */}
   </div>
-);
+)
 
 const Posts = ({ posts }) =>
   posts.map(({ node: post }) => (
@@ -77,16 +79,16 @@ const Posts = ({ posts }) =>
         title={post.frontmatter.title}
       />
     </div>
-  ));
+  ))
 
 const IndexRoll = ({ data }) => {
-  const { edges: posts } = data.allMarkdownRemark;
+  const { edges: posts } = data.allMarkdownRemark
   return (
     <div className="container container-margin">
       <Posts posts={posts} />
     </div>
-  );
-};
+  )
+}
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -124,14 +126,14 @@ export default () => {
         }
       }
     }
-  `);
-  return <IndexRoll data={data} />;
-};
+  `)
+  return <IndexRoll data={data} />
+}
 
 IndexRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
-};
+      edges: PropTypes.array,
+    }),
+  }),
+}
