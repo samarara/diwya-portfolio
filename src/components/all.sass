@@ -1,6 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap')
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400&display=swap')
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -21,7 +21,7 @@ $family-serif: "Zilla Slab", serif
 
 .serif
   font-family: $family-serif
-  
+
 .navbar .navbar-menu
   box-shadow: none !important
 
@@ -105,6 +105,11 @@ $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
 
+// linke overrides
+$link-hover: #a9a9a9
+$link-focus: #a9a9a9
+$link-active: #a9a9a9 
+
 .menu-label
   font-size: 1em !important
   text-align: left
@@ -124,6 +129,18 @@ $menu-label-color: $white-ter
   display: inline
 .navbar-item
   font-size: 1.2em
+  // &:hover
+  //   color: #a9a9a9 //!important
+.navbar-item-select
+  display: flex
+  flex-direction: column
+  margin-top: 0.2em
+  &::after
+    content: ""
+    border-bottom: solid 15px #dadada
+    width: 110%
+    z-index: -100
+    margin-top: -0.6em
 // blog roll
 .blog-list-item.is-featured
   background-color: #d6400033
@@ -134,15 +151,20 @@ $menu-label-color: $white-ter
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
+// content overrids
+$content-blockquote-background-color: #f5f5f5
+$content-blockquote-border-left: none
+$content-pre-padding: 0px
+
 @import "~bulma"
 
 .nav-item-override
   color: $primary
 .nav-item-override:hover, .nav-item-override:focus, .nav-item-override:focus-within, .nav-item-override:is-active
-  color: $primary-invert
+  color: #dadada !important//$primary-invert
 
 .container-margin
-  margin: 0 2rem 
+  margin: 0 2rem
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
@@ -220,7 +242,7 @@ $menu-label-color: $white-ter
   to
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
-  
+
   from
     opacity: 0
     -webkit-transform: translate3d(3000px, 0, 0)
@@ -251,7 +273,7 @@ $menu-label-color: $white-ter
   -webkit-animation-name: bounceInRight
   animation-name: bounceInRight
 
-.animated 
+.animated
   -webkit-animation-duration: 1s
   animation-duration: 1s
   -webkit-animation-fill-mode: both
@@ -259,3 +281,48 @@ $menu-label-color: $white-ter
   // -webkit-animation-delay: 1s
   // animation-delay: 1s
 
+#case-study-content > .container > .content > p,
+#case-study-content > .container > .content > ul,
+#case-study-content > .container > .content >a
+  font-family: $family-serif
+  @extend .is-size-5-desktop
+
+blockquote
+  width: 100vw
+  position: relative
+  left: 50%
+  right: 50%
+  margin-left: -50vw
+  margin-right: -50vw
+  display: flex
+  font-size: 1.5em
+  flex-wrap: wrap
+  flex-direction: column
+  font-family: $family-serif
+
+  p
+    flex: 10
+    padding-left: 3em
+    padding-right: 3em
+    @extend .is-size-5-mobile, .is-size-3-desktop
+  &::before
+    content: open-quote
+  &::after
+    content: close-quote
+    align-self: flex-end
+  &::before, &::after
+    font-size: 4rem
+    flex: 1
+    display: inline-block
+    vertical-align: bottom
+    // color: orange
+    top: .2em
+    position: relative
+    // line-height: 2em
+    font-family: $family-serif
+    @extend .is-size-1-mobile
+    +tablet-only
+      font-size: 3.5rem
+
+.is-spaced
+  line-height: 2em

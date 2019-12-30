@@ -4,10 +4,10 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import Posts from './Posts'
 
-const IllustrationsRoll = ({ data }) => {
+const CaseStudyRoll = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div className="container">
+    <div className="container container-margin">
       <Posts posts={posts} />
     </div>
   )
@@ -15,14 +15,13 @@ const IllustrationsRoll = ({ data }) => {
 
 export default () => {
   const data = useStaticQuery(graphql`
-    query IllustrationsRollQuery {
+    query CaseStudyQuery {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        filter: { frontmatter: { templateKey: { eq: "illustrations" } } }
+        filter: { frontmatter: { templateKey: { eq: "case-studies" } } }
       ) {
         edges {
           node {
-            excerpt(pruneLength: 400)
             id
             fields {
               slug
@@ -33,6 +32,11 @@ export default () => {
               date(formatString: "MMMM DD, YYYY")
               featuredpost
               description
+              project_details {
+                client
+                role
+                team
+              }
               featuredimage {
                 childImageSharp {
                   fluid(maxWidth: 720, quality: 100) {
@@ -46,10 +50,10 @@ export default () => {
       }
     }
   `)
-  return <IllustrationsRoll data={data} />
+  return <CaseStudyRoll data={data} />
 }
 
-IllustrationsRoll.propTypes = {
+CaseStudyRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,

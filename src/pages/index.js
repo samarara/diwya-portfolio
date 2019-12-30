@@ -1,7 +1,7 @@
-import React from 'react';
-import houseOutline from '../img/House-Outline.svg';
-import Layout from '../components/Layout';
-import IndexRoll from '../components/IndexRoll';
+import React from 'react'
+import houseOutline from '../img/House-Outline.svg'
+import Layout from '../components/Layout'
+import IndexRoll from '../components/IndexRoll'
 
 const HouseOutline = () => (
   <div className="container">
@@ -74,18 +74,29 @@ const HouseOutline = () => (
         </svg>
       </div>
       <div className="column diwya-slogan">
-          <h1 className="title has-text-primary is-size-1 animated bounceInRight" style={{animationDelay: "0.4s"}}>Diwya's Portfolio</h1>
-          <h5 className="subtitle is-size-5 animated serif bounceInRight" style={{animationDelay: "0.45s"}}>A digital home to collect my experiences in design, illustration and photography.</h5>
+        <h1
+          className="title has-text-primary is-size-1 animated bounceInRight"
+          style={{ animationDelay: '0.4s' }}
+        >
+          Diwya's Portfolio
+        </h1>
+        <h5
+          className="subtitle is-size-5 animated serif bounceInRight"
+          style={{ animationDelay: '0.45s' }}
+        >
+          A digital home to collect my experiences in design, illustration and
+          photography.
+        </h5>
       </div>
     </div>
   </div>
-);
+)
 
 const IndexPage = () => (
   <Layout>
     <HouseOutline />
     <IndexRoll />
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

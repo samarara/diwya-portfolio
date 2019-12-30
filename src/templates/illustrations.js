@@ -1,10 +1,10 @@
-// import React from 'react'
-// import Helmet from 'react-helmet'
-// import { kebabCase } from 'lodash'
-// import { graphql, Link } from 'gatsby'
-// import Layout from '../components/Layout'
-// import Content, { HTMLContent } from '../components/Content'
-
+import React from 'react'
+import Helmet from 'react-helmet'
+import { kebabCase } from 'lodash'
+import { graphql, Link } from 'gatsby'
+import Layout from '../components/Layout'
+import Content, { HTMLContent } from '../components/Content'
+import { PhotographyTemplate } from '../templates/photography'
 // const IllustrationTemplate = props => {
 //   const PostContent = contentComponent || Content
 //   const {
@@ -59,53 +59,65 @@
 
 // export { IllustrationTemplate as PhotographyTemplate }
 
-// const Photography = ({ data }) => {
-//   const { markdownRemark: post } = data
-//   console.log('data', data)
-//   return (
-//     <Layout>
-//       <IllustrationTemplate
-//         content={post.html}
-//         contentComponent={HTMLContent}
-//         description={post.frontmatter.description}
-//         images={post.frontmatter.images}
-//         helmet={
-//           <Helmet titleTemplate="%s | Blog">
-//             <title>{`${post.frontmatter.title}`}</title>
-//             <meta
-//               name="description"
-//               content={`${post.frontmatter.description}`}
-//             />
-//           </Helmet>
-//         }
-//         tags={post.frontmatter.tags}
-//         title={post.frontmatter.title}
-//       />
-//     </Layout>
-//   )
-// }
+const Illustration = ({ data }) => {
+  const { markdownRemark: post } = data
+  console.log('data', data)
+  return (
+    <Layout>
+      <PhotographyTemplate
+        content={post.html}
+        contentComponent={HTMLContent}
+        description={post.frontmatter.description}
+        images={post.frontmatter.images}
+        helmet={
+          <Helmet titleTemplate="%s | Blog">
+            <title>{`${post.frontmatter.title}`}</title>
+            <meta
+              name="description"
+              content={`${post.frontmatter.description}`}
+            />
+          </Helmet>
+        }
+        tags={post.frontmatter.tags}
+        title={post.frontmatter.title}
+      />
+    </Layout>
+  )
+}
+
+export default Illustration
 
 // export default Photography
 
-// export const pageQuery = graphql`
-//   query PhotographyPostByID($id: String!) {
-//     markdownRemark(id: { eq: $id }) {
-//       id
-//       html
-//       frontmatter {
-//         date(formatString: "MMMM DD, YYYY")
-//         title
-//         description
-//         tags
-//         images {
-//           image {
-//             publicURL
-//           }
-//         }
-//         featuredimage {
-//           publicURL
-//         }
-//       }
-//     }
-//   }
-// `
+export const pageQuery = graphql`
+  query IllustrationPostByID($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        description
+        tags
+        images {
+          image {
+            publicURL
+            childImageSharp {
+              fluid(maxWidth: 720, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        featuredimage {
+          publicURL
+          childImageSharp {
+            fluid(maxWidth: 720, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`

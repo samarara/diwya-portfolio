@@ -1,21 +1,22 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { kebabCase } from 'lodash';
-import { graphql, Link } from 'gatsby';
-import Img from 'gatsby-image';
-import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+import React from 'react'
+import Helmet from 'react-helmet'
+import { kebabCase } from 'lodash'
+import { graphql, Link } from 'gatsby'
+import Img from 'gatsby-image'
+import Layout from '../components/Layout'
+import ContentTags from '../components/ContentTags'
+import Content, { HTMLContent } from '../components/Content'
 
 const ImageGrid = ({ images }) => {
   return images
     .reduce((acc, curr, index, sourceArray) => {
-      console.log('index', index);
-      const imageRow = [sourceArray[index], sourceArray[index + 1]];
-      acc.push(imageRow);
+      console.log('index', index)
+      const imageRow = [sourceArray[index], sourceArray[index + 1]]
+      acc.push(imageRow)
 
       // mutates the array but necessary to forward the index
-      images.shift();
-      return acc;
+      images.shift()
+      return acc
     }, [])
     .map((el, index) => (
       <div className="columns">
@@ -37,8 +38,8 @@ const ImageGrid = ({ images }) => {
           <></>
         )}
       </div>
-    ));
-};
+    ))
+}
 
 const PhotoStatement = ({ content }) => (
   <div class="card">
@@ -54,7 +55,7 @@ const PhotoStatement = ({ content }) => (
       {/* <p class="subtitle">Jeff Atwood</p> */}
     </div>
   </div>
-);
+)
 
 const PhotoStatementBanner = ({ content }) => (
   <section className="hero is-dark is-marginless is-fullheight">
@@ -70,7 +71,7 @@ const PhotoStatementBanner = ({ content }) => (
               display: 'inline',
               fontWeight: '100',
               lineHeight: '2rem',
-              fontFamily: "'Zilla Slab', serif"
+              fontFamily: "'Zilla Slab', serif",
             }}
           />
           {/* <span style={{display: "inline"}}>"</span> */}
@@ -78,7 +79,7 @@ const PhotoStatementBanner = ({ content }) => (
       </div>
     </div>
   </section>
-);
+)
 
 const CotentHeader = ({ title, description }) => (
   <section className="hero is-light is-fullheight">
@@ -89,7 +90,7 @@ const CotentHeader = ({ title, description }) => (
       </div>
     </div>
   </section>
-);
+)
 
 const ContentImages = ({ images }) =>
   images.map(el => (
@@ -97,26 +98,29 @@ const ContentImages = ({ images }) =>
       <Img src={el.image.publicURL} fluid={el.image.childImageSharp.fluid} />
       <br />
     </>
-  ));
+  ))
 
-const ContentTags = ({ tags }) =>
-  tags && tags.length ? (
-    <div style={{ marginTop: `4rem` }}>
-      <h4>Tags</h4>
-      <ul className="taglist">
-        {tags.map(tag => (
-          <li key={tag + `tag`}>
-            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  ) : null;
+// const ContentTags = ({ tags }) =>
+//   tags && tags.length ? (
+//     <div style={{ marginTop: `4rem` }}>
+//       <h4>Tags</h4>
+//       <ul className="taglist">
+//         {tags.map(tag => (
+//           <li key={tag + `tag`}>
+//             <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   ) : null;
 
 const ContentBody = ({ images, tags, content, helmet, contentComponent }) => {
-  const PostContent = contentComponent || Content;
-  const imageGroupOne = images.slice(0, 2);
-  const imageGroupTwo = images.slice(2, images.length);
+  const PostContent = contentComponent || Content
+  console.log(images)
+  // testing with immutable data first
+  // need to copy the arrays in to new data sets after
+  const imageGroupOne = images.slice(0, 2)
+  const imageGroupTwo = images.slice(2, images.length)
   return (
     <>
       <section className="section">
@@ -148,8 +152,8 @@ const ContentBody = ({ images, tags, content, helmet, contentComponent }) => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
 const PhotographyTemplate = ({
   content,
@@ -158,7 +162,7 @@ const PhotographyTemplate = ({
   tags,
   title,
   helmet,
-  images
+  images,
 }) => {
   return (
     <>
@@ -171,14 +175,14 @@ const PhotographyTemplate = ({
         contentComponent={contentComponent}
       />
     </>
-  );
-};
+  )
+}
 
-export { PhotographyTemplate };
+export { PhotographyTemplate }
 
 const Photography = ({ data }) => {
-  const { markdownRemark: post } = data;
-  console.log('data', data);
+  const { markdownRemark: post } = data
+  console.log('data', data)
   return (
     <Layout>
       <PhotographyTemplate
@@ -199,10 +203,10 @@ const Photography = ({ data }) => {
         title={post.frontmatter.title}
       />
     </Layout>
-  );
-};
+  )
+}
 
-export default Photography;
+export default Photography
 
 export const pageQuery = graphql`
   query PhotographyPostByID($id: String!) {
@@ -235,4 +239,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
