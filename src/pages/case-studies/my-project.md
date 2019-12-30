@@ -7,7 +7,7 @@ project-details:
   client: 'PlanGrid, an AutoDesk Company'
   role: Product Design Intern
   team: 'Field Reports: 5 engineers, 1 QA, 1 PM  '
-featuredimage: /img/all.jpg
+featuredimage: /img/img_2637.jpg
 tags:
   - case-studies product-strategy user-interviews visual-design
 ---
@@ -27,22 +27,12 @@ Users asked for more detailed information on how Weather impacted a construction
 
 > If you could notate the weather throughout the day….. so if its sunny in the morning when you start your day, and turned to rain in the afternoon, it would be helpful to be able to log in and update weather…..
 >
-> \
->
->
->
->
-> \
 >
 >
 > Can you input multiple weather snapshots into a daily report…like at different times during the day
 >
-> \
 >
 >
->
->
-> \
 >
 >
 > Hi, is there a way to get a three time a day weather report?
@@ -51,7 +41,7 @@ Users asked for more detailed information on how Weather impacted a construction
 
 Collecting user comments and feedback allowed us to define a general problem statement: 
 
-**_How might we better show the impact of weather on a construction site on a daily basis?_** 
+_**How might we better show the impact of weather on a construction site on a daily basis?**_ 
 
 This question became the lens through which I looked at my designs, and expanded into other questions that began my user research. 
 
