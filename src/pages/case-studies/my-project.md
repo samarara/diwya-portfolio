@@ -58,3 +58,7 @@ Being relatively new to the construction problem space, I wanted to gain a backg
 Source: <https://www.tandfonline.com/doi/full/10.1080/01446193.2018.1478109>
 
 After gaining some background knowledge, I decided to interview Customer Advocates (CA’s). CA’s  are people employed by PlanGrid with a construction background that can provide more in- depth knowledge on what the practices and pain points a user may go through on the field.
+
+After gaining some background knowledge, I decided to interview Customer Advocates (CA’s). CA’s  are people employed by PlanGrid with a construction background that can provide more in- depth knowledge on what the practices and pain points a user may go through on the field.
+
+![](/img/screen-shot-2019-10-01-at-10.43.12-pm-1.png)
