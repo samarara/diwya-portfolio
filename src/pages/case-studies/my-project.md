@@ -1,17 +1,19 @@
 ---
 templateKey: case-studies
 title: My Project
-description:
-  client: My client
-  role: My role
-  team: My team
+project-details:
+  client: PlanGrid, an AutoDesk Company
+  role: Product Design Intern
+  team: Field Reports
+featuredimage: /img/all.jpg
+description: My experience as a product design intern at PlanGrid
 date: 2019-12-28T00:13:17.394Z
 tags:
   - case-studies
 ---
 # Background
 
-My experience as a product design intern at PlanGrid was quite different than previous design internships I’ve had. I was working on making improvements to an already established product on the app called ‘Field Reports’, which involved more user research and feature prioritization than I had been exposed to. This case study will walkthrough a few features that I worked on, and more importantly why it improved the overall Field Reports experience on the app. 
+_My experience_ as a product design intern at PlanGrid was quite different than previous design internships I’ve had. I was working on making improvements to an already established product on the app called ‘Field Reports’, which involved more user research and feature prioritization than I had been exposed to. This case study will walkthrough a few features that I worked on, and more importantly why it improved the overall Field Reports experience on the app. 
 
 ## Subtitle
 

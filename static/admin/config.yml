@@ -61,9 +61,12 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "case-studies"}
-      - {label: "Title", name: "title", widget: object, fields: [{label: Header, name: header, widget: text, required: true}, {label: Role, name: role, widget: text, required: false}, {label: Team, name: team, widget: text, required: false}, {label: Client, name: client, widget: text, required: false}]}
-      - {label: Body, name: body, widget: markdown}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Project Details", name: "project-details", widget: object, fields: [{label: Role, name: role, widget: text, required: false}, {label: Team, name: team, widget: text, required: false}, {label: Client, name: client, widget: text, required: false}]}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: Body, name: body, widget: markdown}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "pages"
     label: "Pages"
