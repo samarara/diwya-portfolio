@@ -11,12 +11,6 @@ featuredimage: /img/img_2637.jpg
 tags:
   - case-studies product-strategy user-interviews visual-design
 ---
-
-
-
-
-
-
 # Background
 
 My experience as a product design intern at PlanGrid was quite different than previous design internships I’ve had. I was working on making improvements to an already established product on the app called _Field Reports_, which involved more user research and feature prioritization than I had been exposed to in the past. This case study will walkthrough a few features that I worked on, and why it improved the overall Field Reports experience on the app. 
@@ -33,13 +27,7 @@ Users asked for more detailed information on how Weather impacted a construction
 
 > If you could notate the weather throughout the day….. so if its sunny in the morning when you start your day, and turned to rain in the afternoon, it would be helpful to be able to log in and update weather…..
 >
->
->
 > Can you input multiple weather snapshots into a daily report…like at different times during the day
->
->
->
->
 >
 > Hi, is there a way to get a three time a day weather report?
 
@@ -79,22 +67,14 @@ During a site visit, I also got the opportunity to talk to a Field Manager on wh
 ![](/img/img_2637.jpg)
 
 Many ideas came to mind after hearing the requests and concerns by customer advocates, but I knew it was important to check with the engineering team to determine the feasibility of some of their requests. For example, the API e were planning to use was DarkSky, so I began my research on what weather statistics the API was able to provide. This lead to the following chart created below:
+---
 
-\| Weather Statistic Type | Previous Weather                                                                   | Current Weather                                                  | Future Weather                                                                       | Other                                             |
-
-\|------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
-
-\| Temperature            | Provides temperature at every time                                                 | Provides current temperature                                     | Provides predicted  temperature (not just Highs and Lows, but the  forecast as well) |                                                   |
-
-\| Precipitation          | Provides: - precipitation probability - total accumulated precipitation   that day | Provides  - precipitation probability - estimated accumulation   | Provides probability  percentage                                                     | Rain has total amount of predicted inches per day |
-
-\| Wind                   | Provides wind in mph at each  point in time                                        | Provides wind in mph                                             | Provides predicted wind in mph                                                       |                                                   |
-
-\| Humidity               | Provides percentage                                                                | Provides humidity in percentage                                  | Provides percentage                                                                  |                                                   |
-
-
-
-
+| Weather Statistic Type | Previous Weather                                                                            | Current Weather                                                              | Future Weather                                                                                | Other                                                   |
+|------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Temperature            | Provides temperature at every time                                                          | Provides current temperature                                                 | Provides predicted <br>temperature (not just<br>Highs and Lows, but the <br>forecast as well) |                                                         |
+| Precipitation          | Provides:<br>- precipitation probability<br>- total accumulated precipitation<br>  that day | Provides <br>- precipitation probability<br>- estimated accumulation<br><br> | Provides<br>probability <br>percentage                                                        | Rain has total<br>amount of predicted<br>inches per day |
+| Wind                   | Provides wind in mph at each <br>point in time                                              | Provides wind in mph                                                         | Provides predicted<br>wind in mph                                                             |                                                         |
+| Humidity               | Provides percentage                                                                         | Provides humidity in percentage                                              | Provides percentage                                                                           |                                                         |
 
 This allowed me to come to the conclusion that precipitation should be shown as estimated accumulation followed by actual accumulation on a Field Report, as it was not simple or practical to show accumulation in chunks of time as the API does not support it.
 
@@ -108,6 +88,6 @@ I then synthesized all the feedback I received from customer advocates and the e
 
 When designing UI mock-ups, these are the four steps I took:
 
-_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_ 
+**_Step 1: Look at what competitors are doing for our feature, and other similar UI patterns_** 
 
 ![](/img/screen-shot-2019-10-03-at-6.30.37-am.png)
