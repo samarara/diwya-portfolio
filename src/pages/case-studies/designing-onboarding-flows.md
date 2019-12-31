@@ -24,8 +24,4 @@ Below are the information architecture flows that I helped organize and design. 
 
 ![](/img/direct_client_image.png)
 
-![]()
-
-![]()
-
-## New Subtitle
+## New Subtitl
