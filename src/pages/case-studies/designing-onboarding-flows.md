@@ -24,4 +24,6 @@ Below are the information architecture flows that I helped organize and design. 
 
 ![](/img/direct_client_image.png)
 
-![](/img/enhanced-branch-agent-assisted-flow-v10.png)
+![](/img/financial_advisor_assisted_flow.png)
+
+![](/img/call_advisor_image.png)
