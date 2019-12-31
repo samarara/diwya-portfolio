@@ -22,4 +22,6 @@ Over the summer, I worked on Scotia iTRADE’s on-boarding platform where client
 
 Below are the information architecture flows that I helped organize and design. These flows gave a better understanding for developers and stakeholders of what was planned for the new on-boarding interface. The information architecture displayed in these flows were changed several times, and were updated accordingly:
 
-![](/img/direct_client_image.jpg)
+![](/img/direct_client_image.png)
+
+![](/img/enhanced-branch-agent-assisted-flow-v10.png)
