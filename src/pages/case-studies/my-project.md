@@ -80,7 +80,21 @@ During a site visit, I also got the opportunity to talk to a Field Manager on wh
 
 Many ideas came to mind after hearing the requests and concerns by customer advocates, but I knew it was important to check with the engineering team to determine the feasibility of some of their requests. For example, the API e were planning to use was DarkSky, so I began my research on what weather statistics the API was able to provide. This lead to the following chart created below:
 
-![](/img/screen-shot-2019-10-02-at-1.27.51-pm.png)
+\| Weather Statistic Type | Previous Weather                                                                   | Current Weather                                                  | Future Weather                                                                       | Other                                             |
+
+\|------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------|
+
+\| Temperature            | Provides temperature at every time                                                 | Provides current temperature                                     | Provides predicted  temperature (not just Highs and Lows, but the  forecast as well) |                                                   |
+
+\| Precipitation          | Provides: - precipitation probability - total accumulated precipitation   that day | Provides  - precipitation probability - estimated accumulation   | Provides probability  percentage                                                     | Rain has total amount of predicted inches per day |
+
+\| Wind                   | Provides wind in mph at each  point in time                                        | Provides wind in mph                                             | Provides predicted wind in mph                                                       |                                                   |
+
+\| Humidity               | Provides percentage                                                                | Provides humidity in percentage                                  | Provides percentage                                                                  |                                                   |
+
+
+
+
 
 This allowed me to come to the conclusion that precipitation should be shown as estimated accumulation followed by actual accumulation on a Field Report, as it was not simple or practical to show accumulation in chunks of time as the API does not support it.
 
