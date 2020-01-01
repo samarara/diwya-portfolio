@@ -30,4 +30,8 @@ Below are the information architecture flows that I helped organize and design. 
 
 ![](/img/call_center_image.png)
 
-# Design Process
+# The Problem
+
+In each flow, there is a _Client Expectations_ section where we advise the user of what is needed in the online application process for a Scotia iTrade account. The old client expectations interface is shown below:
+
+![](/img/old_client_expectations.png)
