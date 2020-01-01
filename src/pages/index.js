@@ -3,7 +3,10 @@ import houseOutline from '../img/House-Outline.svg'
 import Layout from '../components/Layout'
 import HouseOutline from '../components/HouseOutline'
 import IndexRoll from '../components/IndexRoll'
-import withAnimation, { withCustomAnimation, withHouseAnimation } from '../components/IndexPageHoc'
+import withAnimation, {
+  withCustomAnimation,
+  withHouseAnimation,
+} from '../components/IndexPageHoc'
 
 const IndexPage = props => {
   // console.log({
@@ -11,11 +14,11 @@ const IndexPage = props => {
   //   'index exit': exit,
   //   'index transitionStatus': transitionStatus
   // })
-  
+
   return (
     <>
       {/* <HouseOutline isIntro /> */}
-      <IndexRoll isIndexPage={true} {...props}/>
+      <IndexRoll isIndexPage={true} {...props} />
     </>
   )
 }

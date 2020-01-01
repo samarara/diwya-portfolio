@@ -6,13 +6,13 @@ import Posts from './Posts'
 
 const CaseStudyRoll = ({ data, transitionStatus, animation }) => {
   const { edges: posts } = data.allMarkdownRemark
-  const caseStudiesRollRef = useRef(null);
+  const caseStudiesRollRef = useRef(null)
   // const animation = transitionStatus !== "entered" ? "slideInUp" : ""
   // useEffect(() => console.log('case studyes animation', animation), [animation])
 
   return (
     <div className={`container animated ${animation}`}>
-      <Posts posts={posts} ref={caseStudiesRollRef}/>
+      <Posts posts={posts} ref={caseStudiesRollRef} />
     </div>
   )
 }
@@ -54,7 +54,7 @@ export default ({ animation }) => {
       }
     }
   `)
-  return <CaseStudyRoll data={data} animation={animation}/>
+  return <CaseStudyRoll data={data} animation={animation} />
 }
 
 CaseStudyRoll.propTypes = {

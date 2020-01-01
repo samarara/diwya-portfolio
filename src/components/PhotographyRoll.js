@@ -4,9 +4,15 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import Posts from './Posts'
 
-const PhotographyRoll = ({ data, entry, transitionStatus, exit, animation }) => {
+const PhotographyRoll = ({
+  data,
+  entry,
+  transitionStatus,
+  exit,
+  animation,
+}) => {
   const { edges: posts } = data.allMarkdownRemark
-  const photoRollRef = useRef(null);
+  const photoRollRef = useRef(null)
   // const [animation, setAnimation] = useState("");
 
   // useLayoutEffect(() => {
@@ -61,7 +67,7 @@ export default ({ animation }) => {
       }
     }
   `)
-  return <PhotographyRoll data={data} animation={animation}/>
+  return <PhotographyRoll data={data} animation={animation} />
 }
 
 PhotographyRoll.propTypes = {

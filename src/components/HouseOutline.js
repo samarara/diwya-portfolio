@@ -1,15 +1,28 @@
 import React, { useRef, useState, useEffect } from 'react'
 import useAnimation from '../hooks/useAnimation'
 
-const HouseOutline = ({ isIntro, transitionStatus, houseAnimation, sloganAnimation }) => {
+const HouseOutline = ({
+  isIntro,
+  transitionStatus,
+  houseAnimation,
+  sloganAnimation,
+}) => {
   // const headerRef = useRef(null)
   // const houseAnimation = useAnimation(transitionStatus, "bounceInDown", "bounceOutUp");
   // const sloganAnimation = useAnimation(transitionStatus, "bounceInRight", "bounceOutRight");
-  console.log('house transition', transitionStatus, houseAnimation, sloganAnimation)
+  console.log(
+    'house transition',
+    transitionStatus,
+    houseAnimation,
+    sloganAnimation
+  )
   // const [hasOutroedOnce, setHasOutroedOnce] = useState(false);
   // const houseAnimation = isIntro && transitionStatus !== "exiting" ? "bounceInDown" : "bounceOutUp"
   // const sloganAnimation = isIntro && transitionStatus !== "exiting" ? "bounceInRight" : "bounceOutRight"
-  const animationDelay = (delay) => transitionStatus.includes("enter") ? { animationDelay: delay } : { animationDelay: delay }
+  const animationDelay = delay =>
+    transitionStatus.includes('enter')
+      ? { animationDelay: delay }
+      : { animationDelay: delay }
   // const handleOnTransitionEnd = e => console.log('headerRef', e);
 
   // useEffect(() => isIntro ? setHasOutroedOnce(false) : setHasOutroedOnce(true), [isIntro])
