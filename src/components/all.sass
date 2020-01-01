@@ -1,6 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap')
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,400i,500i&display=swap');
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -18,6 +18,10 @@ $body-color: #333
 $black: #2b2523
 $family-sans-serif: "Karla", sans-serif
 $family-serif: "Zilla Slab", serif
+
+// not sure why??
+#layout
+  overflow: hidden
 
 .serif
   font-family: $family-serif
@@ -265,6 +269,69 @@ $content-pre-padding: 0px
     -webkit-transform: translate3d(0, 0, 0)
     transform: translate3d(0, 0, 0)
 
++keyframes(bounceOutUp)
+  from,
+  20%
+    -webkit-transform: translate3d(0, -10px, 0)
+    transform: translate3d(0, -10px, 0)
+
+  40%,
+  45% 
+    opacity: 1
+    -webkit-transform: translate3d(0, 20px, 0)
+    transform: translate3d(0, 20px, 0)
+
+  to 
+    opacity: 0
+    -webkit-transform: translate3d(0, -2000px, 0)
+    transform: translate3d(0, -2000px, 0)
+    
++keyframes(bounceOutRight)
+  from,
+  20%
+    opacity: 1
+    -webkit-transform: translate3d(-20px, 0, 0)
+    transform: translate3d(-20px, 0, 0)
+
+  to 
+    opacity: 0
+    -webkit-transform: translate3d(2000px, 0, 0)
+    transform: translate3d(2000px, 0, 0)
+
++keyframes(slideInUp)
+  from
+    -webkit-transform: translate3d(0, 100%, 0)
+    transform: translate3d(0, 100%, 0)
+    visibility: visible
+
+  to
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+
++keyframes(slideOutUp)
+  from
+    -webkit-transform: translate3d(0, 50%, 0)
+    transform: translate3d(0, 50%, 0)
+
+  to
+    visibility: hidden
+    -webkit-transform: translate3d(0, -100%, 0)
+    transform: translate3d(0, -100%, 0)
+
++keyframes(fadeIn)
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
++keyframes(fadeOut)
+  from
+    opacity: 1
+
+  to
+    opacity: 0
+
 .bounceInDown
   -webkit-animation-name: bounceInDown
   animation-name: bounceInDown
@@ -272,6 +339,30 @@ $content-pre-padding: 0px
 .bounceInRight
   -webkit-animation-name: bounceInRight
   animation-name: bounceInRight
+
+.bounceOutUp
+  -webkit-animation-name: bounceOutUp
+  animation-name: bounceOutUp
+
+.bounceOutRight
+  -webkit-animation-name: bounceOutRight
+  animation-name: bounceOutRight
+
+.slideInUp
+  -webkit-animation-name: slideInUp
+  animation-name: slideInUp
+
+.slideOutUp
+  -webkit-animation-name: slideOutUp
+  animation-name: slideOutUp
+
+.fadeIn
+  -webkit-animation-name: fadeIn
+  animation-name: fadeIn
+
+.fadeOut
+  -webkit-animation-name: fadeOut
+  animation-name: fadeOut
 
 .animated
   -webkit-animation-duration: 1s
@@ -324,5 +415,5 @@ blockquote
     +tablet-only
       font-size: 3.5rem
 
-.is-spaced
-  line-height: 2em
+// .is-spaced
+//   line-height: 2em

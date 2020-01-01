@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import Posts from './Posts'
 
-const CaseStudyRoll = ({ data }) => {
+const CaseStudyRoll = ({ data, transitionStatus, animation }) => {
   const { edges: posts } = data.allMarkdownRemark
+  const caseStudiesRollRef = useRef(null);
+  // const animation = transitionStatus !== "entered" ? "slideInUp" : ""
+  // useEffect(() => console.log('case studyes animation', animation), [animation])
+
   return (
-    <div className="container container-margin">
-      <Posts posts={posts} />
+    <div className={`container animated ${animation}`}>
+      <Posts posts={posts} ref={caseStudiesRollRef}/>
     </div>
   )
 }
 
-export default () => {
+export default ({ animation }) => {
   const data = useStaticQuery(graphql`
     query CaseStudyQuery {
       allMarkdownRemark(
@@ -50,7 +54,7 @@ export default () => {
       }
     }
   `)
-  return <CaseStudyRoll data={data} />
+  return <CaseStudyRoll data={data} animation={animation}/>
 }
 
 CaseStudyRoll.propTypes = {

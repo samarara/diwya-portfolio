@@ -1,19 +1,34 @@
-import React from 'react'
+import React, { useRef, useState, useEffect, useLayoutEffect } from 'react'
 import PropTypes from 'prop-types'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import Posts from './Posts'
 
-const PhotographyRoll = ({ data }) => {
+const PhotographyRoll = ({ data, entry, transitionStatus, exit, animation }) => {
   const { edges: posts } = data.allMarkdownRemark
+  const photoRollRef = useRef(null);
+  // const [animation, setAnimation] = useState("");
+
+  // useLayoutEffect(() => {
+  //   console.log('in use layout effect', transitionStatus, entry, exit)
+  //   if (transitionStatus !== "entered") {
+  //     setAnimation("slideInUp")
+  //   } else if (transitionStatus === "exiting") {
+  //     setAnimation("slideOutUp")
+  //   }
+  // }, [])
+  // const enterAnimation = transitionStatus !== "entered" ? "slideInUp" : ""
+  // const exitAnimation = transitionStatus === "exiting" ? "slideOutUp" : ""
+  // useEffect(() => console.log('animation', animation), [animation])
+  // console.log('animation', animation)
   return (
-    <div className="container container-margin">
-      <Posts posts={posts} />
+    <div className={`container animated ${animation}`}>
+      <Posts posts={posts} ref={photoRollRef} />
     </div>
   )
 }
 
-export default () => {
+export default ({ animation }) => {
   const data = useStaticQuery(graphql`
     query PhotographyRollQuery {
       allMarkdownRemark(
@@ -46,7 +61,7 @@ export default () => {
       }
     }
   `)
-  return <PhotographyRoll data={data} />
+  return <PhotographyRoll data={data} animation={animation}/>
 }
 
 PhotographyRoll.propTypes = {

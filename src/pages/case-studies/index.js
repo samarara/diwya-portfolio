@@ -1,11 +1,9 @@
 import React from 'react'
-import Layout from '../../components/Layout'
+import withAnimation from '../../components/IndexPageHoc'
 import CaseStudyRoll from '../../components/CaseStudyRoll'
 
-const CaseStudyIndexPage = () => (
-  <Layout>
-    <CaseStudyRoll />
-  </Layout>
+const CaseStudiesIndexPage = props => (
+  <CaseStudyRoll {...props} />
 )
 
-export default CaseStudyIndexPage
+export default withAnimation(CaseStudiesIndexPage)

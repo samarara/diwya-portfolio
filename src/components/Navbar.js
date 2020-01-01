@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'gatsby'
+import Link from 'gatsby-plugin-transition-link'
+import TransitionLink from 'gatsby-plugin-transition-link'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
@@ -43,14 +44,16 @@ const Navbar = () => {
         <div id="navMenu" className={`navbar-menu ${navBarActiveClass}`}>
           <div className="navbar-start has-text-centered"></div>
           <div className="navbar-end has-text-centered">
-            <Link
+            <TransitionLink
               className="navbar-item nav-item-override"
               to="/photography"
               activeClassName="navbar-item-select"
               partiallyActive
+              exit={{ length: 1 }}
+              entry={{ delay: 0.6 }}
             >
               Photography
-            </Link>
+            </TransitionLink>
             {/* <Link
               className="navbar-item nav-item-override"
               to="/illustrations"
@@ -59,25 +62,26 @@ const Navbar = () => {
             >
               Illustrations
             </Link> */}
-            <Link
+            <TransitionLink
               className="navbar-item nav-item-override"
               to="/case-studies"
               activeClassName="navbar-item-select"
               partiallyActive
+              exit={{ length: 1 }}
+              entry={{ delay: 0.6 }}
             >
               Case Studies
-            </Link>
-            {/* <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link> */}
-            <Link
+            </TransitionLink>
+            <TransitionLink
               className="navbar-item nav-item-override"
               to="/about"
               activeClassName="navbar-item-select"
               partiallyActive
+              exit={{ length: 1 }}
+              entry={{ delay: 0.6 }}
             >
               About Me
-            </Link>
+            </TransitionLink>
           </div>
         </div>
       </div>
