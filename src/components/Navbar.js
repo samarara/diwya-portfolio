@@ -23,6 +23,7 @@ const Navbar = () => {
       className="navbar is-transparent"
       role="navigation"
       aria-label="main-navigation"
+      // id="top"
     >
       <div className="container">
         <div className="navbar-brand">

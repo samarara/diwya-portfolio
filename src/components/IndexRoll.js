@@ -85,7 +85,7 @@ import Posts from './Posts'
 
 const IndexRoll = ({ data, animation }) => {
   const { edges: posts } = data.allMarkdownRemark
-  const indexRollRef = useRef(null);
+  const indexRollRef = useRef(null)
   return (
     <div className={`container animated ${animation}`}>
       <Posts posts={posts} ref={indexRollRef} />
@@ -130,7 +130,7 @@ export default ({ animation }) => {
       }
     }
   `)
-  return <IndexRoll data={data} animation={animation}/>
+  return <IndexRoll data={data} animation={animation} />
 }
 
 IndexRoll.propTypes = {

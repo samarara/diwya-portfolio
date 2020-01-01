@@ -160,7 +160,18 @@ $content-blockquote-background-color: #f5f5f5
 $content-blockquote-border-left: none
 $content-pre-padding: 0px
 
+// button overrides - doesn't work??
+$button-text-hover-background-color: green
+$button-text-hover-color: #a9a9a9
+
 @import "~bulma"
+
+// button overries
+.button.is-white
+  transition: color 0.5s
+.button.is-white:hover
+  background-color: unset
+  color: #a9a9a9
 
 .nav-item-override
   color: $primary

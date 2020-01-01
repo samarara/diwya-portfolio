@@ -1,12 +1,15 @@
 import { useState, useEffect, useLayoutEffect } from 'react'
 
 const useAnimation = (transitionStatus, entryAnimation, exitAnimation) => {
-  const [animation, setAnimation] = useState("")
+  const [animation, setAnimation] = useState('')
   // const { transitionStatus } = props
   useLayoutEffect(() => {
-    if (transitionStatus === "entering"|| transitionStatus === "entered") {
+    if (transitionStatus === 'entering' || transitionStatus === 'entered') {
       setAnimation(entryAnimation)
-    } else if (transitionStatus === "exiting" || transitionStatus === "exited") {
+    } else if (
+      transitionStatus === 'exiting' ||
+      transitionStatus === 'exited'
+    ) {
       setAnimation(exitAnimation)
     }
     // else {
@@ -19,13 +22,19 @@ const useAnimation = (transitionStatus, entryAnimation, exitAnimation) => {
   return animation
 }
 
-const useDetailedAnimation = (transitionStatus, enteringAnimation, enteredAnimation, exitingAnimation, exitedAnimation) => {
-  const [animation, setAnimation] = useState("")
+const useDetailedAnimation = (
+  transitionStatus,
+  enteringAnimation,
+  enteredAnimation,
+  exitingAnimation,
+  exitedAnimation
+) => {
+  const [animation, setAnimation] = useState('')
   const animationMap = {
-    "entering": enteringAnimation,
-    "entered": enteredAnimation,
-    "exiting": exitingAnimation,
-    "exited": exitedAnimation
+    entering: enteringAnimation,
+    entered: enteredAnimation,
+    exiting: exitingAnimation,
+    exited: exitedAnimation,
   }
   useLayoutEffect(() => {
     console.log('use detailed animation', animationMap[transitionStatus])

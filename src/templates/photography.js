@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import ContentTags from '../components/ContentTags'
+import BackToTop from '../components/BackToTop'
 import Content, { HTMLContent } from '../components/Content'
 import withAnimation, { withCustomAnimation } from '../components/IndexPageHoc'
 
@@ -115,7 +116,14 @@ const ContentImages = ({ images }) =>
 //     </div>
 //   ) : null;
 
-const ContentBody = ({ images, tags, content, helmet, contentComponent }) => {
+const ContentBody = ({
+  images,
+  tags,
+  content,
+  helmet,
+  contentComponent,
+  ref,
+}) => {
   const PostContent = contentComponent || Content
   console.log(images)
   // testing with immutable data first
@@ -152,6 +160,7 @@ const ContentBody = ({ images, tags, content, helmet, contentComponent }) => {
           </div>
         </div>
       </section>
+      <BackToTop />
     </>
   )
 }
@@ -164,8 +173,9 @@ const PhotographyTemplate = ({
   title,
   helmet,
   images,
-  animation
+  animation,
 }) => {
+  const contentRef = useRef(null)
   return (
     <div className={`animated ${animation}`}>
       <CotentHeader title={title} description={description} />
@@ -175,6 +185,7 @@ const PhotographyTemplate = ({
         content={content}
         helmet={helmet}
         contentComponent={contentComponent}
+        ref={contentRef}
       />
     </div>
   )
@@ -186,28 +197,28 @@ const Photography = ({ data, animation }) => {
   const { markdownRemark: post } = data
   console.log('data', data)
   return (
-      <PhotographyTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        images={post.frontmatter.images}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-        animation={animation}
-      />
+    <PhotographyTemplate
+      content={post.html}
+      contentComponent={HTMLContent}
+      description={post.frontmatter.description}
+      images={post.frontmatter.images}
+      helmet={
+        <Helmet titleTemplate="%s | Blog">
+          <title>{`${post.frontmatter.title}`}</title>
+          <meta
+            name="description"
+            content={`${post.frontmatter.description}`}
+          />
+        </Helmet>
+      }
+      tags={post.frontmatter.tags}
+      title={post.frontmatter.title}
+      animation={animation}
+    />
   )
 }
 
-export default withCustomAnimation("fadeIn", "fadeOut")(Photography)
+export default withCustomAnimation('fadeIn', 'fadeOut')(Photography)
 
 export const pageQuery = graphql`
   query PhotographyPostByID($id: String!) {
