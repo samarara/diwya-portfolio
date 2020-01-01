@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import TransitionLink from 'gatsby-plugin-transition-link'
 
 const PostBody = ({ excerpt, to, title }) => (
   <div className="column">
     <h1 className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile">
-      <Link className="has-text-primary" to={to}>
+      <TransitionLink className="has-text-primary" to={to} exit={{ length: 1 }} entry={{ length: 1, delay: 0.2 }}>
         {title}
-      </Link>
+      </TransitionLink>
     </h1>
 
     <div className="subtitle serif">

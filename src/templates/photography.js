@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import ContentTags from '../components/ContentTags'
 import Content, { HTMLContent } from '../components/Content'
+import withAnimation, { withCustomAnimation } from '../components/IndexPageHoc'
 
 const ImageGrid = ({ images }) => {
   return images
@@ -163,9 +164,10 @@ const PhotographyTemplate = ({
   title,
   helmet,
   images,
+  animation
 }) => {
   return (
-    <>
+    <div className={`animated ${animation}`}>
       <CotentHeader title={title} description={description} />
       <ContentBody
         images={images}
@@ -174,17 +176,16 @@ const PhotographyTemplate = ({
         helmet={helmet}
         contentComponent={contentComponent}
       />
-    </>
+    </div>
   )
 }
 
 export { PhotographyTemplate }
 
-const Photography = ({ data }) => {
+const Photography = ({ data, animation }) => {
   const { markdownRemark: post } = data
   console.log('data', data)
   return (
-    <Layout>
       <PhotographyTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -201,12 +202,12 @@ const Photography = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        animation={animation}
       />
-    </Layout>
   )
 }
 
-export default Photography
+export default withCustomAnimation("fadeIn", "fadeOut")(Photography)
 
 export const pageQuery = graphql`
   query PhotographyPostByID($id: String!) {

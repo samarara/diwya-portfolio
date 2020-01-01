@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../../components/Layout'
 import PhotographyRoll from '../../components/PhotographyRoll'
+import withAnimation from '../../components/IndexPageHoc'
 
-const PhotographyIndexPage = () => (
-  <Layout>
-    <PhotographyRoll />
-  </Layout>
+const PhotographyIndexPage = props => (
+  // <IndexPageHoc entry={entry} transitionStatus={transitionStatus} exit={exit} />
+  // withAnimation(PhotographyRoll)(children, transitionStatus, entry, exit)
+  <PhotographyRoll {...props} />
 )
 
-export default PhotographyIndexPage
+export default withAnimation(PhotographyIndexPage)
