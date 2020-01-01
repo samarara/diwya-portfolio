@@ -30,4 +30,4 @@ Below are the information architecture flows that I helped organize and design. 
 
 ![](/img/call_center_image.png)
 
-# Designing for Client Expectations
+# Design Process
