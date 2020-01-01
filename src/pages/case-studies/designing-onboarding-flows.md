@@ -2,7 +2,7 @@
 templateKey: case-studies
 title: Designing Onboarding Flows
 date: 2017-09-01T00:56:07.727Z
-description: SCOTIABANK CASE STUDY
+description: Scotiabank case study
 project-details:
   client: Scotiabank
   role: UX/UI Designer
