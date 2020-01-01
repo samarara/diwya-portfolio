@@ -7,7 +7,7 @@ project-details:
   client: Scotiabank
   role: UX/UI Designer
   team: Scotia iTrade
-featuredimage: /img/case_study_cover.jpg
+featuredimage: /img/case_study_cover_1.jpg
 tags:
   - case-studies
   - user-flows
@@ -24,4 +24,10 @@ Below are the information architecture flows that I helped organize and design. 
 
 ![](/img/direct_client_image.png)
 
-## New Subtitl
+## 
+
+![](/img/fa_image.png)
+
+![](/img/call_center_image.png)
+
+# Designing for Client Expectations
