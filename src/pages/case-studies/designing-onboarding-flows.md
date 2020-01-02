@@ -43,15 +43,11 @@ The problem with this client expectations interface is that it's too easy to ski
 
 For the first question, much of our decision making came from looking at what other online application processes (and specifically what other financial institutions) are doing. 
 
-![](/img/td_client_expectations.png)
-
 As seen in the image above, most of them have a separate page for what to expect or bring before beginning the online application. In the context of our Scotia iTrade platform, modal dialogs are used to interrupt the flow in case of an error and to bring immediate attention to that action item. To be consistent, we decided that a modal at the beginning of the process would inappropriate, especially considering we want the users to feel ‘welcomed’ as they begin the application.
 
 # Design Solution
 
 The second question was much more difficult to answer. If we were to put the client expectations page after, we could provide account specific information that they would need to have during the application. This is shown in the image below:
-
-
 
 ## 
 
