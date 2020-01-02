@@ -68,8 +68,6 @@ In result, we decided to place the ‘Client Expectations’ screen as the first
 
 This design highlights the warning message front and centre, as we don’t want users to begin their application without knowing that the information they enter will not be saved. The icons refer to the text beside it, and because they are larger it is easier to see and follow than what was previously designed.
 
-
-
 # Related Work
 
 If you'd like to see more work that I did in the fintech space for Scotia iTRADE, please [contact me ](diwya.desilva@gmail.com)
