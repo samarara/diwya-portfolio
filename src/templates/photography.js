@@ -4,6 +4,7 @@ import { kebabCase } from 'lodash'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/Layout'
+import ContentHeader from '../components/ContentHeader'
 import ContentTags from '../components/ContentTags'
 import BackToTop from '../components/BackToTop'
 import Content, { HTMLContent } from '../components/Content'
@@ -83,16 +84,16 @@ const PhotoStatementBanner = ({ content }) => (
   </section>
 )
 
-const CotentHeader = ({ title, description }) => (
-  <section className="hero is-light is-fullheight">
-    <div className="hero-body">
-      <div className="container">
-        <h1 className="title is-size-1">{title}</h1>
-        <h2 className="subtitle serif">{description}</h2>
-      </div>
-    </div>
-  </section>
-)
+// const ContentHeader = ({ title, description }) => (
+//   <section className="hero is-light is-fullheight">
+//     <div className="hero-body">
+//       <div className="container">
+//         <h1 className="title is-size-1">{title}</h1>
+//         <h2 className="subtitle serif">{description}</h2>
+//       </div>
+//     </div>
+//   </section>
+// )
 
 const ContentImages = ({ images }) =>
   images.map(el => (
@@ -178,7 +179,7 @@ const PhotographyTemplate = ({
   const contentRef = useRef(null)
   return (
     <div className={`animated ${animation}`}>
-      <CotentHeader title={title} description={description} />
+      <ContentHeader title={title} description={description} isFullHeight/>
       <ContentBody
         images={images}
         tags={tags}

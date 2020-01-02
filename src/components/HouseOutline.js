@@ -27,10 +27,10 @@ const HouseOutline = ({
 
   // useEffect(() => isIntro ? setHasOutroedOnce(false) : setHasOutroedOnce(true), [isIntro])
   return (
-    <div className="container">
+    <div className="container is-hidden-mobile is-visible-tablet">
       {/* <img src={houseOutline} style={{maxWidth: '500px'}}/> */}
       <div className="columns is-vcentered is-gapless">
-        <div className="column is-hidden-mobile">
+        <div className="column">
           <svg
             width="593"
             height="690"
@@ -96,7 +96,7 @@ const HouseOutline = ({
             />
           </svg>
         </div>
-        <div className="column diwya-slogan">
+        <div className="column diwya-slogan section">
           <h1
             className={`title has-text-primary is-size-1 animated ${sloganAnimation}`}
             style={{ animationDelay: '0.4s' }}

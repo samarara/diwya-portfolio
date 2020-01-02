@@ -1,8 +1,36 @@
 import React from 'react'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
+import TransitionLink from 'gatsby-plugin-transition-link'
 import Layout from '../../components/Layout'
+import ContentHeader from '../../components/ContentHeader'
+import withAnimation from '../../components/IndexPageHoc'
+
+const Tags = ({ tags }) => (
+  <div className="field is-grouped is-grouped-multiline">
+    {tags.map(tag => (
+      <div key={tag.fieldValue} className="control">
+        <div className="tags are-large has-addons">
+            <span className="tag is-light is-link">
+              <TransitionLink 
+                to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                exit={{ length: 1 }}
+                entry={{ length: 1, delay: 0.2 }}
+              >
+                {tag.fieldValue}
+              </TransitionLink>
+            </span>
+            <span className="tag is-black" >
+              {tag.totalCount}
+            </span>
+        </div>
+      </div>
+    ))}
+  </div>
+)
+
+
 
 const TagsPage = ({
   data: {
@@ -12,33 +40,29 @@ const TagsPage = ({
     },
   },
 }) => (
-  <Layout>
+  // <Layout>
+  <>
+    <ContentHeader title="# tags">
+      {/* <Tags tags={group} /> */}
+    </ContentHeader>
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
       <div className="container content">
         <div className="columns">
           <div
-            className="column is-10 is-offset-1"
-            style={{ marginBottom: '6rem' }}
+            className="column"
+            // style={{ marginBottom: '6rem' }}
           >
-            <h1 className="title is-size-2 is-bold-light">Tags</h1>
-            <ul className="taglist">
-              {group.map(tag => (
-                <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    {tag.fieldValue} ({tag.totalCount})
-                  </Link>
-                </li>
-              ))}
-            </ul>
+           <Tags tags={group} />
           </div>
         </div>
       </div>
     </section>
-  </Layout>
+    </>
+  // </Layout>
 )
 
-export default TagsPage
+export default withAnimation(TagsPage)
 
 export const tagPageQuery = graphql`
   query TagsQuery {

@@ -7,59 +7,42 @@ import Layout from '../components/Layout'
 import ContentTags from '../components/ContentTags'
 import BackToTop from '../components/BackToTop'
 import Content, { HTMLContent } from '../components/Content'
+import ContentHeader from '../components/ContentHeader'
 import { withCustomAnimation } from '../components/IndexPageHoc'
 
 const ContentHeaderProjectDetails = ({ role, team, client }) => (
   <>
     {role && (
       <div className="is-spaced">
-        <strong className="subtitle is-size-6-desktop is-size-6-tablet is-size-7-mobile serif">
+        <strong className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           Role:&nbsp;
         </strong>
-        <span className="subtitle is-size-6-desktop is-size-6-tablet is-size-7-mobile serif">
+        <span className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           {role}
         </span>
       </div>
     )}
     {team && (
       <div className="is-spaced">
-        <strong className="subtitle is-size-6-desktop is-size-6-tablet is-size-7-mobile serif">
+        <strong className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           Team:&nbsp;
         </strong>
-        <span className="subtitle is-size-6-desktop is-size-6-tablet is-size-7-mobile serif">
+        <span className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           {team}
         </span>
       </div>
     )}
     {client && (
       <div className="is-spaced">
-        <strong className="subtitle is-size-6-desktop is-size-6-tablet is-size-7-mobile serif">
+        <strong className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           Client:&nbsp;
         </strong>
-        <span className="subtitle is-size-6-desktop is-size-6-tablet is-size-7-mobile serif">
+        <span className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           {client}
         </span>
       </div>
     )}
   </>
-)
-const ContentHeader = ({ title, role, team, client }) => (
-  <section className="hero is-primary is-fullheight">
-    <div className="hero-body">
-      <div className="container">
-        <h1 className="title is-size-1-desktop is-size-1-tablet is-size-3-mobile is-spaced">
-          {title}
-        </h1>
-        <div className="subtitle is-size-3-desktop is-size-3-tablet is-size-5-mobile serif">
-          <ContentHeaderProjectDetails
-            role={role}
-            team={team}
-            client={client}
-          />
-        </div>
-      </div>
-    </div>
-  </section>
 )
 
 const ContentBody = ({ tags, content, helmet, contentComponent }) => {
@@ -91,7 +74,14 @@ const CaseStudyTemplate = ({
   animation,
 }) => (
   <div className={`animated ${animation}`}>
-    <ContentHeader title={title} role={role} team={team} client={client} />
+
+    <ContentHeader title={title} isFullHeight>
+      <ContentHeaderProjectDetails
+        role={role}
+        team={team}
+        client={client}
+      />
+      </ContentHeader>
     <ContentBody
       content={content}
       contentComponent={contentComponent}
