@@ -1,19 +1,23 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: Hello! I'm Diwya.
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+# About Diwya _(Div-ya)_
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+My passion for contemporary art and photography drove me into product design. I try to approach my personal artwork and product design in the same way, focusing on the intentionality behind my decisions to make my audience (or users) feel empowered. 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+I hope to design and create for social good, and I aspire to become a teacher/mentor in this industry. I’m able to do this right now by leading [UWaterloo’s design club UW/UX](https://www.facebook.com/uwuxwaterloo/) and volunteering at events like [Make-A-Mark](https://letsmakeamark.org/sf/). Outside of design, I enjoy baking, tea-making, dance and basketball. 
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Please [contact me](diwya.desilva@gmail.com) if you’d like to chat!
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+![](/img/uw-ux.jpg)
+
+
+
+# Artist Statement
+
+> Growing up in an apartment building for most of my life has changed my perspective on the places and things that surround us. There was no intent for architectural beauty or purpose in that building, but the experiences that it had undergone through time could not be replicated. The building was unique, interactive, and played an integral role in many people’s lives, including my own. It captured and connected everything about our world in one structure, and in result, I viewed it as a work of art. Since then, I have gained an appreciation for all of my surroundings. Moreover, I view humans and the places that we experience as one entity, because we are a product of all our interactions with our surroundings and every surrounding has a distinct identity through the people that has interacted with it. The central theme for all of my artwork documents this relationship where humans and our external environment can be thought of as one work of art. 
+
+![](/img/mvimg_20191130_122223.jpg)
+
+> Photography is a key medium that I use, because like every place or structure, the photograph captures a specific moment in time that cannot be replicated, and therefore increases our awareness of the art that encompasses us.
