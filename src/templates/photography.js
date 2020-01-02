@@ -13,7 +13,7 @@ import withAnimation, { withCustomAnimation } from '../components/IndexPageHoc'
 const ImageGrid = ({ images }) => {
   return images
     .reduce((acc, curr, index, sourceArray) => {
-      console.log('index', index)
+      // console.log('index', index)
       const imageRow = [sourceArray[index], sourceArray[index + 1]]
       acc.push(imageRow)
 
@@ -126,7 +126,7 @@ const ContentBody = ({
   ref,
 }) => {
   const PostContent = contentComponent || Content
-  console.log(images)
+  // console.log(images)
   // testing with immutable data first
   // need to copy the arrays in to new data sets after
   const imageGroupOne = images.slice(0, 2)
@@ -196,7 +196,7 @@ export { PhotographyTemplate }
 
 const Photography = ({ data, animation }) => {
   const { markdownRemark: post } = data
-  console.log('data', data)
+  // console.log('data', data)
   return (
     <PhotographyTemplate
       content={post.html}

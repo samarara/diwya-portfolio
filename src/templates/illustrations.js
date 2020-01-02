@@ -61,7 +61,7 @@ import { PhotographyTemplate } from '../templates/photography'
 
 const Illustration = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log('data', data)
+  // console.log('data', data)
   return (
     <Layout>
       <PhotographyTemplate
