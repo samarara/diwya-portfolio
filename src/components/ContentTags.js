@@ -1,18 +1,24 @@
 import React from 'react'
 import { kebabCase } from 'lodash'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
+import TransitionLink from 'gatsby-plugin-transition-link'
 
 const ContentTags = ({ tags }) =>
   tags && tags.length ? (
     <div style={{ marginTop: `4rem` }}>
-      <h4>Tags</h4>
-      <ul className="taglist">
+      <div className="tags are-large">
         {tags.map(tag => (
-          <li key={tag + `tag`}>
-            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-          </li>
+          <span key={`tag-${tag}`} className="tag">
+            <TransitionLink 
+              to={`/tags/${kebabCase(tag)}/`} 
+              exit={{ length: 1 }}
+              entry={{ length: 1, delay: 0.2 }}
+            >
+              {tag}
+            </TransitionLink>
+          </span>
         ))}
-      </ul>
+      </div>
     </div>
   ) : null
 

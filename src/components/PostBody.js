@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import TransitionLink from 'gatsby-plugin-transition-link'
 
 const PostBody = ({ excerpt, to, title }) => (
-  <div className="column">
+  <div className="column section">
     <h1 className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile">
       <TransitionLink
         className="has-text-primary"
