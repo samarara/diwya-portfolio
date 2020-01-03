@@ -21,8 +21,6 @@ One of the primary goals in addition to improving the overall usability of Field
 
 Zendesk is a common ticketing tool used to gage what customers request for Field Reports product. It was discovered that one of the most requested feature items to be improved on since its initial release in 2017 is weather on Field Reports. An image of the old weather on Field Reports is shown below. 
 
-![Old Weather on Field Reports Web](/img/weatherwebold.png)
-
 Users asked for more detailed information on how Weather impacted a construction site, specifically for “three time a day” weather on Field Reports. 
 
 > If you could notate the weather throughout the day….. so if its sunny in the morning when you start your day, and turned to rain in the afternoon, it would be helpful to be able to log in and update weather…..
@@ -55,16 +53,12 @@ After gaining some background knowledge, I decided to interview Customer Advocat
 
 After gaining some background knowledge, I decided to interview Customer Advocates (CA’s). CA’s  are people employed by PlanGrid with a construction background that can provide more in- depth knowledge on what the practices and pain points a user may go through on the field.
 
-![Screenshot ](/img/screen-shot-2019-10-01-at-10.43.12-pm-1.png)
-
 During a site visit, I also got the opportunity to talk to a Field Manager on who frequently checks Field Reports during the end of a work day. Some of the most notable things mentioned were:
 
 * Yes they need progress of weather throughout the day
 * Temperature – is important. For example there is a specific temperature range needed for grout. Safety concerns is a priority if weather is too hot. 
 * Rain/precipitation: Can cause delays, no work gets done (it is needed on the feature) 
 * Wind conditions can also be very important since they can impact material handling and crane picks greatly on the job site.
-
-![](/img/img_2637.jpg)
 
 Many ideas came to mind after hearing the requests and concerns by customer advocates, but I knew it was important to check with the engineering team to determine the feasibility of some of their requests. For example, the API e were planning to use was DarkSky, so I began my research on what weather statistics the API was able to provide. This lead to the following chart created below:
 
@@ -81,12 +75,8 @@ This allowed me to come to the conclusion that precipitation should be shown as 
 
 I then synthesized all the feedback I received from customer advocates and the engineering team into the following table which highlights the feature requirements, things that were considered but not included, and items that customers would want but were too complex to implement for this new iteration of weather on Field Reports. This table allowed everyone on the team to better understand the scope of the project, and gave me a clear plan as I began the UI mockups.
 
-![](/img/screen-shot-2019-10-02-at-3.00.54-pm.png)
-
 ## Design Iterations
 
 When designing UI mock-ups, these are the four steps I took:
 
-_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_ 
-
-![](/img/screen-shot-2019-10-03-at-6.30.37-am.png)
+_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_
