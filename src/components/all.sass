@@ -168,7 +168,7 @@ $button-text-hover-color: #a9a9a9
 
 // button overries
 .button.is-white
-  transition: color 0.5s
+  transition: color 0.3s
 .button.is-white:hover
   background-color: unset
   color: #a9a9a9
@@ -177,6 +177,23 @@ $button-text-hover-color: #a9a9a9
   color: $primary
 .nav-item-override:hover, .nav-item-override:focus, .nav-item-override:focus-within, .nav-item-override:is-active
   color: #dadada !important//$primary-invert
+
+a.navbar-item, .post-title
+  transition: color 0.3s
+
+.post-title
+  color: #292929 !important
+
+a.navbar-item:focus, 
+a.navbar-item:focus-within, 
+a.navbar-item:hover, 
+a.navbar-item.is-active,
+.post-title:focus, 
+.post-title:focus-within, 
+.post-title:hover, 
+.post-title.is-active
+  color: #a9a9a9 !important
+
 
 .container-margin
   margin: 0 2rem
@@ -385,9 +402,18 @@ $button-text-hover-color: #a9a9a9
 
 #case-study-content > .container > .content > p,
 #case-study-content > .container > .content > ul,
-#case-study-content > .container > .content >a
+#case-study-content > .container > .content > ol,
+#case-study-content > .container > .content > a
   font-family: $family-serif
   @extend .is-size-5-desktop
+
+#case-study-content > .container > .content > table
+  font-family: $family-serif !important
+  @extend .table
+  color: green !important
+
+td
+  color: green !important
 
 blockquote
   width: 100vw
