@@ -34,7 +34,6 @@ export default ({ animation }) => {
               title
               templateKey
               date(formatString: "MMMM DD, YYYY")
-              featuredpost
               description
               project_details {
                 client

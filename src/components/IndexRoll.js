@@ -115,7 +115,6 @@ export default ({ animation }) => {
               title
               templateKey
               date(formatString: "MMMM DD, YYYY")
-              featuredpost
               description
               featuredimage {
                 childImageSharp {
