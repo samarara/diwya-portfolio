@@ -53,7 +53,6 @@ query TagPage($tag: String) {
           title
           templateKey
           date(formatString: "MMMM DD, YYYY")
-          featuredpost
           description
           featuredimage {
             childImageSharp {

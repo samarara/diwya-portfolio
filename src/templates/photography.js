@@ -1,9 +1,7 @@
 import React, { useRef } from 'react'
 import Helmet from 'react-helmet'
-import { kebabCase } from 'lodash'
 import { graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
-import Layout from '../components/Layout'
+import Image from '../components/Image'
 import ContentHeader from '../components/ContentHeader'
 import ContentTags from '../components/ContentTags'
 import BackToTop from '../components/BackToTop'
@@ -24,7 +22,7 @@ const ImageGrid = ({ images }) => {
     .map((el, index) => (
       <div className="columns">
         <div className="column">
-          <Img
+          <Image
             src={el[0].image.publicURL}
             fluid={el[0].image.childImageSharp.fluid}
           />
@@ -32,7 +30,7 @@ const ImageGrid = ({ images }) => {
 
         {!!el[1] ? (
           <div className="column">
-            <Img
+            <Image
               src={el[1].image.publicURL}
               fluid={el[1].image.childImageSharp.fluid}
             />
@@ -84,38 +82,13 @@ const PhotoStatementBanner = ({ content }) => (
   </section>
 )
 
-// const ContentHeader = ({ title, description }) => (
-//   <section className="hero is-light is-fullheight">
-//     <div className="hero-body">
-//       <div className="container">
-//         <h1 className="title is-size-1">{title}</h1>
-//         <h2 className="subtitle serif">{description}</h2>
-//       </div>
-//     </div>
-//   </section>
-// )
-
 const ContentImages = ({ images }) =>
   images.map(el => (
     <>
-      <Img src={el.image.publicURL} fluid={el.image.childImageSharp.fluid} />
+      <Image src={el.image.publicURL} fluid={el.image.childImageSharp.fluid} />
       <br />
     </>
   ))
-
-// const ContentTags = ({ tags }) =>
-//   tags && tags.length ? (
-//     <div style={{ marginTop: `4rem` }}>
-//       <h4>Tags</h4>
-//       <ul className="taglist">
-//         {tags.map(tag => (
-//           <li key={tag + `tag`}>
-//             <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   ) : null;
 
 const ContentBody = ({
   images,
@@ -136,8 +109,8 @@ const ContentBody = ({
       <section className="section">
         {helmet || ''}
         <div className="container content">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
+          <div className="columns is-centered">
+            <div className="column is-10">
               <ContentImages images={imageGroupOne} />
               {/* <PhotoStatement content={content}/> */}
               {/* <ContentImages images={imageGroupTwo} /> */}
@@ -150,8 +123,8 @@ const ContentBody = ({
       <PhotoStatementBanner content={content} />
       <section className="section">
         <div className="container content">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
+          <div className="columns is-centered">
+            <div className="column is-10">
               {/* <ContentImages images={imageGroupOne} /> */}
               {/* <PhotoStatement content={content}/> */}
               <ContentImages images={imageGroupTwo} />

@@ -48,18 +48,21 @@ const ContentHeaderProjectDetails = ({ role, team, client }) => (
 const ContentBody = ({ tags, content, helmet, contentComponent }) => {
   const PageContent = contentComponent || Content
   return (
-    <>
-      <section className="section" id="case-study-content">
+    <div>
+      <section className="section columns is-centered" id="case-study-content">
         {helmet || ''}
-        <div className="container">
+        <div className="container column is-10">
           <PageContent className="content" content={content} />
+          <ContentTags tags={tags} />
         </div>
       </section>
-      <section className="section">
-        <ContentTags tags={tags} />
-      </section>
+      {/* <section className="section columns is-centered">
+        <div className="container column is-10">
+          <ContentTags tags={tags} />
+        </div>
+      </section> */}
       <BackToTop />
-    </>
+    </div>
   )
 }
 const CaseStudyTemplate = ({

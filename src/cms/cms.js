@@ -2,13 +2,13 @@ import CMS from 'netlify-cms-app'
 import React from 'react'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 import cloudinary from 'netlify-cms-media-library-cloudinary'
-
+// import styles from '../components/all.sass'
 import AboutPagePreview from './preview-templates/AboutPagePreview'
-import BlogPostPreview from './preview-templates/BlogPostPreview'
+// import BlogPostPreview from './preview-templates/BlogPostPreview'
 // import ProductPagePreview from './preview-templates/ProductPagePreview'
 // import IndexPagePreview from './preview-templates/__IndexPagePreview'
 import PhotographyPreview from './preview-templates/PhotographyPagePreview'
-
+import CaseStudyPreview from './preview-templates/CaseStudyPreview'
 import BannerImage from '../components/BannerImage'
 
 // register full banner image component
@@ -39,14 +39,15 @@ import BannerImage from '../components/BannerImage'
 //     );
 //   }
 // });
-
-// CMS.registerPreviewStyle('../components/all.sass')
+// console.log('styles', styles)
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
+CMS.registerPreviewStyle('./cms.css')
 
 // CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 // CMS.registerPreviewTemplate('products', ProductPagePreview)
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
+// CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('photo', PhotographyPreview)
 CMS.registerPreviewTemplate('illustrations', PhotographyPreview)
+CMS.registerPreviewTemplate('case-studies', CaseStudyPreview)
