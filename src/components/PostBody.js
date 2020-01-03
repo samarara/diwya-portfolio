@@ -6,7 +6,7 @@ const PostBody = ({ excerpt, to, title }) => (
   <div className="column section">
     <h1 className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile">
       <TransitionLink
-        className="has-text-primary"
+        className="post-title"
         to={to}
         exit={{ length: 1 }}
         entry={{ length: 1, delay: 0.2 }}

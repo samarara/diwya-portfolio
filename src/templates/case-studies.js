@@ -14,7 +14,7 @@ const ContentHeaderProjectDetails = ({ role, team, client }) => (
   <>
     {role && (
       <div className="is-spaced">
-        <strong className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
+        <strong className="is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           Role:&nbsp;
         </strong>
         <span className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
@@ -24,7 +24,7 @@ const ContentHeaderProjectDetails = ({ role, team, client }) => (
     )}
     {team && (
       <div className="is-spaced">
-        <strong className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
+        <strong className="is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           Team:&nbsp;
         </strong>
         <span className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
@@ -34,7 +34,7 @@ const ContentHeaderProjectDetails = ({ role, team, client }) => (
     )}
     {client && (
       <div className="is-spaced">
-        <strong className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
+        <strong className="is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">
           Client:&nbsp;
         </strong>
         <span className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">

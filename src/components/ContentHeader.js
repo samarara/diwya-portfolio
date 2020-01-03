@@ -7,7 +7,7 @@ const ContentHeader = ({ title, description, children, isFullHeight }) => {
     <div className="hero-body">
       <div className="container">
         <h1 className="title title is-size-1-desktop is-size-1-tablet is-size-3-mobile is-spaced">{title}</h1>
-        <h2 className="subtitle is-size-3-desktop is-size-4-tablet is-size-5-mobile serif">{description}</h2>
+        <h2 className="subtitle is-size-5-desktop is-size-6-tablet is-size-7-mobile serif">{description}</h2>
         <div className="serif">{children}</div>
       </div>
     </div>
