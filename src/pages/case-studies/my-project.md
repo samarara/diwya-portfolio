@@ -7,7 +7,7 @@ project-details:
   client: 'PlanGrid, an AutoDesk Company'
   role: Product Design Intern
   team: Field Reports
-featuredimage: /img/img_2637.jpg
+featuredimage: /img/case_study_cover_2.jpg
 tags:
   - case-studies product-strategy user-interviews visual-design
 ---
@@ -67,10 +67,9 @@ During a site visit, I also got the opportunity to talk to a Field Manager on wh
 ![](/img/img_2637.jpg)
 
 Many ideas came to mind after hearing the requests and concerns by customer advocates, but I knew it was important to check with the engineering team to determine the feasibility of some of their requests. For example, the API e were planning to use was DarkSky, so I began my research on what weather statistics the API was able to provide. This lead to the following chart created below:
----
 
 | Weather Statistic Type | Previous Weather                                                                            | Current Weather                                                              | Future Weather                                                                                | Other                                                   |
-|------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| ---------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | Temperature            | Provides temperature at every time                                                          | Provides current temperature                                                 | Provides predicted <br>temperature (not just<br>Highs and Lows, but the <br>forecast as well) |                                                         |
 | Precipitation          | Provides:<br>- precipitation probability<br>- total accumulated precipitation<br>  that day | Provides <br>- precipitation probability<br>- estimated accumulation<br><br> | Provides<br>probability <br>percentage                                                        | Rain has total<br>amount of predicted<br>inches per day |
 | Wind                   | Provides wind in mph at each <br>point in time                                              | Provides wind in mph                                                         | Provides predicted<br>wind in mph                                                             |                                                         |
@@ -88,6 +87,6 @@ I then synthesized all the feedback I received from customer advocates and the e
 
 When designing UI mock-ups, these are the four steps I took:
 
-**_Step 1: Look at what competitors are doing for our feature, and other similar UI patterns_** 
+_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_ 
 
 ![](/img/screen-shot-2019-10-03-at-6.30.37-am.png)
