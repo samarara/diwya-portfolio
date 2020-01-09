@@ -7,28 +7,10 @@ const HouseOutline = ({
   houseAnimation,
   sloganAnimation,
 }) => {
-  // const headerRef = useRef(null)
-  // const houseAnimation = useAnimation(transitionStatus, "bounceInDown", "bounceOutUp");
-  // const sloganAnimation = useAnimation(transitionStatus, "bounceInRight", "bounceOutRight");
-  console.log(
-    'house transition',
-    transitionStatus,
-    houseAnimation,
-    sloganAnimation
-  )
-  // const [hasOutroedOnce, setHasOutroedOnce] = useState(false);
-  // const houseAnimation = isIntro && transitionStatus !== "exiting" ? "bounceInDown" : "bounceOutUp"
-  // const sloganAnimation = isIntro && transitionStatus !== "exiting" ? "bounceInRight" : "bounceOutRight"
-  const animationDelay = delay =>
-    transitionStatus.includes('enter')
-      ? { animationDelay: delay }
-      : { animationDelay: delay }
-  // const handleOnTransitionEnd = e => console.log('headerRef', e);
+  const animationDelay = delay => ({ animationDelay: delay })
 
-  // useEffect(() => isIntro ? setHasOutroedOnce(false) : setHasOutroedOnce(true), [isIntro])
   return (
     <div className="container is-hidden-mobile is-visible-tablet">
-      {/* <img src={houseOutline} style={{maxWidth: '500px'}}/> */}
       <div className="columns is-vcentered is-gapless">
         <div className="column">
           <svg

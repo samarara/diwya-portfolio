@@ -7,7 +7,7 @@ const withAnimation = Component => props => {
   const { transitionStatus, path } = props
   console.log('is index page', props)
   console.log('with animation', transitionStatus)
-  const animation = useAnimation(transitionStatus, 'slideInUp', 'slideOutUp')
+  const animation = useAnimation(transitionStatus, 'fadeIn', 'fadeOut')
   const isIndexPage = path === '/'
   return (
     <Layout>
@@ -46,23 +46,23 @@ const withHouseAnimation = Component => props => {
   const houseAnimation = useDetailedAnimation(
     transitionStatus,
     'bounceInDown',
-    '',
+    'bounceInDown',
     'bounceOutUp',
-    ''
+    'bounceOutUp'
   )
   const sloganAnimation = useDetailedAnimation(
     transitionStatus,
     'bounceInRight',
-    '',
+    'bounceInRight',
     'bounceOutRight',
-    ''
+    'bounceOutRight'
   )
   const pageAnimation = useDetailedAnimation(
     transitionStatus,
-    '',
-    'slideInUp',
-    '',
-    'slideOutUp'
+    'fadeIn',
+    'fadeIn',
+    'fadeOut',
+    'fadeOut'
   )
 
   return (
