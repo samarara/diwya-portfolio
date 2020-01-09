@@ -1,4 +1,5 @@
 import React, { useEffect, forwardRef } from 'react'
+import TransitionLink from 'gatsby-plugin-transition-link'
 import PropTypes from 'prop-types'
 import PostHeader from './PostHeader'
 import PostBody from './PostBody'
