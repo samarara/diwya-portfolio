@@ -12,17 +12,19 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
+          {/* <img
             src={logo}
             alt="Kaldi"
             style={{ width: '14em', height: '10em' }}
-          />
+          /> */}
+          <h1 className="subtitle serif">designed and developed with love by @samarara</h1>
+
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div className="columns">
               <div className="column is-4">
-                <section className="menu">
+                {/* <section className="menu">
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
@@ -55,10 +57,10 @@ const Footer = class extends React.Component {
                       </a>
                     </li>
                   </ul>
-                </section>
+                </section> */}
               </div>
               <div className="column is-4">
-                <section>
+                {/* <section>
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
@@ -71,7 +73,7 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                   </ul>
-                </section>
+                </section> */}
               </div>
               <div className="column is-4 social">
                 <a title="facebook" href="https://facebook.com">
