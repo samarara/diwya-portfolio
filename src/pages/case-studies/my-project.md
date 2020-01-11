@@ -63,14 +63,9 @@ During a site visit, I also got the opportunity to talk to a Field Manager on wh
 * Rain/precipitation: Can cause delays, no work gets done (it is needed on the feature) 
 * Wind conditions can also be very important since they can impact material handling and crane picks greatly on the job site.
 
-Many ideas came to mind after hearing the requests and concerns by customer advocates, but I knew it was important to check with the engineering team to determine the feasibility of some of their requests. For example, the API e were planning to use was DarkSky, so I began my research on what weather statistics the API was able to provide. This lead to the following chart created below:
+![](/img/old_weather_port.png)
 
-| Weather Statistic Type | Previous Weather                                                                            | Current Weather                                                              | Future Weather                                                                                | Other                                                   |
-| ---------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Temperature            | Provides temperature at every time                                                          | Provides current temperature                                                 | Provides predicted <br>temperature (not just<br>Highs and Lows, but the <br>forecast as well) |                                                         |
-| Precipitation          | Provides:<br>- precipitation probability<br>- total accumulated precipitation<br>  that day | Provides <br>- precipitation probability<br>- estimated accumulation<br><br> | Provides<br>probability <br>percentage                                                        | Rain has total<br>amount of predicted<br>inches per day |
-| Wind                   | Provides wind in mph at each <br>point in time                                              | Provides wind in mph                                                         | Provides predicted<br>wind in mph                                                             |                                                         |
-| Humidity               | Provides percentage                                                                         | Provides humidity in percentage                                              | Provides percentage                                                                           |                                                         |
+Many ideas came to mind after hearing the requests and concerns by customer advocates, but I knew it was important to check with the engineering team to determine the feasibility of some of their requests. For example, the API e were planning to use was DarkSky, so I began my research on what weather statistics the API was able to provide. This lead to the following chart created below:
 
 This allowed me to come to the conclusion that precipitation should be shown as estimated accumulation followed by actual accumulation on a Field Report, as it was not simple or practical to show accumulation in chunks of time as the API does not support it.
 
@@ -78,8 +73,10 @@ This allowed me to come to the conclusion that precipitation should be shown as 
 
 I then synthesized all the feedback I received from customer advocates and the engineering team into the following table which highlights the feature requirements, things that were considered but not included, and items that customers would want but were too complex to implement for this new iteration of weather on Field Reports. This table allowed everyone on the team to better understand the scope of the project, and gave me a clear plan as I began the UI mockups.
 
+![](/img/synthesize_table.png)
+
 ## Design Iterations
 
 When designing UI mock-ups, these are the four steps I took:
 
-_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_
+**_Step 1: Look at what competitors are doing for our feature, and other similar UI patterns_**
