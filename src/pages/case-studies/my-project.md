@@ -9,7 +9,10 @@ project-details:
   team: Field Reports
 featuredimage: /img/case_study_cover_2.jpg
 tags:
-  - case-studies product-strategy user-interviews visual-design
+  - case-studies
+  - product-strategy
+  - user-interviews
+  - visual-design
 ---
 # Background
 
