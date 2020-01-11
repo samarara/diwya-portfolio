@@ -5,7 +5,7 @@ date: 2019-12-08T22:23:57.495Z
 description: >-
   This series explores the sentimentality humans have on certain environments
   that also reflect on their sense of self. 
-featuredimage: /img/chantel4.jpg
+featuredimage: /img/editforportfolio1.jpg
 images:
   - image: /img/culminating-3.jpg
     text: /
