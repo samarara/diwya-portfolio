@@ -103,8 +103,18 @@ A piece of feedback that I received from the mobile engineering team was to keep
 
 Below are the final designs that are launched on the app on iOS, Android and web:
 
+![](/img/final-designs.png)
 
+# Next Steps
 
+Something really valuable that every PlanGrid product team does is validate their design decisions through frequent user testing. I conducted a couple of user testing sessions validating a previous information architecture change. During that testing session, I also noticed that the user was having trouble finding the “Next’ button in the template creation modal, as the modal height was too big for his smaller screen size.
 
+![]()
+
+As a result, during the time where I was adding the weather component to this modal, I also tried to fix the modal height. The new visual design with updated weather can be seen in the following GIF:
+
+![](/img/template-creation.gif)
+
+Along with making changes to the user interface of Field Reports, I also got to try more of print design. A use case of Field Reports common among project managers is that they like to print their report to bring to meetings. Similar to how there were many Zendesk comments asking for a more detailed view of weather on a Field Report, there were also comments asking for a better visual design on the actual print version. This extrapolated to another project I worked on where I tried to improve the exporting process and unify the design of printed reports on PlanGrid. That case study will be coming soon, but for now here is what the improved print version of a Field Report looks like, with weather added to it:
 
 ****
