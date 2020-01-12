@@ -99,7 +99,7 @@ One of main design decisions/challenges I faced during this project was where to
 
 A piece of feedback that I received from the mobile engineering team was to keep the same weather component/placement of weather fields the same for iOS and Android. This was not the original design as it allows more white space on the right hand side than intended, but having an easier implementation process was one of my priorities, as it did not effect the overall readability.
 
-
+![](/img/redlining.png)
 
 ****
 
