@@ -1,12 +1,7 @@
 ---
 templateKey: about-page
 title: About Diwya (Div-ya)
-featuredimage: /img/sienna1.jpg
-images:
-  - image: /img/alana2.jpg
-    text: I'm awesome
-  - image: /img/alex2.jpg
-    text: 'No really, I''m awesome'
+featuredimage: /img/me-photos.jpg
 artist-statement-title: Artist Statement
 artist-statement: >-
   Growing up in an apartment building for most of my life has changed my
@@ -28,36 +23,14 @@ artist-statement: >-
   the photograph captures a specific moment in time that cannot be replicated,
   and therefore increases our awareness of the art that encompasses us.
 ---
-  My passion for contemporary art and photography drove me into product design.
+# Hello! I’m Diwya.
 
-  I try to approach my personal artwork and product design in the same way,
+I’m a third year student at the University of Waterloo studying Systems Design Engineering.  I also love product design and have gotten the opportunity to intern at Autodesk (PlanGrid), TD’s Innovation Lab, and Scotiabank. 
 
-  focusing on the intentionality behind my decisions to make my audience (or
+Check out my resume or my [LinkedIn](https://www.linkedin.com/in/diwyadesilva/) to learn more about my design experience. 
 
-  users) feel empowered. 
+My passion for contemporary art and photography drove me into product design. I try to approach my personal artwork and design in the same way; focusing on the intentionality behind my decisions to make my audience (or users) feel empowered. 
 
+I hope to design and create for social good, and I aspire to become a teacher or mentor in this industry. I’m able to help out right now by leading [UWaterloo’s design club UW/UX](https://www.facebook.com/uwuxwaterloo/) and volunteering at events like [Make-A-Mark. ](https://letsmakeamark.org/)
 
-
-
-
-  I hope to design and create for social good, and I aspire to become a
-
-  teacher/mentor in this industry. I’m able to do this right now by leading
-
-  \[UWaterloo’s design club UW/UX](https://www.facebook.com/uwuxwaterloo/) and
-
-  volunteering at events like \[Make-A-Mark](https://letsmakeamark.org/sf/).
-
-  Outside of design, I enjoy baking, tea-making, dance and basketball. 
-
-
-
-
-
-  Please \[contact me](diwya.desilva@gmail.com) if you’d like to chat!
-
-
-
-
-
-  !\[](/img/uw-ux.jpg)
+Outside of design, I enjoy baking, tea-making, and  basketball. Please [contact me](diwya.desilva@gmail.com) if you’d like to chat!
