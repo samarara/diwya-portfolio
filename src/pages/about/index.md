@@ -2,6 +2,11 @@
 templateKey: about-page
 title: Hello! I’m Diwya.
 featuredimage: /img/me-photos.jpg
+images:
+  - image: /img/alana2.jpg
+    text: I'm awesome
+  - image: /img/alex2.jpg
+    text: For real
 artist-statement-title: Artist Statement
 artist-statement: >-
   Growing up in an apartment building for most of my life has changed my
