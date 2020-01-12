@@ -81,17 +81,17 @@ I then synthesized all the feedback I received from customer advocates and the e
 
 When designing UI mock-ups, these are the four steps I took:
 
-**_Step 1: Look at what competitors are doing for our feature, and other similar UI patterns_**
+_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_
 
-**_Step 2: Look at what’s currently on the design system to get more context on the visual style decisions made prior, and create new assets I may need for this feature_**
+_**Step 2: Look at what’s currently on the design system to get more context on the visual style decisions made prior, and create new assets I may need for this feature**_
 
 ![](/img/weather_illustrations.png)
 
-**_Step 3: Draw some low-fidelity mockups to provide myself a general outline on how organize information_**
+_**Step 3: Draw some low-fidelity mockups to provide myself a general outline on how organize information**_
 
 ![](/img/low-fi-wireframes.png)
 
-**_Step 4: Create hi-fi solutions, get feedback from designers, engineers, and the product team and continue to iterate until we reach a final design for MVP_** 
+_**Step 4: Create hi-fi solutions, get feedback from designers, engineers, and the product team and continue to iterate until we reach a final design for MVP**_ 
 
 One of main design decisions/challenges I faced during this project was where to place the actual Weather component. In terms of hierarchy, the ‘Worklog’, ‘Materials’ and ‘Equipment’ section of a Daily Report are far more important than Weather. This would lead to placing the component in the column view as shown in the left wireframe. However, one of the main reasons why Weather is included at all is because it provides context for the ‘Worklog’ which leads us to placing it above the ‘Worklog’ in terms of visual hierarchy. Another downside to the column view is that being below the references section pushes down the ‘Weather’ component as people add more image/task references. Because of these reasons, I came back to the original problem statement of this feature: _How might we show the impact of weather on a construction site?_ which lead to choosing the header version, as it prefaces all the other events that were recorded in order to provide the context of weather day to day.
 
@@ -118,3 +118,11 @@ As a result, during the time where I was adding the weather component to this mo
 Along with making changes to the user interface of Field Reports, I also got to try more of print design. A use case of Field Reports common among project managers is that they like to print their report to bring to meetings. Similar to how there were many Zendesk comments asking for a more detailed view of weather on a Field Report, there were also comments asking for a better visual design on the actual print version. This extrapolated to another project I worked on where I tried to improve the exporting process and unify the design of printed reports on PlanGrid. That case study will be coming soon, but for now here is what the improved print version of a Field Report looks like, with weather added to it:
 
 ![](/img/print_design.png)
+
+# Key Learnings
+
+Constant feedback is important, whether that is with research, design, or the engineering team. It saves a lot more time if one can understand the feasibility of there design ideas and what is prioritized among the product team as a whole, before beginning hi-fidelity design solutions.
+
+Always look for opportunities outside of my current design project or work to improve the product as a whole. Looking at user metrics and feedback or doing user testing is how I discovered opportunities such as reducing the modal height and improving the appearance of an exported report, which allowed me to better the product at a larger scale.
+
+Finally, when having difficulty with a design decision always go back to the “Why?” of the project. The problem statement: How might we better show the impact of weather on a construction site on a daily basis? was the lens in which I conducted my design process, and became a useful guide whenever I had to make any design decisions.
