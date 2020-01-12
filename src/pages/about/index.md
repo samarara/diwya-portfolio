@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About Diwya (Div-ya)
+title: Hello! I’m Diwya.
 featuredimage: /img/me-photos.jpg
 artist-statement-title: Artist Statement
 artist-statement: >-
@@ -23,11 +23,9 @@ artist-statement: >-
   the photograph captures a specific moment in time that cannot be replicated,
   and therefore increases our awareness of the art that encompasses us.
 ---
-# Hello! I’m Diwya.
-
 I’m a third year student at the University of Waterloo studying Systems Design Engineering.  I also love product design and have gotten the opportunity to intern at Autodesk (PlanGrid), TD’s Innovation Lab, and Scotiabank. 
 
-Check out my resume or my [LinkedIn](https://www.linkedin.com/in/diwyadesilva/) to learn more about my design experience. 
+Check out my [LinkedIn](https://www.linkedin.com/in/diwyadesilva/) to learn more about my design experience. 
 
 My passion for contemporary art and photography drove me into product design. I try to approach my personal artwork and design in the same way; focusing on the intentionality behind my decisions to make my audience (or users) feel empowered. 
 
