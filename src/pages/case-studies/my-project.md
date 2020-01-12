@@ -82,3 +82,17 @@ I then synthesized all the feedback I received from customer advocates and the e
 When designing UI mock-ups, these are the four steps I took:
 
 **_Step 1: Look at what competitors are doing for our feature, and other similar UI patterns_**
+
+**_Step 2: Look at what’s currently on the design system to get more context on the visual style decisions made prior, and create new assets I may need for this feature_**
+
+![](/img/weather_illustrations.png)
+
+**_Step 3: Draw some low-fidelity mockups to provide myself a general outline on how organize information_**
+
+![](/img/low-fi-wireframes.png)
+
+**__**
+
+**__**
+
+**__**
