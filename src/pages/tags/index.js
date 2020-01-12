@@ -12,25 +12,21 @@ const Tags = ({ tags }) => (
     {tags.map(tag => (
       <div key={tag.fieldValue} className="control">
         <div className="tags are-large has-addons">
-            <span className="tag is-light is-link">
-              <TransitionLink 
-                to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                exit={{ length: 1 }}
-                entry={{ length: 1, delay: 0.2 }}
-              >
-                {tag.fieldValue}
-              </TransitionLink>
-            </span>
-            <span className="tag is-black" >
-              {tag.totalCount}
-            </span>
+          <span className="tag is-light is-link">
+            <TransitionLink
+              to={`/tags/${kebabCase(tag.fieldValue)}/`}
+              exit={{ length: 1 }}
+              entry={{ length: 1, delay: 0.2 }}
+            >
+              {tag.fieldValue}
+            </TransitionLink>
+          </span>
+          <span className="tag is-black">{tag.totalCount}</span>
         </div>
       </div>
     ))}
   </div>
 )
-
-
 
 const TagsPage = ({
   data: {
@@ -42,9 +38,7 @@ const TagsPage = ({
 }) => (
   // <Layout>
   <>
-    <ContentHeader title="# tags">
-      {/* <Tags tags={group} /> */}
-    </ContentHeader>
+    <ContentHeader title="# tags">{/* <Tags tags={group} /> */}</ContentHeader>
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
       <div className="container content">
@@ -53,12 +47,12 @@ const TagsPage = ({
             className="column"
             // style={{ marginBottom: '6rem' }}
           >
-           <Tags tags={group} />
+            <Tags tags={group} />
           </div>
         </div>
       </div>
     </section>
-    </>
+  </>
   // </Layout>
 )
 

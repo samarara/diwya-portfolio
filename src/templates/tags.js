@@ -14,12 +14,13 @@ const TagRoute = ({ data, pageContext, animation }) => {
   return (
     <>
       <ContentHeader title={`#${tag}`} isFullHeight={false}>
-        <TransitionLink 
-          className="subtitle" 
+        <TransitionLink
+          className="subtitle"
           to="/tags/"
           exit={{ length: 1 }}
-          entry={{ length: 1, delay: 0.2 }}>
-            Browse all tags
+          entry={{ length: 1, delay: 0.2 }}
+        >
+          Browse all tags
         </TransitionLink>
       </ContentHeader>
       <div className={`container animated ${animation}`}>
@@ -32,32 +33,33 @@ const TagRoute = ({ data, pageContext, animation }) => {
 export default withAnimation(TagRoute)
 
 export const tagPageQuery = graphql`
-query TagPage($tag: String) {
-  site {
-    siteMetadata {
-      title
+  query TagPage($tag: String) {
+    site {
+      siteMetadata {
+        title
+      }
     }
-  }
-  allMarkdownRemark(
-    limit: 1000
-    sort: { fields: [frontmatter___date], order: DESC }
-    filter: { frontmatter: { tags: { in: [$tag] } } }
-  ) {
-    totalCount
-    edges {
-      node {
-        fields {
-          slug
-        }
-        frontmatter {
-          title
-          templateKey
-          date(formatString: "MMMM DD, YYYY")
-          description
-          featuredimage {
-            childImageSharp {
-              fluid(maxWidth: 720, quality: 100) {
-                ...GatsbyImageSharpFluid
+    allMarkdownRemark(
+      limit: 1000
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            templateKey
+            date(formatString: "MMMM DD, YYYY")
+            description
+            featuredimage {
+              childImageSharp {
+                fluid(maxWidth: 720, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
               }
             }
           }
@@ -65,5 +67,4 @@ query TagPage($tag: String) {
       }
     }
   }
-}
 `

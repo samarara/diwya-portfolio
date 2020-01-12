@@ -17,8 +17,9 @@ const Footer = class extends React.Component {
             alt="Kaldi"
             style={{ width: '14em', height: '10em' }}
           /> */}
-          <h1 className="subtitle serif">designed and developed with love by @samarara</h1>
-
+          <h1 className="subtitle serif">
+            designed and developed with love by @samarara
+          </h1>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">

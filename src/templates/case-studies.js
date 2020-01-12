@@ -77,14 +77,9 @@ const CaseStudyTemplate = ({
   animation,
 }) => (
   <div className={`animated ${animation}`}>
-
     <ContentHeader title={title} isFullHeight>
-      <ContentHeaderProjectDetails
-        role={role}
-        team={team}
-        client={client}
-      />
-      </ContentHeader>
+      <ContentHeaderProjectDetails role={role} team={team} client={client} />
+    </ContentHeader>
     <ContentBody
       content={content}
       contentComponent={contentComponent}

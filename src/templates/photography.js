@@ -7,6 +7,7 @@ import ContentTags from '../components/ContentTags'
 import BackToTop from '../components/BackToTop'
 import Content, { HTMLContent } from '../components/Content'
 import withAnimation, { withCustomAnimation } from '../components/IndexPageHoc'
+import ContentImages from '../components/ContentImages'
 
 const ImageGrid = ({ images }) => {
   return images
@@ -82,14 +83,6 @@ const PhotoStatementBanner = ({ content }) => (
   </section>
 )
 
-const ContentImages = ({ images }) =>
-  images.map(el => (
-    <>
-      <Image src={el.image.publicURL} fluid={el.image.childImageSharp.fluid} />
-      <br />
-    </>
-  ))
-
 const ContentBody = ({
   images,
   tags,
@@ -152,7 +145,7 @@ const PhotographyTemplate = ({
   const contentRef = useRef(null)
   return (
     <div className={`animated ${animation}`}>
-      <ContentHeader title={title} description={description} isFullHeight/>
+      <ContentHeader title={title} description={description} isFullHeight />
       <ContentBody
         images={images}
         tags={tags}
