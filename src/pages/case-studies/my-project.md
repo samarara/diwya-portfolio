@@ -101,6 +101,10 @@ A piece of feedback that I received from the mobile engineering team was to keep
 
 ![](/img/redlining.png)
 
-****
+Below are the final designs that are launched on the app on iOS, Android and web:
+
+
+
+
 
 ****
