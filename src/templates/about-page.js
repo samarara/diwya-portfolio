@@ -8,44 +8,37 @@ import PreviewFeaturedImage from '../components/PreviewCompatibleImage'
 import BackToTop from '../components/BackToTop'
 import Content, { HTMLContent } from '../components/Content'
 import withAnimation from '../components/IndexPageHoc'
+import ContentImages from '../components/ContentImages'
 
 const SideBySideBody = ({ content, contentComponent, imageInfo }) => {
   const PageContent = contentComponent || Content
   console.log('image info', imageInfo)
   console.log('remard', remark)
   return (
-  <>
-    <div className="column is-5">
-      <PageContent className="content" content={content} />
+    <div className="columns">
+      <div className="column is-desktop">
+        <PageContent className="content" content={content} />
+      </div>
+      <div className="column is-half">
+        <PreviewFeaturedImage imageInfo={imageInfo} />
+      </div>
     </div>
-    <div className="column is-5">
-      <PreviewFeaturedImage imageInfo={imageInfo}/>
-    </div>
-  </>
   )
 }
 
 const Title = ({ title }) => (
-  <div className="column is-10">
-    {/* <div className="section"> */}
-      <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-        {title}
-      </h2>
-    {/* </div> */}
-  </div>
+  <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+    {title}
+  </h2>
 )
 
 const FullWidthBody = ({ content, title, contentComponent }) => {
-  const PageContent = contentComponent || Content 
+  const PageContent = contentComponent || Content
   return (
-    <div className="column is-10">
-      {/* <div className="section"> */}
-        <div className="content">
-          {/* <PageContent content={content} contentComponent={contentComponent} /> */}
-          <h1 className="title">{title}</h1>
-          <div>{content}</div>
-        </div>
-      {/* </div> */}
+    <div className="content">
+      {/* <PageContent content={content} contentComponent={contentComponent} /> */}
+      <h1 className="title">{title}</h1>
+      <div>{content}</div>
     </div>
   )
 }
@@ -53,25 +46,35 @@ const FullWidthBody = ({ content, title, contentComponent }) => {
 export const AboutPageTemplate = ({
   title,
   sideBySideContent,
+  images,
   fullWidthContentTitle,
   fullWidthContent,
   featuredImage,
   contentComponent,
   animation,
 }) => {
-
+  const imageGroup1 = images.slice(0, 1)
+  const imageGroup2 = images.slice(1, images.length)
   return (
     <>
       <section className={`section section--gradient animated ${animation}`}>
         <div className="container content">
           <div className="columns is-centered">
-            <Title title={title} />
-          </div>
-          <div className="columns is-centered">
-            <SideBySideBody content={sideBySideContent} contentComponent={contentComponent} imageInfo={featuredImage} />
-          </div>
-          <div className="columns is-centered">
-            <FullWidthBody content={fullWidthContent} title={fullWidthContentTitle} contentComponent={contentComponent} />
+            <div className="column is-10">
+              <Title title={title} />
+              <SideBySideBody
+                content={sideBySideContent}
+                contentComponent={contentComponent}
+                imageInfo={featuredImage}
+              />
+              <ContentImages images={imageGroup1} />
+              <FullWidthBody
+                content={fullWidthContent}
+                title={fullWidthContentTitle}
+                contentComponent={contentComponent}
+              />
+              <ContentImages images={imageGroup2} />
+            </div>
           </div>
         </div>
       </section>
@@ -91,17 +94,16 @@ const AboutPage = ({ data, animation }) => {
   const { markdownRemark: post } = data
   console.log('about page post', post)
   return (
-    // <Layout>
     <AboutPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       sideBySideContent={post.html}
+      images={post.frontmatter.images}
       fullWidthContentTitle={post.frontmatter.artist_statement_title}
       fullWidthContent={post.frontmatter.artist_statement}
       featuredImage={post.frontmatter.featuredimage}
       animation={animation}
     />
-    // </Layout>
   )
 }
 
@@ -126,6 +128,17 @@ export const aboutPageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        images {
+          image {
+            publicURL
+            childImageSharp {
+              fluid(maxWidth: 720, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          text
         }
       }
     }

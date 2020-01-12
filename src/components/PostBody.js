@@ -11,14 +11,12 @@ const PostBody = ({ excerpt, to, title }) => (
       entry={{ length: 1 }}
       trigger={true}
     >
-    <h1 className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile">
+      <h1 className="title has-text-primary is-size-1-desktop is-size-1-tablet is-size-3-mobile">
         {title}
-    </h1>
+      </h1>
 
-    <div className="subtitle serif">
-      {excerpt}
-    </div>
-      </TransitionLink>
+      <div className="subtitle serif">{excerpt}</div>
+    </TransitionLink>
   </div>
 )
 

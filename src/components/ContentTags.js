@@ -9,8 +9,8 @@ const ContentTags = ({ tags }) =>
       <div className="tags are-large">
         {tags.map(tag => (
           <span key={`tag-${tag}`} className="tag">
-            <TransitionLink 
-              to={`/tags/${kebabCase(tag)}/`} 
+            <TransitionLink
+              to={`/tags/${kebabCase(tag)}/`}
               exit={{ length: 1 }}
               entry={{ length: 1, delay: 0.2 }}
             >

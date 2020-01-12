@@ -11,8 +11,8 @@ const PostHeader = ({ featuredImage, featuredImageAlt, title, to, date }) => (
       exit={{ length: 1 }}
       entry={{ length: 1, delay: 0.2 }}
     >
-    <FeaturedImage image={featuredImage} alt={featuredImageAlt} />
-    {/* <p className="post-meta">
+      <FeaturedImage image={featuredImage} alt={featuredImageAlt} />
+      {/* <p className="post-meta">
       <Link
       className="title has-text-primary is-size-4"
       to={to}
