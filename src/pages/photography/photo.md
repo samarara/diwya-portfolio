@@ -8,19 +8,19 @@ description: |+
 featuredimage: /img/all.jpg
 images:
   - image: /img/dsc_7177.jpg
-    text: /
+    text: ''
   - image: /img/dsc_7192.jpg
-    text: /
+    text: ''
   - image: /img/dsc_7051.jpg
-    text: /
+    text: ''
   - image: /img/dsc_7345.jpg
-    text: /
+    text: ''
   - image: /img/dsc_7306.jpg
-    text: /
+    text: ''
   - image: /img/dsc_7340.jpg
-    text: /
+    text: ''
   - image: /img/all.jpg
-    text: /
+    text: ''
 tags:
   - photography
 ---
