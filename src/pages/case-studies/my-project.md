@@ -54,9 +54,11 @@ Being relatively new to the construction problem space, I wanted to gain a backg
 
 Source: <https://www.tandfonline.com/doi/full/10.1080/01446193.2018.1478109>
 
-After gaining some background knowledge, I decided to interview Customer Advocates (CA’s). CA’s  are people employed by PlanGrid with a construction background that can provide more in- depth knowledge on what the practices and pain points a user may go through on the field.
+After gaining some background knowledge, I decided to interview Customer Advocates (CA’s). CA’s  are people employed by PlanGrid with a construction background that can provide more in depth knowledge on what the practices and pain points a user may go through on the field. Here were some of the questions asked:
 
-After gaining some background knowledge, I decided to interview Customer Advocates (CA’s). CA’s  are people employed by PlanGrid with a construction background that can provide more in- depth knowledge on what the practices and pain points a user may go through on the field.
+![](/img/interview_questions.png)
+
+
 
 During a site visit, I also got the opportunity to talk to a Field Manager on who frequently checks Field Reports during the end of a work day. Some of the most notable things mentioned were:
 
@@ -125,4 +127,4 @@ Constant feedback is important, whether that is with research, design, or the en
 
 Always look for opportunities outside of my current design project or work to improve the product as a whole. Looking at user metrics and feedback or doing user testing is how I discovered opportunities such as reducing the modal height and improving the appearance of an exported report, which allowed me to better the product at a larger scale.
 
-Finally, when having difficulty with a design decision always go back to the “Why?” of the project. The problem statement: How might we better show the impact of weather on a construction site on a daily basis? was the lens in which I conducted my design process, and became a useful guide whenever I had to make any design decisions.
+Finally, when having difficulty with a design decision always go back to the “Why?” of the project. The problem statement: _How might we better show the impact of weather on a construction site on a daily basis?_ was the lens in which I conducted my design process, and became a useful guide whenever I had to make any design decisions.
