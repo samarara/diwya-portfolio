@@ -2,6 +2,11 @@
 templateKey: about-page
 title: About Diwya (Div-ya)
 featuredimage: /img/sienna1.jpg
+images:
+  - image: /img/alana2.jpg
+    text: I'm awesome
+  - image: /img/alex2.jpg
+    text: 'No really, I''m awesome'
 artist-statement-title: Artist Statement
 artist-statement: >-
   Growing up in an apartment building for most of my life has changed my
