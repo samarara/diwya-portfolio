@@ -93,6 +93,10 @@ When designing UI mock-ups, these are the four steps I took:
 
 **_Step 4: Create hi-fi solutions, get feedback from designers, engineers, and the product team and continue to iterate until we reach a final design for MVP_** 
 
+One of main design decisions/challenges I faced during this project was where to place the actual Weather component. In terms of hierarchy, the ‘Worklog’, ‘Materials’ and ‘Equipment’ section of a Daily Report are far more important than Weather. This would lead to placing the component in the column view as shown in the left wireframe. However, one of the main reasons why Weather is included at all is because it provides context for the ‘Worklog’ which leads us to placing it above the ‘Worklog’ in terms of visual hierarchy. Another downside to the column view is that being below the references section pushes down the ‘Weather’ component as people add more image/task references. Because of these reasons, I came back to the original problem statement of this feature: _How might we show the impact of weather on a construction site?_ which lead to choosing the header version, as it prefaces all the other events that were recorded in order to provide the context of weather day to day.
+
+![](/img/columnversusheader.png)
+
 **__**
 
 **__**
