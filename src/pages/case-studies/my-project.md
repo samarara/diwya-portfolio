@@ -24,6 +24,8 @@ One of the primary goals in addition to improving the overall usability of Field
 
 Zendesk is a common ticketing tool used to gage what customers request for Field Reports product. It was discovered that one of the most requested feature items to be improved on since its initial release in 2017 is weather on Field Reports. An image of the old weather on Field Reports is shown below. 
 
+![](/img/old_weather_port.png)
+
 Users asked for more detailed information on how Weather impacted a construction site, specifically for “three time a day” weather on Field Reports. 
 
 > If you could notate the weather throughout the day….. so if its sunny in the morning when you start your day, and turned to rain in the afternoon, it would be helpful to be able to log in and update weather…..
@@ -73,7 +75,7 @@ This allowed me to come to the conclusion that precipitation should be shown as 
 
 I then synthesized all the feedback I received from customer advocates and the engineering team into the following table which highlights the feature requirements, things that were considered but not included, and items that customers would want but were too complex to implement for this new iteration of weather on Field Reports. This table allowed everyone on the team to better understand the scope of the project, and gave me a clear plan as I began the UI mockups.
 
-![](/img/synthesize_table.png)
+![](/img/group-12.png)
 
 ## Design Iterations
 
