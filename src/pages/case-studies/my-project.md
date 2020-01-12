@@ -81,17 +81,17 @@ I then synthesized all the feedback I received from customer advocates and the e
 
 When designing UI mock-ups, these are the four steps I took:
 
-_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_
+**_Step 1: Look at what competitors are doing for our feature, and other similar UI patterns_**
 
-_**Step 2: Look at what’s currently on the design system to get more context on the visual style decisions made prior, and create new assets I may need for this feature**_
+**_Step 2: Look at what’s currently on the design system to get more context on the visual style decisions made prior, and create new assets I may need for this feature_**
 
 ![](/img/weather_illustrations.png)
 
-_**Step 3: Draw some low-fidelity mockups to provide myself a general outline on how organize information**_
+**_Step 3: Draw some low-fidelity mockups to provide myself a general outline on how organize information_**
 
 ![](/img/low-fi-wireframes.png)
 
-_**Step 4: Create hi-fi solutions, get feedback from designers, engineers, and the product team and continue to iterate until we reach a final design for MVP**_ 
+**_Step 4: Create hi-fi solutions, get feedback from designers, engineers, and the product team and continue to iterate until we reach a final design for MVP_** 
 
 One of main design decisions/challenges I faced during this project was where to place the actual Weather component. In terms of hierarchy, the ‘Worklog’, ‘Materials’ and ‘Equipment’ section of a Daily Report are far more important than Weather. This would lead to placing the component in the column view as shown in the left wireframe. However, one of the main reasons why Weather is included at all is because it provides context for the ‘Worklog’ which leads us to placing it above the ‘Worklog’ in terms of visual hierarchy. Another downside to the column view is that being below the references section pushes down the ‘Weather’ component as people add more image/task references. Because of these reasons, I came back to the original problem statement of this feature: _How might we show the impact of weather on a construction site?_ which lead to choosing the header version, as it prefaces all the other events that were recorded in order to provide the context of weather day to day.
 
