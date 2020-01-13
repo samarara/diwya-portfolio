@@ -11,7 +11,7 @@ images:
     text: ''
   - image: /img/dsc_7192.jpg
     text: ''
-  - image: /img/dsc_7051.jpg
+  - image: /img/case_study_cover_1.jpg
     text: ''
   - image: /img/dsc_7345.jpg
     text: ''
