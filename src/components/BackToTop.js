@@ -9,7 +9,7 @@ const BackToTop = () => {
   }
   return (
     <section className="section">
-      <button className="button is-white is-large" onClick={handleOnClick}>
+      <button className="button is-white is-large" id="back-to-top-button" onClick={handleOnClick}>
         &#x2191; Back to top
       </button>
     </section>

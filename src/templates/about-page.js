@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import remark from 'gatsby-transformer-remark'
-import Layout from '../components/Layout'
-import Image from '../components/Image'
 import PreviewFeaturedImage from '../components/PreviewCompatibleImage'
 import BackToTop from '../components/BackToTop'
 import Content, { HTMLContent } from '../components/Content'
@@ -12,12 +10,10 @@ import ContentImages from '../components/ContentImages'
 
 const SideBySideBody = ({ content, contentComponent, imageInfo }) => {
   const PageContent = contentComponent || Content
-  console.log('image info', imageInfo)
-  console.log('remard', remark)
   return (
     <div className="columns">
       <div className="column is-desktop">
-        <PageContent className="content" content={content} />
+        <PageContent className="content serif" content={content} />
       </div>
       <div className="column is-half">
         <PreviewFeaturedImage imageInfo={imageInfo} />
@@ -33,13 +29,22 @@ const Title = ({ title }) => (
 )
 
 const FullWidthBody = ({ content, title, contentComponent }) => {
-  const PageContent = contentComponent || Content
   return (
-    <div className="content">
-      {/* <PageContent content={content} contentComponent={contentComponent} /> */}
-      <h1 className="title">{title}</h1>
-      <div>{content}</div>
-    </div>
+    <section className="hero is-dark is-marginless is-fullheight">
+      <div className="hero-body">
+        <div className="container">
+          <div className="content">
+            <h1 className="title">{title}</h1>
+            <div
+              className="serif is-size-5-desktop is-size-6-mobile"
+              style={{ fontWeight: '100' }}
+            >
+              {content}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
 
@@ -56,8 +61,8 @@ export const AboutPageTemplate = ({
   const imageGroup1 = images.slice(0, 1)
   const imageGroup2 = images.slice(1, images.length)
   return (
-    <>
-      <section className={`section section--gradient animated ${animation}`}>
+    <div className={`animated ${animation}`}>
+      <section className="section section--gradient">
         <div className="container content">
           <div className="columns is-centered">
             <div className="column is-10">
@@ -68,18 +73,26 @@ export const AboutPageTemplate = ({
                 imageInfo={featuredImage}
               />
               <ContentImages images={imageGroup1} />
-              <FullWidthBody
-                content={fullWidthContent}
-                title={fullWidthContentTitle}
-                contentComponent={contentComponent}
-              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <FullWidthBody
+        content={fullWidthContent}
+        title={fullWidthContentTitle}
+        contentComponent={contentComponent}
+      />
+      <section className="section section--gradient">
+        <div className="container content">
+          <div className="columns is-centered">
+            <div className="column is-10">
               <ContentImages images={imageGroup2} />
             </div>
           </div>
         </div>
       </section>
       <BackToTop />
-    </>
+    </div>
   )
 }
 
