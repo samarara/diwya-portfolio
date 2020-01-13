@@ -4,7 +4,11 @@ import ContentHeader from '../components/ContentHeader'
 
 const NotFoundPage = () => (
   <Layout>
-    <ContentHeader title="Uh Oh!" description="You just hit a route that doesn&#39;t exist... the sadness &#128546;" isFullHeight />
+    <ContentHeader
+      title="Uh Oh!"
+      description="You just hit a route that doesn&#39;t exist... the sadness &#128546;"
+      isFullHeight
+    />
   </Layout>
 )
 

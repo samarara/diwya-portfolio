@@ -12,7 +12,6 @@ import ContentImages from '../components/ContentImages'
 const ImageGrid = ({ images }) => {
   return images
     .reduce((acc, curr, index, sourceArray) => {
-      // console.log('index', index)
       const imageRow = [sourceArray[index], sourceArray[index + 1]]
       acc.push(imageRow)
 
@@ -54,7 +53,6 @@ const PhotoStatement = ({ content }) => (
         />
         <span style={{ display: 'inline' }}>"</span>
       </p>
-      {/* <p class="subtitle">Jeff Atwood</p> */}
     </div>
   </div>
 )
@@ -63,21 +61,11 @@ const PhotoStatementBanner = ({ content }) => (
   <section className="hero is-dark is-marginless is-fullheight">
     <div className="hero-body">
       <div className="container">
-        {/* <h1 className="title">{title}</h1> */}
-        {/* <h2 className="subtitle">{description}</h2> */}
-        <p className="title is-size-5" style={{ display: 'inline' }}>
-          {/* <span style={{display: "inline"}}>"</span> */}
-          <div
-            dangerouslySetInnerHTML={{ __html: content }}
-            style={{
-              display: 'inline',
-              fontWeight: '100',
-              lineHeight: '2rem',
-              fontFamily: "'Zilla Slab', serif",
-            }}
-          />
-          {/* <span style={{display: "inline"}}>"</span> */}
-        </p>
+        <p
+          className="serif is-size-5-desktop is-size-6-mobile"
+          style={{ display: 'inline', fontWeight: '100' }}
+          dangerouslySetInnerHTML={{ __html: content }}
+        ></p>
       </div>
     </div>
   </section>
@@ -91,10 +79,6 @@ const ContentBody = ({
   contentComponent,
   ref,
 }) => {
-  const PostContent = contentComponent || Content
-  // console.log(images)
-  // testing with immutable data first
-  // need to copy the arrays in to new data sets after
   const imageGroupOne = images.slice(0, 2)
   const imageGroupTwo = images.slice(2, images.length)
   return (
@@ -105,10 +89,6 @@ const ContentBody = ({
           <div className="columns is-centered">
             <div className="column is-10">
               <ContentImages images={imageGroupOne} />
-              {/* <PhotoStatement content={content}/> */}
-              {/* <ContentImages images={imageGroupTwo} /> */}
-              {/* <PostContent content={content} className="blockquote" /> */}
-              {/* <ContentTags tags={tags} /> */}
             </div>
           </div>
         </div>
@@ -118,10 +98,7 @@ const ContentBody = ({
         <div className="container content">
           <div className="columns is-centered">
             <div className="column is-10">
-              {/* <ContentImages images={imageGroupOne} /> */}
-              {/* <PhotoStatement content={content}/> */}
               <ContentImages images={imageGroupTwo} />
-              {/* <PostContent content={content} className="blockquote" /> */}
               <ContentTags tags={tags} />
             </div>
           </div>
@@ -162,7 +139,6 @@ export { PhotographyTemplate }
 
 const Photography = ({ data, animation }) => {
   const { markdownRemark: post } = data
-  // console.log('data', data)
   return (
     <PhotographyTemplate
       content={post.html}
