@@ -2,7 +2,7 @@
 templateKey: case-studies
 title: Improving Construction Documentation
 date: 2019-12-28T00:13:17.394Z
-description: 'PlanGrid (Autodesk) Case Study '
+description: PlanGrid (Autodesk) Case Study
 project-details:
   client: 'PlanGrid, an AutoDesk Company'
   role: Product Design Intern
