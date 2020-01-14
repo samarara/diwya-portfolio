@@ -14,7 +14,7 @@ tags:
   - user-interviews
   - visual-design
 ---
-# Background
+# Background 
 
 My experience as a product design intern at PlanGrid was quite different than previous design internships I’ve had. I was working on making improvements to an already established product on the app called _Field Reports_, which involved more user research and feature prioritization than I had been exposed to in the past. This case study will walkthrough a few features that I worked on, and why it improved the overall Field Reports experience on the app. 
 
@@ -83,19 +83,19 @@ I then synthesized all the feedback I received from customer advocates and the e
 
 When designing UI mock-ups, these are the four steps I took:
 
-**_Step 1: Look at what competitors are doing for our feature, and other similar UI patterns_**
+_**Step 1: Look at what competitors are doing for our feature, and other similar UI patterns**_
 
 ![](/img/competive_analysis_ui.jpg)
 
-**_Step 2: Look at what’s currently on the design system to get more context on the visual style decisions made prior, and create new assets I may need for this feature_**
+_**Step 2: Look at what’s currently on the design system to get more context on the visual style decisions made prior, and create new assets I may need for this feature**_
 
 ![](/img/weather_illustrations.png)
 
-**_Step 3: Draw some low-fidelity mockups to provide myself a general outline on how organize information_**
+_**Step 3: Draw some low-fidelity mockups to provide myself a general outline on how organize information**_
 
 ![](/img/low-fi-wireframes.png)
 
-**_Step 4: Create hi-fi solutions, get feedback from designers, engineers, and the product team and continue to iterate until we reach a final design for MVP_** 
+_**Step 4: Create hi-fi solutions, get feedback from designers, engineers, and the product team and continue to iterate until we reach a final design for MVP**_ 
 
 One of main design decisions/challenges I faced during this project was where to place the actual Weather component. In terms of hierarchy, the ‘Worklog’, ‘Materials’ and ‘Equipment’ section of a Daily Report are far more important than Weather. This would lead to placing the component in the column view as shown in the left wireframe. However, one of the main reasons why Weather is included at all is because it provides context for the ‘Worklog’ which leads us to placing it above the ‘Worklog’ in terms of visual hierarchy. Another downside to the column view is that being below the references section pushes down the ‘Weather’ component as people add more image/task references. Because of these reasons, I came back to the original problem statement of this feature: _How might we show the impact of weather on a construction site?_ which lead to choosing the header version, as it prefaces all the other events that were recorded in order to provide the context of weather day to day.
 
