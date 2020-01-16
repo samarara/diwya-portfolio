@@ -115,3 +115,19 @@ Final designs are shown below and currently released on the PlanGrid app!
 Something really valuable that every PlanGrid product team does is validate their design decisions through frequent user testing. I got to do a couple of user testing sessions validating a previous information architecture change. During that testing session, I also noticed that the user was having trouble finding the “Next’ button in the modal, as the modal height was too big for their smaller screen size.
 
 ![](/img/user_testing_session.png)
+
+As a result, during the time where I was adding the weather component to this modal, I also tried to fix the modal height. The new flow can be seen in the following GIF:
+
+![](/img/template-creation.gif)
+
+Along with making changes to the actual UI design, I also got to try more of print design. A use case of Field Reports common among project managers is that they like to print their report to bring to meetings. Similar to how there were many Zendesk comments asking for a more detailed view of weather on a Field Report, there were also comments asking for a better visual design on the actual print version. This extrapolated to another project I worked on where I tried to improve the exporting process and unify the design of printed reports on PlanGrid. That case study will be coming soon, but for now here is what the improved print version of a Field Report looks like, with weather added to it:
+
+![](/img/print_design.png)
+
+# Key Learnings
+
+Constant feedback is important, whether that is with research, design, or the engineering team. It saves a lot more time if one can understand the feasibility of there design ideas and what is prioritized among the product team as a whole, before beginning hi-fidelity design solutions.
+
+Always look for opportunities outside of my current design project or work to improve the product as a whole. Looking at user metrics and feedback or doing user testing is how I discovered opportunities such as reducing the modal height and improving the appearance of an exported report, which allowed me to better the product at a larger scale.
+
+Finally, when having difficulty with a design decision always go back to the “Why?” of the project. The problem statement: How might we better show the impact of weather on a construction site on a daily basis? was the lens in which I conducted my design process, and became a useful guide whenever I had to make any design decisions.
