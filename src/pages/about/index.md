@@ -28,7 +28,7 @@ artist-statement: >-
   the photograph captures a specific moment in time that cannot be replicated,
   and therefore increases our awareness of the art that encompasses us.
 ---
-I’m a third year student at the University of Waterloo studying Systems Design Engineering.  I also love product design and have gotten the opportunity to intern at Autodesk (PlanGrid), TD’s Innovation Lab, and Scotiabank. 
+I’m a third year student at the University of Waterloo studying Systems Design Engineering. This multidisciplinary program introduced me to human factors and product design, where I've gotten to apply my learnings by interning at [Autodesk (PlanGrid)](https://www.plangrid.com/), [TD’s Innovation Lab](https://www.communitech.ca/how-we-help/innovation/corporate-innovation/td-bank-group/), and [Scotiabank](https://www.scotiaitrade.com/en/direct-investing-and-online-trading.html). 
 
 Check out my [LinkedIn](https://www.linkedin.com/in/diwyadesilva/) to learn more about my design experience. 
 
@@ -36,4 +36,4 @@ My passion for contemporary art and photography drove me into product design. I 
 
 I hope to design and create for social good, and I aspire to become a teacher or mentor in this industry. I’m able to help out right now by leading [UWaterloo’s design club UW/UX](https://www.facebook.com/uwuxwaterloo/) and volunteering at events like [Make-A-Mark. ](https://letsmakeamark.org/)
 
-Outside of design, I enjoy baking, tea-making, and  basketball. Please [contact me](diwya.desilva@gmail.com) if you’d like to chat!
+Outside of design, I enjoy baking, tea-making, and basketball. Please [contact me](diwya.desilva@gmail.com) if you’d like to chat!
