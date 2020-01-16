@@ -3,10 +3,10 @@ templateKey: about-page
 title: Hello! I’m Diwya.
 featuredimage: /img/me-photos.jpg
 images:
-  - image: /img/dsc_7177.jpg
-    text: caption me
-  - image: /img/dsc_7192.jpg
-    text: caption me
+  - image: /img/uw-ux.jpg
+    text: Me moderating a design panel for UW/UX
+  - image: /img/mvimg_20191130_122223.jpg
+    text: Me in my natural habitat
 artist-statement-title: Artist Statement
 artist-statement: >-
   Growing up in an apartment building for most of my life has changed my
@@ -37,5 +37,3 @@ My passion for contemporary art and photography drove me into product design. I 
 I hope to design and create for social good, and I aspire to become a teacher or mentor in this industry. I’m able to help out right now by leading [UWaterloo’s design club UW/UX](https://www.facebook.com/uwuxwaterloo/) and volunteering at events like [Make-A-Mark. ](https://letsmakeamark.org/)
 
 Outside of design, I enjoy baking, tea-making, and  basketball. Please [contact me](diwya.desilva@gmail.com) if you’d like to chat!
-
-![](/img/uw-ux.jpg "Me moderating a design panel for UW/UX")
