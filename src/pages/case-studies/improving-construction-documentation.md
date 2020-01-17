@@ -6,10 +6,13 @@ description: Autodesk (PlanGrid) case study
 project-details:
   client: PlanGrid
   role: Product design intern
-  team: 'Field Reports (4 devs, 2 designers, 1 PM)'
+  team: 'Field Reports '
 featuredimage: /img/case_study_cover_2_alt.jpg
 tags:
   - product-design
+  - visual-design
+  - user-interviews
+  - user-testing
 ---
 # Background
 
