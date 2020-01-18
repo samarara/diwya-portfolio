@@ -7,14 +7,12 @@ project-details:
   client: Scotiabank
   role: UX/UI Designer
   team: Scotia iTrade
-featuredimage: /img/case_study_cover_1.jpg
+featuredimage: /img/case_study_cover_1.png
 tags:
   - case-studies
   - user-flows
   - ui-design
 ---
-
-
 # Background
 
 Scotia iTRADE’s onboarding platform is where clients apply for an investment account. There are 3 different new client user flows that the team was designing for: 
@@ -58,7 +56,7 @@ The second question was more difficult to answer. If we were to put the client e
 
 ![](/img/design_1.png)
 
-However, the issues regarding the above design is that it could be too overwhelming for users to see all this information, especially considering the ****_warning_ of the application timeout is not distinctly differentiated compared to all the other information the user is asked to check. In addition, because the _Select Account_ page already notifies what the user has selected, there would be no purpose to remind the user on this page. 
+However, the issues regarding the above design is that it could be too overwhelming for users to see all this information, especially considering the \*\*\*\*_warning_ of the application timeout is not distinctly differentiated compared to all the other information the user is asked to check. In addition, because the _Select Account_ page already notifies what the user has selected, there would be no purpose to remind the user on this page. 
 
 ## Iteration 2
 
