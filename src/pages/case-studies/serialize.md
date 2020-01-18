@@ -2,7 +2,9 @@
 templateKey: case-studies
 title: Serialize
 date: 2020-01-15T01:09:54.651Z
-description: A collaborative tool for photographers
+description: >
+  A collaboration tool for photographers to create and curate photography
+  series. 
 project-details:
   role: Creator and designer
 featuredimage: /img/case_study_cover_3.jpg
@@ -11,4 +13,54 @@ tags:
   - interaction-design
   - passion-project
 ---
-# Background
+# Background 
+
+Serialize is a collaboration tool for photographers to create and curate photography series. It is a passion project that I am currently working on to build an eventual mobile application. This case study will walkthrough some of my ideation process and the decision making behind the product's main interaction patterns. 
+
+## Value Proposition
+
+My definition of a photography series is: 
+
+> _A set of photos connected by the concepts, visual aesthetic, or narratives portrayed among the photographs._
+
+For example, the following set of images can be considered a series due to the same night-time setting and the shared set of colours existing in all the images. 
+
+![]()
+
+
+
+# User and Problem Definition
+
+Persona image here
+
+competitive analysis chart
+
+user journey map with guiding principles
+
+
+
+# Browsing Interaction Flow
+
+<insert flow here>
+
+## Design Iterations
+
+# 
+
+# Curation Flow
+
+<insert flow here>
+
+## Design Iterations
+
+
+
+# Next Steps
+
+
+
+
+
+# 
+
+##
