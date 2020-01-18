@@ -17,7 +17,7 @@ tags:
 
 Serialize is a collaboration tool for photographers to create and curate photography series. It is a passion project that I am currently working on to build an eventual mobile application. This case study will walkthrough some of my ideation process and the decision making behind the product's main interaction patterns. 
 
-## Value Proposition
+## What is a photography series?
 
 My definition of a photography series is: 
 
@@ -26,6 +26,8 @@ My definition of a photography series is:
 For example, the following set of images can be considered a series due to the same night-time setting and the shared set of colours existing in all the images. 
 
 ![]()
+
+## How does serialize help? 
 
 
 
