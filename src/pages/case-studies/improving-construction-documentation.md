@@ -4,7 +4,7 @@ title: Improving Construction Documentation
 date: 2020-01-15T01:16:39.139Z
 description: Autodesk (PlanGrid) case study
 project-details:
-  client: PlanGrid
+  client: PlanGrid (Autodesk)
   role: Product design intern
   team: 'Field Reports '
 featuredimage: /img/case_study_cover_2_alt.jpg
