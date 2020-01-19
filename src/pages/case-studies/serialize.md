@@ -29,7 +29,11 @@ For example, the following set of images can be considered a series due to the s
 
 ## How does serialize help?
 
-![]()
+![](/img/ezgif.com-video-to-gif-21-.gif)
+
+![](/img/serialize_browse_1.gif)
+
+
 
 # User and Problem Definition
 
@@ -45,7 +49,7 @@ In order to get to this problem statement, I went through through various needs 
 
 competitor breakdown
 
-
+![]()
 
 ![](/img/user_mape_seriealize.png)
 
