@@ -33,7 +33,7 @@ For example, the following set of images can be considered a series due to the s
 
 # User and Problem Definition
 
-
+> How might we build an interactive community for photographers that helps them collaborate and create new visions, while also promoting their own work?
 
 ![](/img/persone_photographer.png)
 
@@ -44,8 +44,6 @@ competitibe analysis
 
 
 user journey map with guiding principles
-
-![](/img/user_mape_seriealize.png)
 
 
 
