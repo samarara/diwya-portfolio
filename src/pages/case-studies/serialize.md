@@ -31,8 +31,6 @@ For example, the following set of images can be considered a series due to the s
 
 ![](/img/serialize_browse_1.gif)
 
-
-
 # User and Problem Definition
 
 The problem statement in which Serialize is attempting to solve is: 
