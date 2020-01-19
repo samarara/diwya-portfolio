@@ -33,11 +33,21 @@ For example, the following set of images can be considered a series due to the s
 
 # User and Problem Definition
 
+
+
 ![](/img/persone_photographer.png)
 
-competitive analysis chart
+
+
+competitibe analysis
+
+
 
 user journey map with guiding principles
+
+![](/img/user_mape_seriealize.png)
+
+
 
 # Browsing Design Iterations
 
