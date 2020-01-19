@@ -9,7 +9,7 @@ images:
     text: Me in my natural habitat
 artist-statement-title: Artist Statement
 artist-statement: >-
-  Growing up in an apartment building for most of my life has changed my
+  Growing up in an apartment building for most of my life has shaped my
   perspective on the places and things that surround us. There was no intent for
   architectural beauty or purpose in that building, but the experiences that it
   had undergone through time could not be replicated. The building was unique,
@@ -28,7 +28,7 @@ artist-statement: >-
   the photograph captures a specific moment in time that cannot be replicated,
   and therefore increases our awareness of the art that encompasses us.
 ---
-I’m a third year student at the University of Waterloo studying Systems Design Engineering. This multidisciplinary program introduced me to human factors and product design, where I've gotten to apply my learnings by interning at [Autodesk (PlanGrid)](https://www.plangrid.com/), [TD’s Innovation Lab](https://www.communitech.ca/how-we-help/innovation/corporate-innovation/td-bank-group/), and [Scotiabank](https://www.scotiaitrade.com/en/direct-investing-and-online-trading.html). 
+I’m a third year student at the University of Waterloo studying Systems Design Engineering. This multidisciplinary program introduced me to human factors and product design. I've gotten to apply my learnings by interning at [Autodesk (PlanGrid)](https://www.plangrid.com/), [TD’s Innovation Lab](https://www.communitech.ca/how-we-help/innovation/corporate-innovation/td-bank-group/), and [Scotiabank](https://www.scotiaitrade.com/en/direct-investing-and-online-trading.html). 
 
 Check out my [LinkedIn](https://www.linkedin.com/in/diwyadesilva/) to learn more about my design experience. 
 
