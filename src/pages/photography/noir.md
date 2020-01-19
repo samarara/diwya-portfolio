@@ -11,7 +11,6 @@ images:
   - image: /img/dsc_0068.jpg
   - image: /img/suburbia.png
   - image: /img/dsc_0070.jpg
-  - image: /img/_dsc0230.jpg
 tags:
   - photography
   - noir
