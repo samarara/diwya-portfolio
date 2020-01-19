@@ -29,9 +29,11 @@ For example, the following set of images can be considered a series due to the s
 
 ## How does serialize help?
 
+![]()
+
 # User and Problem Definition
 
-Persona image here
+![](/img/persone_photographer.png)
 
 competitive analysis chart
 
@@ -42,8 +44,6 @@ user journey map with guiding principles
 <insert flow here>
 
 ## Layout Design
-
-
 
 ## Stack versus Carousel
 
