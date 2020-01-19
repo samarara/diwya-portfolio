@@ -33,19 +33,21 @@ For example, the following set of images can be considered a series due to the s
 
 # User and Problem Definition
 
+The problem statement in which Serialize is attempting to solve is: 
+
 > How might we build an interactive community for photographers that helps them collaborate and create new visions, while also promoting their own work?
+
+In order to get to this problem statement, I went through through various needs assessment methods, such as creating a proto persona, a competitor breakdown chart and a user journey map. 
 
 ![](/img/persone_photographer.png)
 
 
 
-competitibe analysis
+competitor breakdown
 
 
 
-user journey map with guiding principles
-
-
+![](/img/user_mape_seriealize.png)
 
 # Browsing Design Iterations
 
