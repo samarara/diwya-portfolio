@@ -13,7 +13,7 @@ tags:
   - interaction-design
   - passion-project
 ---
-# Background 
+# Background
 
 Serialize is a collaboration tool for photographers to create and curate photography series. It is a passion project that I am currently working on to build an eventual mobile application. This case study will walkthrough some of my ideation process and the decision making behind the product's main interaction patterns. 
 
@@ -25,11 +25,9 @@ My definition of a photography series is:
 
 For example, the following set of images can be considered a series due to the same night-time setting and the shared set of colours existing in all the images. 
 
-![]()
+![](/img/series_example.png)
 
-## How does serialize help? 
-
-
+## How does serialize help?
 
 # User and Problem Definition
 
@@ -39,30 +37,22 @@ competitive analysis chart
 
 user journey map with guiding principles
 
-
-
-# Browsing Interaction Flow
+# Browsing Design Iterations
 
 <insert flow here>
 
-## Design Iterations
+## Layout Design
+
+
+
+## Stack versus Carousel
 
 # 
-
-# Curation Flow
-
-<insert flow here>
-
-## Design Iterations
-
-
 
 # Next Steps
 
+<insert curator steps>
 
-
-
-
-# 
+## Curation Flow
 
 ##
