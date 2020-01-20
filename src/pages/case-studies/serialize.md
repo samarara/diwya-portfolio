@@ -6,7 +6,9 @@ description: >
   A collaboration tool for photographers to create and curate photography
   series. 
 project-details:
+  client: N/A
   role: Creator and designer
+  team: N/A
 featuredimage: /img/case_study_cover_3.jpg
 tags:
   - visual-design
@@ -28,8 +30,6 @@ For example, the following set of images can be considered a series due to the s
 ![](/img/series_example.png)
 
 ## How does serialize help?
-
-![](/img/serialize_browse_1.gif)
 
 # User and Problem Definition
 
