@@ -7,7 +7,7 @@ project-details:
   client: PlanGrid (Autodesk)
   role: Product design intern
   team: 'Field Reports '
-featuredimage: /img/case_study_cover_2_alt.jpg
+featuredimage: /img/case_study_cover_2.jpg
 tags:
   - product-design
   - visual-design
