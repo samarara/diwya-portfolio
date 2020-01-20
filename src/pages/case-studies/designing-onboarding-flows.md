@@ -1,7 +1,7 @@
 ---
 templateKey: case-studies
 title: Designing Onboarding Flows
-date: 2018-09-02T00:56:07.727Z
+date: 2019-12-29T01:56:07.727Z
 description: Scotiabank case study
 project-details:
   client: Scotiabank
