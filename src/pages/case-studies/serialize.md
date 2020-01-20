@@ -1,7 +1,7 @@
 ---
 templateKey: case-studies
 title: Serialize
-date: 2020-01-15T01:09:54.651Z
+date: 2016-12-02T01:09:54.651Z
 description: >
   A collaboration tool for photographers to create and curate photography
   series. 
