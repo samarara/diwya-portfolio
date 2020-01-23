@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Diwya de Silva',
+    title: 'Diwya De Silva',
     description:
-      'This repo contains an artist portfolio built with Gatsby and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'A digital home to collect my experiences in design, illustration and photography',
   },
   plugins: [
     'gatsby-plugin-transition-link',
