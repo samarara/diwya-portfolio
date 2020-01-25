@@ -1,6 +1,6 @@
 @import "../../node_modules/bulma/sass/utilities/initial-variables"
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap')
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,400i,500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,400i,500i&display=swap')
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -440,6 +440,9 @@ blockquote
     padding-left: 3em
     padding-right: 3em
     @extend .is-size-5-mobile, .is-size-3-desktop
+    +until(400)
+      padding-left: 0em
+      padding-right: 0em
   &::before
     content: open-quote
   &::after
