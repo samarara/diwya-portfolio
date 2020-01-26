@@ -4,7 +4,7 @@ title: Ideating Conversational Interfaces
 date: 2016-12-30T04:25:32.631Z
 description: 'TD Case Study (work in progress). '
 project-details:
-  client: 'TD Bank '
+  client: TD Canada Trust
   role: UX/UI Designer
   team: TD Innovation Lab
 featuredimage: /img/case_study_cover_4.jpg
@@ -20,7 +20,7 @@ During my first design internship I learned and performed the Double Diamond des
 
 # Background
 
-TD was not selling their Student Lines of Credit (SLOC) in comparison to other Canadian banks even though they lead the market share in student/youth accounts. The business goal was to increase the popularity and opening of Student Lines of Credits, which are lines of credit that a person can create if they are going to a post-secondary school in Canada. However, they did not want the growth of their product to be from advertising. Instead, TD’s innovation lab was given the task to promote its growth through a digital experience.
+TD Canada Trust's Student Lines of Credit (SLOC) were not being opened in comparison to other Canadian banks, even though they led the market share in student and youth accounts. The business goal was to increase the popularity and opening of SLOCs, which are lines of credit that a person can create if they are going to a post-secondary institution in Canada. However, they did not want the growth of their product to be from advertising. Instead, TD’s innovation lab was given the task to promote its growth through a digital experience.
 
 # Empathize
 
