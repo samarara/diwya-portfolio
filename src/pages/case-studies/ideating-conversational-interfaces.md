@@ -14,11 +14,11 @@ tags:
   - double-diamond
   - persona
 ---
-During my first design internship I learned and performed the Double Diamond design process.
+# Background
+
+During my design internship with TD's Innovation lab I learned and performed the Double Diamond design process.
 
 ![](/img/double_diamond.png)
-
-# Background
 
 TD Canada Trust's Student Lines of Credit (SLOC) were not being opened in comparison to other Canadian banks, even though they led the market share in student and youth accounts. The business goal was to increase the popularity and opening of SLOCs, which are lines of credit that a person can create if they are going to a post-secondary institution in Canada. However, they did not want the growth of their product to be from advertising. Instead, TD’s innovation lab was given the task to promote its growth through a digital experience.
 
@@ -53,6 +53,8 @@ n most industries and team project experiences, there can be a set of unspoken, 
 * The client (TD partners)
 * Team roles and responsibilities
 
+![](/img/assumptions_exercise.jpg)
+
 After these assumptions are written down, we will look at commonalities in each topic and derive a list of themes from them. This list will then be presented and approved by everyone in the group as well as questioned in order to understand why we assume certain ideas.
 
 ## Customer Journey Exercise
@@ -60,3 +62,5 @@ After these assumptions are written down, we will look at commonalities in each 
 We took our assumptions and thought of guiding principles for the product we wish to make. A customer journey exercise as seen below was done that focuses on how a typical user would learn about a financial product, as that is the digital experience we  were planning to make.
 
 ![](/img/customer_journey_map.png)
+
+After completing these exercises,  we began actually designing solutions. From the surveys and personas we decided to do a desktop application rather than a mobile application that would help people learn how to fund their post-secondary education. Our first idea was a traditional website that would have a section to learn about different funding methods, budgeting tools, and about what TD could offer:
