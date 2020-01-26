@@ -2,7 +2,7 @@
 templateKey: case-studies
 title: Ideating Conversational Interfaces
 date: 2016-12-30T04:25:32.631Z
-description: 'TD Case Study (work in progress). '
+description: 'TD Case Study '
 project-details:
   client: 'TD Bank '
   role: UX/UI Designer
@@ -36,7 +36,7 @@ Highlighted in green are the user responses that was taken from surveying each s
 
 With the help of personas and our user surveys, we were able to identify the main problem for our target users and develop a problem statement:
 
-> “How might we build an experience for people that will explain how students can best fund their education?”   
+> How might we build an experience for people that will explain how students can best fund their education?   
 
 # Ideate
 
