@@ -1,7 +1,7 @@
 ---
 templateKey: case-studies
 title: Ideating Conversational Interfaces
-date: 2020-01-26T04:25:32.631Z
+date: 2016-12-30T04:25:32.631Z
 description: 'TD Case Study (work in progress). '
 project-details:
   client: 'TD Bank '
