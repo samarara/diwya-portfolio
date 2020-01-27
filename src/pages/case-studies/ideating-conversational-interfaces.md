@@ -44,7 +44,7 @@ The next step was to ideate on solutions for this problem statement. This involv
 
 One of the key things that we did was run a workshop filled with different ideation exercises for stakeholders. Some of the activities were meant to be ‘ice breakers’ where the stakeholders are taught not to filter their ideas, also know as the ‘Wishing’ exercise. One of the most important ones we did was called ‘Assumptions’.
 
-## Assumptions Exercise 
+## Assumptions Exercise
 
 n most industries and team project experiences, there can be a set of unspoken, deeply-held beliefs within a group that everyone is supposed to think or follow. If these assumptions are not acknowledged in the beginning of the design process, it can disorient a group and prevent us from suggesting new ideas and areas to improve. It is similar to wearing a set of blinders that make us unaware of our surroundings, or ignore any causes for concern. In this technique, we will each generate an assumption based on each of the following topics:
 
@@ -53,7 +53,7 @@ n most industries and team project experiences, there can be a set of unspoken, 
 * The client (TD partners)
 * Team roles and responsibilities
 
-![](/img/assumptions_exercise.jpg)
+![](/img/assumptions_exercise.png)
 
 After these assumptions are written down, we will look at commonalities in each topic and derive a list of themes from them. This list will then be presented and approved by everyone in the group as well as questioned in order to understand why we assume certain ideas.
 
