@@ -14,8 +14,6 @@ tags:
   - double-diamond
   - persona
 ---
-
-
 # Background
 
 During my design internship with TD's Innovation lab I learned and performed the Double Diamond design process.
@@ -70,3 +68,17 @@ After completing these exercises,  we began actually designing solutions. From t
 ![](/img/information_architecture.png)
 
 ![](/img/3split.jpg)
+
+We did many different user interface designs of this idea, however, we wondered if this would be an engaging experience or just another informational website that no one goes to? In result we began re-thinking our approach. One of the problems that we also encountered when analyzing our personas and surveys was that people did not know where to start when researching. I began asking myself these questions:
+
+> How could we make the digital experience more personal? (for each persona)
+>
+> What are some digital trends that we can implement? 
+>
+> What is an engaging way to teach people this information?   
+
+After researching and thinking of answers to these questions, my mentor and I came up with the idea of having a conversational/chat-bot like interface where you can choose your ‘persona’ and have questions directly related to things you may want to learn based on the user base. This provides a solution to making the experience more personal, adds a new innovative twist to learning information, and is something that many websites are implementing for users to ask questions about a product or service.
+
+We didn’t have enough resources to create an actually chatbot with natural language processing, so instead we created when that allows the user to select their response, like a guided pathway. See this link for what we used as inspiration:[ http://uxchat.me/](http://uxchat.me/)
+
+The following interface designs are past ideas that we had following a traditional chat-like interface:
