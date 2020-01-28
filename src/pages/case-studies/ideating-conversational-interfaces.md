@@ -14,6 +14,8 @@ tags:
   - double-diamond
   - persona
 ---
+
+
 # Background
 
 During my design internship with TD's Innovation lab I learned and performed the Double Diamond design process.
@@ -64,3 +66,7 @@ We took our assumptions and thought of guiding principles for the product we wis
 ![](/img/customer_journey_map.png)
 
 After completing these exercises,  we began actually designing solutions. From the surveys and personas we decided to do a desktop application rather than a mobile application that would help people learn how to fund their post-secondary education. Our first idea was a traditional website that would have a section to learn about different funding methods, budgeting tools, and about what TD could offer:
+
+![](/img/information_architecture.png)
+
+![](/img/3split.jpg)
