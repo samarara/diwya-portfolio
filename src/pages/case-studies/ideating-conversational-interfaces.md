@@ -53,8 +53,6 @@ n most industries and team project experiences, there can be a set of unspoken, 
 * The client (TD partners)
 * Team roles and responsibilities
 
-![](/img/assumptions_exercise.png)
-
 After these assumptions are written down, we will look at commonalities in each topic and derive a list of themes from them. This list will then be presented and approved by everyone in the group as well as questioned in order to understand why we assume certain ideas.
 
 ## Customer Journey Exercise
