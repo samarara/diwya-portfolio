@@ -82,3 +82,23 @@ After researching and thinking of answers to these questions, my mentor and I ca
 We didn’t have enough resources to create an actually chatbot with natural language processing, so instead we created when that allows the user to select their response, like a guided pathway. See this link for what we used as inspiration:[ http://uxchat.me/](http://uxchat.me/)
 
 The following interface designs are past ideas that we had following a traditional chat-like interface:
+
+![](/img/chat_bubbles.jpg)
+
+# Prototype (converging into one design)
+
+The final design we decided to build prototypes for is displayed in the following images below:
+
+## Key Visual Design Changes
+
+# Proof of Concept Testing
+
+With user testing there were many changes that we made, one of which was to create a back and forth interface rather with the same layout style tested in the testing session (see example below). Moreover, people wanted to search through topics, so a search bar exploration was on of the next steps to be made.
+
+One of the main areas of confusion involved 
+
+
+
+
+
+#
