@@ -1,7 +1,7 @@
 ---
 templateKey: photography
 title: Singular
-date: 2019-12-08T22:23:57.495Z
+date: 2019-12-11T22:23:57.495Z
 description: |+
   Photographs of paper sculptures of photographs. 
 
