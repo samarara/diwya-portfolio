@@ -97,8 +97,4 @@ With user testing there were many changes that we made, one of which was to crea
 
 One of the main areas of confusion involved 
 
-
-
-
-
 #
