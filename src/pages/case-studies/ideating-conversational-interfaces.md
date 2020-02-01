@@ -85,14 +85,14 @@ The following interface designs are past ideas that we had following a tradition
 
 # Prototype (converging into one design)
 
-The final design we decided to build prototypes for are displayed below. Some key visual design changes include moving to a larger chat bubble layout, as 
+The final design we decided to build prototypes for are displayed below. Some key visual design changes include moving to a larger chat bubble layout, as we did not want to give off the impression that it was a live chatbot but rather a combination of an informational website and a chat-like interface. 
 
+![](/img/final_designs.jpg)
 
-
-# Proof of Concept Testing
+# Testing Proof of Concept 
 
 With user testing there were many changes that we made, one of which was to create a back and forth interface rather with the same layout style tested in the testing session (see example below). Moreover, people wanted to search through topics, so a search bar exploration was on of the next steps to be made.
 
-Another area of confusion 
+Another area of confusion involved the 
 
-#
+# Key Learnings
