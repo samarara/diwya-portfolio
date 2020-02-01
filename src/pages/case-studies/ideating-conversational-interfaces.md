@@ -13,6 +13,7 @@ tags:
   - user-interface
   - double-diamond
   - persona
+  - case-studies
 ---
 # Background
 
@@ -36,7 +37,9 @@ Highlighted in green are the user responses that was taken from surveying each s
 
 With the help of personas and our user surveys, we were able to identify the main problem for our target users and develop a problem statement:
 
-> How might we build an experience for people that will explain how students can best fund their education?   
+> How might we build an experience for people that will explain how students can best fund their education?  
+
+This problem statement became our 'lens' that we always refer to when coming up with design solutions. 
 
 # Ideate
 
@@ -95,8 +98,14 @@ With user testing there were many changes that we made, one of which was to crea
 
 ![](/img/back_and_forth.png)
 
-Another area of confusion involved the 
+Another area of confusion found in user testing involved the 'pinning' feature, as some users did not know what the iconography meant. This is because pinning can act as a 'pin to top' in other digital experiences, instead of a saving action. As a result, more visual feedback on what 'pinning' actually does and where to access these pins were added, as shown in the image below. 
 
 ![](/img/pining.png)
 
-# Key Learnings
+# Next Steps & Learnings
+
+Overall, this was a brief summary on how the Double Diamond design process is helpful when solving for the problem statement at hand, and it was my first opportunity to design a product from end-to-end. I learned how important it was to involve stakeholders earlier on in the process with different[ ideation exercises](https://drive.google.com/open?id=1yz8lkDIJvcjT4OwGs_lV0fIeEQ4Fasu1mrUxQ-czGdk) in order to align on the product goals and their expectations.
+
+I was also reminded that your first idea is not always your best idea, and going through various explorations  may be time-consuming, but it is also essential when trying to understand the intentionality behind our design solutions. 
+
+I'd like to thank David Janik-Jones, my design mentor at TD, for helping me learn how to be a more process driven designer!
