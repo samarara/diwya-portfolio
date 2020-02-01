@@ -17,3 +17,7 @@ tags:
   - journey-mapping
 ---
 Hi there! This case study is still a work in progress. Please come back in a few days!
+
+# Background 
+
+![](/img/bulk_upload_web.gif)
