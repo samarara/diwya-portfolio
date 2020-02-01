@@ -16,8 +16,34 @@ tags:
   - facilitation
   - journey-mapping
 ---
-Hi there! This case study is still a work in progress. Please come back in a few days!
+## Hi there! This case study is still a work in progress. Please come back in a few days!
 
 # Background 
 
+PlanGrid is a construction productivity application used and designed for iOS, Android, Web and Windows. When I returned to PlanGrid for a second product design internship, I was given a lot more responsibility and a brand new product and team to design with. This team was called 'SiteVision' which encompasses all the photo-related tools on PlanGrid.
+
+
+
+## The Problem
+
+PlanGrid’s photo gallery has not been updated in over 3 years. 
+
+<insert ols photo gallery>
+
+## Design Solutions 
+
+
+
 ![](/img/bulk_upload_web.gif)
+
+# Prioritizing Features 
+
+# Bulk Upload Iterations 
+
+# Capture Shortcuts Iterations 
+
+# Gallery UI Iterations
+
+# Defining Future Scope
+
+# Learnings
