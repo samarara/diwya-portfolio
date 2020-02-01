@@ -85,14 +85,14 @@ The following interface designs are past ideas that we had following a tradition
 
 # Prototype (converging into one design)
 
-The final design we decided to build prototypes for is displayed in the following images below:
+The final design we decided to build prototypes for are displayed below. Some key visual design changes include moving to a larger chat bubble layout, as 
 
-## Key Visual Design Changes
+
 
 # Proof of Concept Testing
 
 With user testing there were many changes that we made, one of which was to create a back and forth interface rather with the same layout style tested in the testing session (see example below). Moreover, people wanted to search through topics, so a search bar exploration was on of the next steps to be made.
 
-One of the main areas of confusion involved 
+Another area of confusion 
 
 #
