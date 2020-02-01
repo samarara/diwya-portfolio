@@ -13,7 +13,6 @@ tags:
   - user-interface
   - double-diamond
   - persona
-  - case-studies
 ---
 # Background
 
