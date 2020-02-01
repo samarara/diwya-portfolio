@@ -102,7 +102,7 @@ Another area of confusion found in user testing involved the 'pinning' feature, 
 
 ![](/img/pining.png)
 
-# Next Steps & Learnings
+# Learnings
 
 Overall, this was a brief summary on how the Double Diamond design process is helpful when solving for the problem statement at hand, and it was my first opportunity to design a product from end-to-end. I learned how important it was to involve stakeholders earlier on in the process with different[ ideation exercises](https://drive.google.com/open?id=1yz8lkDIJvcjT4OwGs_lV0fIeEQ4Fasu1mrUxQ-czGdk) in order to align on the product goals and their expectations.
 
