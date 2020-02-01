@@ -6,7 +6,7 @@ description: 'TD Case Study '
 project-details:
   client: 'TD Bank '
   role: UX/UI Designer
-  team: TD Innovation Lab
+  team: 'TD Innovation Lab '
 featuredimage: /img/case_study_cover_4.jpg
 tags:
   - conversational-design
@@ -87,7 +87,7 @@ The following interface designs are past ideas that we had following a tradition
 
 The final design we decided to build prototypes for are displayed below. Some key visual design changes include moving to a larger chat bubble layout, as we did not want to give off the impression that it was a live chatbot but rather a combination of an informational website and a chat-like interface. 
 
-![](/img/final_designs.jpg)
+![](/img/final-designs.jpg)
 
 # Testing 
 
@@ -96,5 +96,7 @@ With user testing there were many changes that we made, one of which was to crea
 ![](/img/back_and_forth.png)
 
 Another area of confusion involved the 
+
+![](/img/pining.png)
 
 # Key Learnings
