@@ -85,13 +85,13 @@ The following interface designs are past ideas that we had following a tradition
 
 ![](/img/chat_bubbles.jpg)
 
-# Prototype 
+# Prototype
 
 The final design we decided to build prototypes for are displayed below. Some key visual design changes include moving to a larger chat bubble layout, as we did not want to give off the impression that it was a live chatbot but rather a combination of an informational website and a chat-like interface. 
 
 ![](/img/final-designs.jpg)
 
-# Testing 
+# Testing
 
 With user testing there were many changes that we made, one of which was to create a back and forth interface rather with the same layout style tested in the testing session (see example below). Moreover, people wanted to search through topics, so a search bar exploration was on of the next steps to be made.
 
@@ -103,7 +103,7 @@ Another area of confusion found in user testing involved the 'pinning' feature, 
 
 # Learnings
 
-Overall, this was a brief summary on how the Double Diamond design process is helpful when solving for the problem statement at hand, and it was my first opportunity to design a product from end-to-end. I learned how important it was to involve stakeholders earlier on in the process with different[ ideation exercises](https://drive.google.com/open?id=1yz8lkDIJvcjT4OwGs_lV0fIeEQ4Fasu1mrUxQ-czGdk) in order to align on the product goals and their expectations.
+Overall, this was a brief summary on how the Double Diamond design process is helpful when solving for any given problem. This was my first opportunity to design a product from end-to-end and I learned how important it is to involve stakeholders earlier on in the process with different[ ideation exercises](https://drive.google.com/open?id=1yz8lkDIJvcjT4OwGs_lV0fIeEQ4Fasu1mrUxQ-czGdk) in order to align on the product goals and their expectations.
 
 I was also reminded that your first idea is not always your best idea, and going through various explorations  may be time-consuming, but it is also essential when trying to understand the intentionality behind our design solutions. 
 
