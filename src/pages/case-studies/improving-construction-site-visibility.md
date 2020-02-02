@@ -62,6 +62,8 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 
 ## Sketching Session 
 
+
+
 ![](/img/sketching_session.jpg)
 
 # Learnings
