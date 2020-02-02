@@ -34,6 +34,10 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 
 # Prioritizing Features
 
+![](/img/user_journey_mapping_session.jpg)
+
+![](/img/final_journey_map.jpg)
+
 # Bulk Upload Iterations
 
 # Capture Shortcuts Iterations
