@@ -34,11 +34,11 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 
 ![](/img/bulk_upload_web.gif)
 
+![](/img/bulk_upload_web.jpg)
+
 # Prioritizing Features
 
 ![](/img/user_journey_mapping_session.jpg)
-
-![](/img/final_journey_map.jpg)
 
 ![](/img/diwya-co-op-shareout-1.png)
 
