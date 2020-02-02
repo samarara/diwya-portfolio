@@ -28,13 +28,19 @@ In construction, the ability to document
 
 PlanGrid’s photo gallery has not been updated in over 3 years. 
 
-<insert old photo gallery images here>
+![](/img/old-gallery.png)
+
+> How might we help construction workers better capture and share their progress photos on a site? 
+
+
 
 ## Design Solutions
 
 ![](/img/bulk_upload_web.gif)
 
 ![](/img/bulk_upload_web.jpg)
+
+
 
 # Prioritizing Features
 
