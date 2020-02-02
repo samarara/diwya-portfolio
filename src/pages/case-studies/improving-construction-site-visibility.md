@@ -32,27 +32,15 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 
 > How might we help construction workers better capture and share their progress photos on a site? 
 
-
-
 ## Design Solutions
 
 ![](/img/bulk_upload_web.gif)
 
-![](/img/bulk_upload_web.jpg)
-
-
-
-# Prioritizing Features
-
-![](/img/user_journey_mapping_session.jpg)
-
-![](/img/final_journey_map.jpg)
-
-![](/img/diwya-co-op-shareout-1.png)
-
 # Design Process and Iterations
 
-## Bulk Upload & Gallery UI
+## Gallery UI
+
+## Bulk Upload Next Steps
 
 ## Permissions
 
@@ -60,11 +48,19 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 
 ![](/img/diwya-co-op-shareout-5-1.png)
 
-## Capture Shortcuts
-
 # 
 
 # Defining Future Scope
+
+## User Journey Mapping
+
+![](/img/user_journey_mapping_session.jpg)
+
+![](/img/final_journey_map.jpg)
+
+![](/img/diwya-co-op-shareout-1.png)
+
+## Sketching Session 
 
 ![](/img/sketching_session.jpg)
 
