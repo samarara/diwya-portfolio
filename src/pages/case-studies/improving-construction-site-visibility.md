@@ -22,6 +22,8 @@ tags:
 
 PlanGrid is a construction productivity application used and designed for iOS, Android, Web and Windows. When I returned to PlanGrid for a second product design internship, I was given a lot more responsibility and a brand new product and team to design with. This team was called 'SiteVision' which encompasses all the photo-related tools on PlanGrid.
 
+In construction, the ability to document 
+
 ## The Problem
 
 PlanGrid’s photo gallery has not been updated in over 3 years. 
@@ -50,7 +52,7 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 
 ![](/img/diwya-co-op-shareout-5-1.jpg)
 
-
+## Capture Shortcuts
 
 # 
 
