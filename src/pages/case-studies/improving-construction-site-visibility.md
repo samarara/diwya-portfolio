@@ -26,7 +26,7 @@ PlanGrid is a construction productivity application used and designed for iOS, A
 
 PlanGrid’s photo gallery has not been updated in over 3 years. 
 
-<insert ols photo gallery>
+<insert old photo gallery images here>
 
 ## Design Solutions
 
@@ -38,11 +38,21 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 
 ![](/img/final_journey_map.jpg)
 
-# Bulk Upload Iterations
+![](/img/diwya-co-op-shareout-1.png)
 
-# Capture Shortcuts Iterations
+# Design Process and Iterations
 
-# Gallery UI Iterations
+## Bulk Upload & Gallery UI
+
+## Permissions
+
+![](/img/diwya-co-op-shareout-4-1.jpg)
+
+![](/img/diwya-co-op-shareout-5-1.jpg)
+
+
+
+# 
 
 # Defining Future Scope
 
