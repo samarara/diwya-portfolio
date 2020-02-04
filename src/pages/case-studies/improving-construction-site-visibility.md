@@ -22,11 +22,11 @@ tags:
 
 PlanGrid is a construction productivity application used and designed for iOS, Android, Web and Windows. When I returned to PlanGrid for a second product design internship, I was given a lot more responsibility and a brand new product and team to design with. This team was called 'SiteVision' which encompasses all the photo-related tools on PlanGrid.
 
-In construction, the ability to document 
+In construction, the ability to document the progress and issues pertaining to a construction site is extremely important for those working on the field as well as owners and superintendents who are managing those workers and the job site. With PlanGrid, users can attach photos to 'Sheets', 'Tasks' and 'Field Reports' where the photo also appears on the PlanGrid 'Gallery'. 
 
 ## The Problem
 
-PlanGrid’s photo gallery has not been updated in over 3 years. 
+PlanGrid’s photo Gallery has not been updated in over 3 years. Along with not aligning to PlanGrid's most recent design system standards, the product itself was not 
 
 ![](/img/old-gallery.png)
 
@@ -35,6 +35,8 @@ PlanGrid’s photo gallery has not been updated in over 3 years.
 ## Design Solutions
 
 ![](/img/bulk_upload_web.gif)
+
+![](/img/untitled.gif)
 
 # Design Process and Iterations
 
