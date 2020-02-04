@@ -67,4 +67,6 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 
 ## Future Ideation Sketching Session
 
+![](/img/sketching_session.jpg)
+
 # Learnings
