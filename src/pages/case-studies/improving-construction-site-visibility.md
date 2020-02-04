@@ -65,8 +65,6 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 
 ## Prioritizing Features Through Journey Mapping
 
-![](/img/user_journey_mapping_session.jpg)
-
 ## Future Ideation Sketching Session
 
 ![](/img/sketching_session.jpg)
