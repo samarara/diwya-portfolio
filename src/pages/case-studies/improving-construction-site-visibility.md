@@ -49,10 +49,6 @@ Below are the design solutions for Windows, where a new dropdown button was adde
 
 With the addition of allowing users to bulk upload their photos into the Gallery, there was a need to update our current permissions model. 
 
-![](/img/diwya-co-op-shareout-4-1.png)
-
-![](/img/diwya-co-op-shareout-5-1.png)
-
 # Design Iterations
 
 ## Gallery UI
@@ -63,12 +59,6 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 
 ## Prioritizing Features Through Journey Mapping
 
-![](/img/diwya-co-op-shareout-1.png)
-
-![](/img/user_journey_mapping_session.jpg)
-
 ## Future Ideation Sketching Session
-
-![](/img/sketching_session.jpg)
 
 # Learnings & Acknowledgements
