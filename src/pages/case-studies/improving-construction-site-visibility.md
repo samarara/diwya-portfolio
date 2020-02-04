@@ -36,8 +36,6 @@ PlanGrid’s photo Gallery has not been updated in over 3 years. Along with not 
 
 ![](/img/bulk_upload_web.gif)
 
-![](/img/untitled.gif)
-
 # Design Process and Iterations
 
 ## Gallery UI
