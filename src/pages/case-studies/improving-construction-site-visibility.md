@@ -67,8 +67,6 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 
 ![](/img/user_journey_mapping_session.jpg)
 
-![](/img/final_journey_map.jpg)
-
 ## Future Ideation Sketching Session
 
 ![](/img/sketching_session.jpg)
