@@ -53,6 +53,8 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 
 ![](/img/diwya-co-op-shareout-4-1.png)
 
+![](/img/diwya-co-op-shareout-5-1.png)
+
 # Design Iterations
 
 ## Gallery UI
