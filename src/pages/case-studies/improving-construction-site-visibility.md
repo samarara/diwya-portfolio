@@ -45,9 +45,13 @@ Below are design solutions for bulk uploading images on iOS and Android:
 
 Below are the design solutions for Windows, where a new dropdown button was added as Windows products allows uploading from a PC device and capturing directly from the device (ie. if a user were to use a Windows surface). 
 
+![](/img/windows.png)
+
 ## Permissions Model
 
 With the addition of allowing users to bulk upload their photos into the Gallery, there was a need to update our current permissions model. 
+
+![](/img/diwya-co-op-shareout-4-1.png)
 
 # Design Iterations
 
@@ -61,4 +65,4 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 
 ## Future Ideation Sketching Session
 
-# Learnings & Acknowledgements
+# Learnings
