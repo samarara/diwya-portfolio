@@ -23,7 +23,7 @@ tags:
 
 PlanGrid is a construction productivity application used and designed for iOS, Android, Web and Windows. When I returned to PlanGrid for a second product design internship, I was given a lot more responsibility and a brand new product and team to design with. This team was called 'SiteVision' which encompasses all the photo-related tools on PlanGrid.
 
-![](/img/blur.jpg)
+![](/img/capture_consturction.png)
 
 In construction, the ability to document the progress and issues pertaining to a construction site is extremely important for those working on the field as well as owners and superintendents who are managing those workers and the job site. With PlanGrid, users can attach photos on 'Sheets', 'Tasks' and 'Field Reports' where the photo also appears on the PlanGrid Gallery. 
 
