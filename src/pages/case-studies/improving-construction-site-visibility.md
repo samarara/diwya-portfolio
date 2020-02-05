@@ -2,7 +2,7 @@
 templateKey: case-studies
 title: Improving Construction Site Visibility
 date: 2020-02-04T14:42:12.345Z
-description: 'PlanGrid (Autodesk) Case Study '
+description: 'Autodesk (PlanGrid) Case Study '
 project-details:
   client: PlanGrid
   role: Product Design Intern
