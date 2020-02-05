@@ -71,6 +71,6 @@ Pain points from the journey mapping session were voted on and created into prom
 
 ![](/img/sketching_session.jpg)
 
-I cannot disclose any design work or outcomes that came from the sketching session, but you can see my presentation on how it was facilitated through this [link](https://docs.google.com/presentation/d/19p9X7uHRyISN2XHBOGE01NNS-gbk4cq7SYJOUOgqtlg/edit?usp=sharing).
+I cannot disclose any design work or outcomes that came from the sketching session, but you can see my presentation to learn how it was facilitated through this [link](https://docs.google.com/presentation/d/19p9X7uHRyISN2XHBOGE01NNS-gbk4cq7SYJOUOgqtlg/edit?usp=sharing).
 
 # Learnings
