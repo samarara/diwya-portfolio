@@ -43,6 +43,8 @@ As a result, the bulk upload initiative was designed to allow users to upload th
 
 Below are design solutions for bulk uploading images on iOS and Android:
 
+![](/img/flow_1.png)
+
 Below are the design solutions for Windows, where a new dropdown button was added as Windows products allows uploading from a PC device and capturing directly from the device (ie. if a user were to use a Windows surface). 
 
 ![](/img/windows.png)
@@ -66,6 +68,8 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 ## Prioritizing Features Through Journey Mapping
 
 ![](/img/user_journey_mapping_session.jpg)
+
+![](/img/journey_map_-v1-2-.png)
 
 ## Future Ideation Sketching Session
 
