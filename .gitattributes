@@ -96,3 +96,6 @@ static/img/dsc_7306.jpg filter=lfs diff=lfs merge=lfs -text
 static/img/og-image.jpg filter=lfs diff=lfs merge=lfs -text
 static/img/serialize_browse_1.gif filter=lfs diff=lfs merge=lfs -text
 static/img/series_example.png filter=lfs diff=lfs merge=lfs -text
+static/img/flow_1.png filter=lfs diff=lfs merge=lfs -text
+static/img/journey_map_-v1-2-.png filter=lfs diff=lfs merge=lfs -text
+static/img/journey_map_-v1-3.png filter=lfs diff=lfs merge=lfs -text
