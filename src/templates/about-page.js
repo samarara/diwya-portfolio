@@ -136,20 +136,20 @@ export const aboutPageQuery = graphql`
         artist_statement_title
         featuredimage {
           publicURL
-          childImageSharp {
-            fluid(maxWidth: 720, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
+          # childImageSharp {
+          #   fluid(maxWidth: 720, quality: 100) {
+          #     ...GatsbyImageSharpFluid
+          #   }
+          # }
         }
         images {
           image {
             publicURL
-            childImageSharp {
-              fluid(maxWidth: 720, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
+            # childImageSharp {
+            #   fluid(maxWidth: 720, quality: 100) {
+            #     ...GatsbyImageSharpFluid
+            #   }
+            # }
           }
           text
         }

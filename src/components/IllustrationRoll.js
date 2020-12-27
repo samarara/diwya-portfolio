@@ -33,11 +33,12 @@ export default () => {
               date(formatString: "MMMM DD, YYYY")
               description
               featuredimage {
-                childImageSharp {
-                  fluid(maxWidth: 720, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
+                publicURL
+                # childImageSharp {
+                #   fluid(maxWidth: 720, quality: 100) {
+                #     ...GatsbyImageSharpFluid
+                #   }
+                # }
               }
             }
           }
