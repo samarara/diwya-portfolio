@@ -102,20 +102,20 @@ export const pageQuery = graphql`
         images {
           image {
             publicURL
-            childImageSharp {
-              fluid(maxWidth: 720, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
+            # childImageSharp {
+            #   fluid(maxWidth: 720, quality: 100) {
+            #     ...GatsbyImageSharpFluid
+            #   }
+            # }
           }
         }
         featuredimage {
           publicURL
-          childImageSharp {
-            fluid(maxWidth: 720, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
+          # childImageSharp {
+          #   fluid(maxWidth: 720, quality: 100) {
+          #     ...GatsbyImageSharpFluid
+          #   }
+          # }
         }
       }
     }
