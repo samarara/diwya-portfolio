@@ -8,7 +8,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   console.log('image in preview', imageInfo)
   if (!!image && !!image.childImageSharp) {
     return (
-      <Img
+      <img
         src={image.publicURL}
         style={imageStyle}
         fluid={image.childImageSharp.fluid}
@@ -18,7 +18,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   }
 
   if (!!childImageSharp) {
-    return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
+    return <img src={image.publicURL} style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
   }
 
   if (!!image && typeof image === 'string') {
@@ -26,7 +26,8 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     return <img style={imageStyle} src={image} alt={alt} />
   }
 
-  return null
+  const netlifyTransformImg = `${!!image ? image.publicURL : imageInfo.publicURL}?nf_resize=fit&w=1920`; 
+  return <img style={imageStyle} src={netlifyTransformImg} alt={alt} />
 }
 
 PreviewCompatibleImage.propTypes = {
