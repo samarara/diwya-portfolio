@@ -64,8 +64,8 @@ const PhotoStatementBanner = ({ content }) => (
         <p
           className="serif is-size-5-desktop is-size-6-mobile"
           style={{ display: 'inline', fontWeight: '100' }}
-          dangerouslySetInnerHTML={{ __html: content }}
-        ></p>
+          // dangerouslySetInnerHTML={{ __html: content }}
+        >{content}</p>
       </div>
     </div>
   </section>
@@ -81,6 +81,7 @@ const ContentBody = ({
 }) => {
   const imageGroupOne = images.slice(0, 2)
   const imageGroupTwo = images.slice(2, images.length)
+  console.log("content", content);
   return (
     <>
       <section className="section">
@@ -141,7 +142,7 @@ const Photography = ({ data, animation }) => {
   const { markdownRemark: post } = data
   return (
     <PhotographyTemplate
-      content={post.html}
+      content={post.rawMarkdownBody}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
       images={post.frontmatter.images}
@@ -168,6 +169,7 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      rawMarkdownBody
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
