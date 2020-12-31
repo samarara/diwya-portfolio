@@ -99,3 +99,5 @@ static/img/series_example.png filter=lfs diff=lfs merge=lfs -text
 static/img/flow_1.png filter=lfs diff=lfs merge=lfs -text
 static/img/journey_map_-v1-2-.png filter=lfs diff=lfs merge=lfs -text
 static/img/journey_map_-v1-3.png filter=lfs diff=lfs merge=lfs -text
+static/img/home.png filter=lfs diff=lfs merge=lfs -text
+static/img/screen-shot-2020-10-27-at-11.03.15-am.png filter=lfs diff=lfs merge=lfs -text
