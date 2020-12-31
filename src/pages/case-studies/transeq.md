@@ -11,8 +11,8 @@ project-details:
   team: ''
 featuredimage: /img/home.png
 tags:
-  - case study
-  - public transit
+  - user-research
+  - visual-design
 ---
 Work in progress: <http://transeq.net/>
 
