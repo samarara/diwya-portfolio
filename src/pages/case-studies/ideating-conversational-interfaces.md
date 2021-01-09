@@ -57,25 +57,23 @@ In most industries and team project experiences, there can be a set of unspoken,
 * The client (TD partners)
 * Team roles and responsibilities
 
-After these assumptions were written down, we looked at commonalities in each topic and derived a list of themes from them through **affinity mapping**. This list was then presented and approved by those involved in the exercise as well as questioned in order to understand why we assume certain ideas.
+After these assumptions were written down, we looked at commonalities in each topic and derived a list of themes from them with the method of **affinity mapping**. This list was then presented and approved by those involved in the exercise as well as questioned in order to understand why we assume certain ideas.
 
-
-
-
+![](/img/assumptions_exercise.png)
 
 ## Customer Journey Exercise
 
-We took our assumptions and thought of guiding principles for the product we wish to make. A customer journey exercise as seen below was done that focuses on how a typical user would learn about a financial product, as that is the digital experience we  were planning to make.
+Our assumptions exercise helped with writing guiding principles for the product. The customer journey exercise seen below was done to focus on how a typical user would learn about a financial product, as that is the digital experience we were planning to make.
 
 ![](/img/customer_journey_map.png)
 
-After completing these exercises,  we began actually designing solutions. From the surveys and personas we decided to do a desktop application rather than a mobile application that would help people learn how to fund their post-secondary education. Our first idea was a traditional website that would have a section to learn about different funding methods, budgeting tools, and about what TD could offer:
+After completing these exercises, we began actually designing solutions. From the surveys and personas we decided to do a desktop application rather than a mobile application that would help people learn how to fund their post-secondary education. Our first idea was a traditional website that would have a section to learn about different funding methods, budgeting tools, and what TD can offer:
 
 ![](/img/information_architecture.png)
 
 ![](/img/3split.jpg)
 
-We did many different user interface designs of this idea, however, we wondered if this would be an engaging experience or just another informational website that no one goes to? In result we began re-thinking our approach. One of the problems that we also encountered when analyzing our personas and surveys was that people did not know where to start when researching. I began asking myself these questions:
+We did many different user interface designs of this idea. However, we also wondered if this would be an engaging experience or just another informational website that no one goes to. In result we began re-thinking our approach. One of the problems that we also encountered when analyzing our personas and surveys was that people did not know where to start when researching. I began asking myself these questions:
 
 > How could we make the digital experience more personal? (for each persona)
 >
@@ -85,7 +83,7 @@ We did many different user interface designs of this idea, however, we wondered 
 
 After researching and thinking of answers to these questions, my mentor and I came up with the idea of having a conversational/chat-bot like interface where you can choose your ‘persona’ and have questions directly related to things you may want to learn based on the user base. This provides a solution to making the experience more personal, adds a new innovative twist to learning information, and is something that many websites are implementing for users to ask questions about a product or service.
 
-We didn’t have enough resources to create an actually chatbot with natural language processing, so instead we created when that allows the user to select their response, like a guided pathway. See this link for what we used as inspiration:[ http://uxchat.me/](http://uxchat.me/)
+We didn’t have enough resources to create an actually chatbot with natural language processing, so instead we created one that allows the user to select their response similar to a guided pathway. See this link for what we used as inspiration:[ http://uxchat.me/](http://uxchat.me/)
 
 The following interface designs are past ideas that we had following a traditional chat-like interface:
 
@@ -93,24 +91,24 @@ The following interface designs are past ideas that we had following a tradition
 
 # Prototype
 
-The final design we decided to build prototypes for are displayed below. Some key visual design changes include moving to a larger chat bubble layout, as we did not want to give off the impression that it was a live chatbot but rather a combination of an informational website and a chat-like interface. 
+The final design we decided to build prototypes for are displayed below. Some key visual design changes include moving to a larger chat bubble layout because we did not want to give off the impression that it was a live chatbot but rather a combination of an informational website and a chat-like interface. 
 
 ![](/img/final-designs.jpg)
 
 # Testing
 
-With user testing there were many changes that we made, one of which was to create a back and forth interface rather with the same layout style tested in the testing session (see example below). Moreover, people wanted to search through topics, so a search bar exploration was on of the next steps to be made.
+With user testing there were many changes that were made, one of which was to create a back and forth interface (see example below). In addition, people wanted to search through topics, so a search bar exploration was one of the next steps to be designed. 
 
 ![](/img/back_and_forth.png)
 
-Another area of confusion found in user testing involved the 'pinning' feature, as some users did not know what the iconography meant. This is because pinning can act as a 'pin to top' in other digital experiences, instead of a saving action. As a result, more visual feedback on what 'pinning' actually does and where to access these pins were added, as shown in the image below. 
+An area of confusion found in user testing involved the 'pinning' feature, as some users did not know what the iconography meant. This is because pinning can act as a 'pin to top' in other digital experiences, instead of a saving action. As a result, more visual feedback on what 'pinning' actually does and where to access these pins were added, as shown in the image below. 
 
 ![](/img/pining.png)
 
 # Learnings
 
-Overall, this was a brief summary on how the Double Diamond design process is helpful when solving for any given problem. This was my first opportunity to design a product from end-to-end and I learned how important it is to involve stakeholders earlier on in the process with different[ ideation exercises](https://drive.google.com/open?id=1yz8lkDIJvcjT4OwGs_lV0fIeEQ4Fasu1mrUxQ-czGdk) in order to align on the product goals and their expectations.
+Overall, this was a brief summary on how the Double Diamond design process is helpful when solving a broad problem. This was my first opportunity to design a product from end-to-end and I learned how important it is to involve stakeholders earlier on in the process with different[ ideation exercises](https://drive.google.com/open?id=1yz8lkDIJvcjT4OwGs_lV0fIeEQ4Fasu1mrUxQ-czGdk) in order to align on the product goals and their expectations.
 
-I was also reminded that your first idea is not always your best idea, and going through various explorations  may be time-consuming, but it is also essential when trying to understand the intentionality behind our design solutions. 
+I was also reminded that your first idea is not always your best idea, and going through various explorations may be time-consuming, but it is also essential when trying to understand the intentionality behind our design solutions. 
 
 I'd like to thank David Janik-Jones, my design mentor at TD, for helping me learn how to be a more process driven designer!
