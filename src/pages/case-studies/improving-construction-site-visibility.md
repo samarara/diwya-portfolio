@@ -71,12 +71,18 @@ With the addition of allowing users to bulk upload their photos into the Gallery
 
 ![](/img/journey_map_-v1-3.png)
 
-## Future Ideation Sketching Session 
+## Future Ideation Sketching Session
 
 Pain points from the journey mapping session were voted on and created into prompts for a sketching session with the team. I facilitated this sketching session to be broad and future facing, as the pain points that were selected were user issues that have not been addressed on any parts of the PlanGrid app.
 
 ![](/img/sketching_session.jpg)
 
 I cannot disclose any design work or outcomes that came from the sketching session, but you can see my presentation to learn how it was facilitated through this [link](https://docs.google.com/presentation/d/19p9X7uHRyISN2XHBOGE01NNS-gbk4cq7SYJOUOgqtlg/edit?usp=sharing).
+
+
+
+# Results
+
+
 
 # Learnings
