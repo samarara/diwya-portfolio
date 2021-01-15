@@ -1,7 +1,7 @@
 ---
 templateKey: case-studies
 title: Improving Construction Site Visibility
-date: 2020-02-04T14:42:12.345Z
+date: 2020-01-13T14:42:12.345Z
 description: Autodesk (PlanGrid) Case Study coming soon!
 project-details:
   client: PlanGrid
