@@ -28,12 +28,12 @@ artist-statement: >-
   the photograph captures a specific moment in time that cannot be replicated,
   and therefore increases our awareness of the art that encompasses us.
 ---
-I’m a third year student at the University of Waterloo studying Systems Design Engineering. This multidisciplinary program introduced me to human factors and product design. I've gotten to apply my learnings by interning at [Autodesk (PlanGrid)](https://www.plangrid.com/), [TD’s Innovation Lab](https://www.communitech.ca/how-we-help/innovation/corporate-innovation/td-bank-group/), and [Scotiabank](https://www.scotiaitrade.com/en/direct-investing-and-online-trading.html). 
-
-Check out my [LinkedIn](https://www.linkedin.com/in/diwyadesilva/) to learn more about my design experience. 
+I'm a soon to be graduate of Systems Design Engineering at the University of Waterloo. This multidisciplinary program introduced me to human factors and product design. I've gotten to apply my learnings by interning at Facebook, [Autodesk (PlanGrid)](https://www.plangrid.com/), [TD’s Innovation Lab](https://www.communitech.ca/how-we-help/innovation/corporate-innovation/td-bank-group/), and [Scotiabank](https://www.scotiaitrade.com/en/direct-investing-and-online-trading.html). 
 
 My passion for contemporary art and photography drove me into product design. I try to approach my personal artwork and design in the same way; focusing on the intentionality behind my decisions to make my audience (or users) feel empowered. 
 
 I hope to design and create for social good, and I aspire to become a teacher or mentor in this industry. I’m able to help out right now by leading [UWaterloo’s design club UW/UX](https://www.facebook.com/uwuxwaterloo/) and volunteering at events like [Make-A-Mark. ](https://letsmakeamark.org/)
 
 Outside of design, I enjoy baking, tea-making, and basketball. Please [contact me](diwya.desilva@gmail.com) if you’d like to chat!
+
+Check out my [LinkedIn](https://www.linkedin.com/in/diwyadesilva/) to learn more about my design experience.
