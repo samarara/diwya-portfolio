@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Hello! I’m Diwya.
+title: Hi! I’m Diwya.
 featuredimage: /img/me-photos.jpg
 images:
   - image: /img/uw-ux.jpg
@@ -28,11 +28,11 @@ artist-statement: >-
   the photograph captures a specific moment in time that cannot be replicated,
   and therefore increases our awareness of the art that encompasses us.
 ---
-I'm a soon to be graduate of Systems Design Engineering at the University of Waterloo. This multidisciplinary program introduced me to human factors and product design. I've gotten to apply my learnings by interning at Facebook, [Autodesk (PlanGrid)](https://www.plangrid.com/), [TD’s Innovation Lab](https://www.communitech.ca/how-we-help/innovation/corporate-innovation/td-bank-group/), and [Scotiabank](https://www.scotiaitrade.com/en/direct-investing-and-online-trading.html). 
+My passion for contemporary art and photography drove me into product design. I try to approach my personal artwork and design in the same way; focusing on the intentionality behind my decisions to make my audience (or users and collaborators) feel empowered!
 
-My passion for contemporary art and photography drove me into product design. I try to approach my personal artwork and design in the same way; focusing on the intentionality behind my decisions to make my audience (or users) feel empowered. 
+I'm currently a product designer at [Yelp](https://biz.yelp.com/claim?promo=&utm_source=type:claim_ad_google&utm_medium=search&utm_campaign=ClickLogic-Hyper-Branded_CPC_Step-Two_D_Promo_yelp-business&utm_content=RSA_Jan_2022&promo=GAPCSHBSTD300V4&gclid=Cj0KCQiAubmPBhCyARIsAJWNpiO03JI2PcuodacaYseEvWTMO2BeFLXkFRYD7icKODTJIx0Lij9PdLQaAn6REALw_wcB) focused on supporting restaurant owners by designing front-of-house tools. My past experiences involve interning at [Facebook](https://www.facebook.com/), [Autodesk (PlanGrid)](https://www.plangrid.com/), [TD’s Innovation Lab](https://www.communitech.ca/how-we-help/innovation/corporate-innovation/td-bank-group/), and [Scotiabank](https://www.scotiaitrade.com/en/direct-investing-and-online-trading.html). 
 
-I hope to design and create for social good, and I aspire to become a teacher or mentor in this industry. I’m able to help out right now by leading [UWaterloo’s design club UW/UX](https://www.facebook.com/uwuxwaterloo/) and volunteering at events like [Make-A-Mark. ](https://letsmakeamark.org/)
+I hope to design and create for social good, and I aspire to become a teacher or mentor in this industry. I’m able to help out right now by leading being a Teacher's Assistant for interaction design courses at the [University of Toronto's School of Continuing Studies](https://learn.utoronto.ca/programs-courses?gclid=Cj0KCQiAubmPBhCyARIsAJWNpiM1Ly_Uu37uZ2Cv3Mt_6OD82dZ0dO_qwKZKrYjsvjP03zVLA9oN8aIaArmuEALw_wcB) and volunteering at events like [Make-A-Mark. ](https://letsmakeamark.org/)
 
 Outside of design, I enjoy baking, tea-making, and basketball. Please [contact me](diwya.desilva@gmail.com) if you’d like to chat!
 
