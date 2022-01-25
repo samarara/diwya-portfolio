@@ -4,7 +4,9 @@ title: Hi! I’m Diwya.
 featuredimage: /img/me-photos.jpg
 images:
   - image: /img/uw-ux.jpg
-    text: Me moderating a design panel for UW/UX
+    text: >-
+      Me moderating a design panel for UW/UX, University of Waterloo's Design
+      Club
   - image: /img/mvimg_20191130_122223.jpg
     text: Me in my natural habitat
 artist-statement-title: Artist Statement
